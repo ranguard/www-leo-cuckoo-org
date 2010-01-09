@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+[%- meta.col1 = 'span-9 colborder' -%]
+[%- meta.col2 = 'span-9 last' -%]
+[%- meta.col12 = 'span-19' -%]
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Leo Lapworth (aka Ranguard): [% meta.title %]</title>
+	[% IF meta.noindex %]
+	<meta name="robots" content="noindex">
+	[% END %]
+	<meta name="classification" content="universal appeal">
+	[% IF meta.keywords %]<meta name="keywords" content="[% meta.keywords %]">[% END %]
+	[% IF meta.description %]<meta name="description" content="[% meta.description %]">[% END %]
+	<!-- blueprint -->
+	<link rel="stylesheet" href="/static/css/1/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="/static/css/1/blueprint/print.css" type="text/css" media="print">
+  <!--[if IE]><link rel="stylesheet" href="/static/css/1/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<!-- <link rel="stylesheet" href="/static/css/1/blueprint/plugins/buttons/screen.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
+	<!-- Import fancy-type plugin for the sample page. -->
+		<link rel="stylesheet" href="/static/css/1/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	
+	<!-- YUI -->
+	<link rel="stylesheet" type="text/css" href="/static/yui/tabview/assets/skins/sam/tabview.css" />
+	<!-- local -->
+	<link rel="stylesheet" href="/static/css/1/print.css" type="text/css" media="print" />
+[% IF meta.section == 'cv' %]
+<script type="text/javascript">
+	var d = new Date();
+	function calc_year(start) {
+		var year = d.getFullYear();
+		var diff = year - start;
+		if(diff == 1) {
+			document.write('(' + diff + ' year)');
+		} else {
+			document.write('(' + diff + ' years)');
+		}
+	}
+</script>
+[% END %]
+</head>
+<body>
+	<div class="container yui-skin-sam">
+		<div class="span-24">
+			<h1>Leo Lapworth: [% meta.title %]</h1>
+			<div id="hd" class="printhide">
+				<div class="yui-navset">
+					<ul class="yui-nav">
+						<li[% IF meta.section == "home" %] class="selected"[% END %]><a href="/"><em>Home</em></a></li><li[% IF meta.section == "cv" %] class="selected"[% END %]><a href="/cv/" title="Senior perl developer in London"><em>CV</em></a></li><li[% IF meta.section == "projects" %] class="selected"[% END %]><a href="/projects/"><em>Projects</em></a></li><li[% IF meta.section == "links" %] class="selected"[% END %]><a href="/links/"><em>Links of interest</em></a></li><li[% IF meta.section == 'wishlist' %] class="selected"[% END %]><a href="/wishlist/"><em>Wishlist</em></a></li><li[% IF meta.section == 'contact' %] class="selected"[% END %]><a href="/contact/"><em>Contact</em></a></li>
+					</ul>
+				</div>
+			</div>
+			<br />
+		</div>
+		<div class="span-19 colborder">

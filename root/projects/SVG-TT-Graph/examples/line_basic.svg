@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+	"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+	
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!-- include default stylesheet if none specified -->
+<defs>
+<style type="text/css">
+<![CDATA[
+.svgBackground{
+	fill:#ffffff;
+}
+.graphBackground{
+	fill:#f0f0f0;
+}
+
+/* graphs titles */
+.mainTitle{
+	text-anchor: middle;
+	fill: #000000;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+.subTitle{
+	text-anchor: middle;
+	fill: #999999;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.axis{
+	stroke: #000000;
+	stroke-width: 1px;
+}
+
+.guideLines{
+	stroke: #666666;
+	stroke-width: 1px;
+	stroke-dasharray: 5 5;
+}
+
+.xAxisLabels{
+	text-anchor: middle;
+	fill: #000000;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.yAxisLabels{
+	text-anchor: end;
+	fill: #000000;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.xAxisTitle{
+	text-anchor: middle;
+	fill: #ff0000;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.yAxisTitle{
+	fill: #ff0000;
+	writing-mode: tb; 
+	glyph-orientation-vertical: 0;
+	text-anchor: middle;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.dataPointLabel{
+	fill: #000000;
+	text-anchor:middle;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+/* default fill styles */
+.fill1{
+	fill: #cc0000;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill2{
+	fill: #0000cc;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill3{
+	fill: #00cc00;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill4{
+	fill: #ffcc00;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill5{
+	fill: #00ccff;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill6{
+	fill: #ff00ff;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill7{
+	fill: #00ffff;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill8{
+	fill: #ffff00;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill9{
+	fill: #cc6666;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill10{
+	fill: #663399;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+/* default line styles */
+.line1{
+	fill: none;
+	stroke: #ff0000;
+	stroke-width: 1px;	
+}
+.line2{
+	fill: none;
+	stroke: #0000ff;
+	stroke-width: 1px;	
+}
+.line3{
+	fill: none;
+	stroke: #00ff00;
+	stroke-width: 1px;	
+}
+.line4{
+	fill: none;
+	stroke: #ffcc00;
+	stroke-width: 1px;	
+}
+.line5{
+	fill: none;
+	stroke: #00ccff;
+	stroke-width: 1px;	
+}
+.line6{
+	fill: none;
+	stroke: #ff00ff;
+	stroke-width: 1px;	
+}
+.line7{
+	fill: none;
+	stroke: #00ffff;
+	stroke-width: 1px;	
+}
+.line8{
+	fill: none;
+	stroke: #ffff00;
+	stroke-width: 1px;	
+}
+.line9{
+	fill: none;
+	stroke: #ccc6666;
+	stroke-width: 1px;	
+}
+.line10{
+	fill: none;
+	stroke: #663399;
+	stroke-width: 1px;	
+}
+
+/* default line styles */
+.key1,.dataPoint1{
+	fill: #ff0000;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key2,.dataPoint2{
+	fill: #0000ff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key3,.dataPoint3{
+	fill: #00ff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key4,.dataPoint4{
+	fill: #ffcc00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key5,.dataPoint5{
+	fill: #00ccff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key6,.dataPoint6{
+	fill: #ff00ff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key7,.dataPoint7{
+	fill: #00ffff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key8,.dataPoint8{
+	fill: #ffff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key9,.dataPoint9{
+	fill: #cc6666;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key10,.dataPoint10{
+	fill: #663399;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.keyText{
+	fill: #000000;
+	text-anchor:start;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+]]>
+</style>
+</defs>
+<!-- svg bg -->
+	<rect x="0" y="0" width="500" height="300" class="svgBackground"/>
+	
+<!-- ///////////////// CALCULATE GRAPH AREA AND BOUNDARIES //////////////// -->
+<!-- get dimensions of actual graph area (NOT SVG area) -->
+		
+	<!-- set start/default coords of graph --> 
+			
+<!-- CALC WIDTH AND X COORD DIMENSIONS -->
+	<!-- reduce width of graph area if there is labelling on y axis -->
+		
+	<!-- pad ends of graph if there are x labels -->
+				<!-- if there are no y labels or titles BUT there are x labels, then pad left -->
+				
+
+<!-- CALC HEIGHT AND Y COORD DIMENSIONS -->
+	<!-- reduce height of graph area if there is labelling on x axis -->
+			
+	<!-- pad top of graph if y axis has data labels so labels do not get chopped off -->
+		
+	<!-- reduce height if graph has title or subtitle -->
+		
+	
+<!-- reduce graph dimensions if there is a KEY -->
+	
+
+
+
+<!-- calc min and max values -->
+																																																																																			
+					
+	<!-- base line -->
+		
+	<!-- how much padding above max point on graph -->
+		
+	
+	
+	<!-- default y_marker '20' set -->
+												
+<!-- YMARKER: 632 -->	
+<!-- //////////////////////////////  BUILD GRAPH AREA ////////////////////////////// -->
+<!-- graph bg -->
+	<rect x="40" y="35" width="410" height="245" class="graphBackground"/>
+
+<!-- axis -->
+	<path d="M40 35 v245" class="axis" id="xAxis"/>
+	<path d="M40 280 h410" class="axis" id="yAxis"/>
+
+<!-- //////////////////////////////  AXIS DISTRIBUTIONS //////////////////////////// -->
+	<!-- get number of data points on x scale -->
+			<!-- ensure x_data_points butt up to edge of graph -->
+		
+<!-- get distribution width on x axis -->
+
+
+<!-- x axis labels -->
+			<text x="40" y="295" class="xAxisLabels">2003-07-28</text>
+									<text x="176" y="295" class="xAxisLabels">2003-08-13</text>
+							<text x="312" y="295" class="xAxisLabels">2003-08-14</text>
+							<text x="448" y="295" class="xAxisLabels">2003-08-15</text>
+					
+
+<!-- distribute Y scale -->
+<!-- ensure y_data_points butt up to edge of graph -->
+						<!-- no stroke for first line -->
+			<text x="35" y="280" class="yAxisLabels">0</text>
+												<text x="35" y="256.69" class="yAxisLabels">632</text>
+			<path d="M40 256.69 h410" class="guideLines"/>
+												<text x="35" y="233.38" class="yAxisLabels">1264</text>
+			<path d="M40 233.38 h410" class="guideLines"/>
+												<text x="35" y="210.07" class="yAxisLabels">1896</text>
+			<path d="M40 210.07 h410" class="guideLines"/>
+												<text x="35" y="186.76" class="yAxisLabels">2528</text>
+			<path d="M40 186.76 h410" class="guideLines"/>
+												<text x="35" y="163.45" class="yAxisLabels">3160</text>
+			<path d="M40 163.45 h410" class="guideLines"/>
+												<text x="35" y="140.14" class="yAxisLabels">3792</text>
+			<path d="M40 140.14 h410" class="guideLines"/>
+												<text x="35" y="116.83" class="yAxisLabels">4424</text>
+			<path d="M40 116.83 h410" class="guideLines"/>
+												<text x="35" y="93.52" class="yAxisLabels">5056</text>
+			<path d="M40 93.52 h410" class="guideLines"/>
+												<text x="35" y="70.21" class="yAxisLabels">5688</text>
+			<path d="M40 70.21 h410" class="guideLines"/>
+												<text x="35" y="46.9" class="yAxisLabels">6320</text>
+			<path d="M40 46.9 h410" class="guideLines"/>
+							
+
+<!-- //////////////////////////////  AXIS TITLES ////////////////////////////// -->
+
+<!-- x axis title -->
+	
+<!-- y axis title -->
+	
+
+
+
+<!-- //////////////////////////////  SHOW DATA ////////////////////////////// -->
+	
+<!-- data points on graph -->
+					
+													<circle cx="40" cy="249.497832278481" r="2.5" class="dataPoint1"/>
+							
+					<text x="40" y="243.497832278481" class="dataPointLabel">827</text>
+																								<circle cx="176" cy="174.551756329114" r="2.5" class="dataPoint1"/>
+							
+					<text x="176" y="168.551756329114" class="dataPointLabel">2859</text>
+																								<circle cx="312" cy="107.498623417722" r="2.5" class="dataPoint1"/>
+							
+					<text x="312" y="101.498623417722" class="dataPointLabel">4677</text>
+																								<circle cx="448" cy="46.715585443038" r="2.5" class="dataPoint1"/>
+							
+					<text x="448" y="40.715585443038" class="dataPointLabel">6325</text>
+														
+
+
+<!-- join the dots (for each line if applicable)... -->
+	<path d="M
+						40 249.497832278481,
+								L
+				176 174.551756329114,
+							312 107.498623417722,
+							448 46.715585443038,
+			" class="line1"/>
+	
+
+<!-- //////////////////////////////// KEY /////// ////////////////////////// -->
+	
+<!-- //////////////////////////////// MAIN TITLES ////////////////////////// -->
+
+<!-- main graph title -->
+			<text x="205" y="15" class="mainTitle">Managed A last 30 day</text>
+	
+<!-- graph sub title -->
+	</svg>

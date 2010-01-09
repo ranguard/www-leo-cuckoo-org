@@ -1,0 +1,13 @@
+<item title="Leo Lapworth" name="leo_lapworth">
+    <p>
+        <image width="77"  height="102" alt="Leo Lapworth">http://leo.cuckoo.org/photos/Wedding/060_boat_trip/.thumb/0130_Leo.JPG</image>
+        <nick>Ranguard</nick>
+        <bio>
+            <p>Co-founder of <a href="http://www.mightyv.com/">MighTyV</a> - Perl coder/CPAN Author/web manager/food lover</p>
+        </bio>
+        <email>llap at cuckoo.org</email>
+        <website>http://leo.cuckoo.org/</website>
+	<cpanid>LLAP</cpanid>
+    </p>
+</item>    
+

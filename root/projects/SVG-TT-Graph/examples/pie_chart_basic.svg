@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+	"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg width="630" height="430" viewBox="0 0 630 430" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	<radialGradient id="shadow">
+		<stop offset="85%" style="stop-color: #ccc;"/>
+		<stop offset="100%" style="stop-color: #ccc;stop-opacity: 0"/>
+	</radialGradient>
+<!-- include default stylesheet if none specified -->
+<style type="text/css">
+<![CDATA[
+
+.svgBackground{
+	fill:none;
+}
+.graphBackground{
+	fill:none;
+}
+
+/* graphs titles */
+.mainTitle{
+	text-anchor: middle;
+	fill: #000000;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+.subTitle{
+	text-anchor: middle;
+	fill: #999999;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.dataPointLabel{
+	fill: #000000;
+	text-anchor:middle;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+
+/* key - MUST match fill styles */
+.key1,.fill1{
+	fill: #ff0000;
+	fill-opacity: 0.5;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key2,.fill2{
+	fill: #0000ff;
+	fill-opacity: 0.5;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key3,.fill3{
+	fill-opacity: 0.5;
+	fill: #00ff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key4,.fill4{
+	fill-opacity: 0.5;
+	fill: #ffcc00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key5,.fill5{
+	fill-opacity: 0.5;
+	fill: #00ccff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key6,.fill6{
+	fill-opacity: 0.5;
+	fill: #ff00ff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key7,.fill7{
+	fill-opacity: 0.5;
+	fill: #00ff99;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key8,.fill8{
+	fill-opacity: 0.5;
+	fill: #ffff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key9,.fill9{
+	fill-opacity: 0.5;
+	fill: #cc6666;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key10,.fill10{
+	fill-opacity: 0.5;
+	fill: #663399;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key11,.fill11{
+	fill-opacity: 0.5;
+	fill: #339900;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key12,.fill12{
+	fill-opacity: 0.5;
+	fill: #9966FF;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.keyText{
+	fill: #000000;
+	text-anchor:start;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+]]>
+</style>
+</defs>
+
+
+<!-- svg bg -->
+	<rect x="0" y="0" width="630" height="430" class="svgBackground"/>
+	
+<!-- ///////////////// CALCULATE GRAPH AREA AND BOUNDARIES //////////////// -->
+<!-- get dimensions of actual graph area (NOT SVG area) -->
+			
+<!-- reduce height if graph has title or subtitle -->
+				
+<!-- set start/default coords of graph --> 
+			
+<!-- move centre of pie chart if title present -->
+			
+
+
+		
+<!-- calc radius and check whether KEY will affect this -->
+					
+				
+		
+		
+
+<!-- if chart expanded -->
+	
+
+	<!-- check if a shadow size has been entered -->
+					
+		<!-- only show shadow if not expanded -->
+<circle cx="330" cy="230" r="186.85" style="fill: url(#shadow); stroke: none;"/>
+		
+
+<circle cx="315" cy="215" r="185" fill="#ffffff"/>
+
+<!-- calc grand total and min and max values -->
+					
+																				
+															
+															
+										
+					
+
+<!-- half values used to show values next to wedges -->
+
+	
+	
+	
+						
+		<!-- calc percentage -->
+				
+		
+				
+				<!-- offset values at start to get mid point -->
+					
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M500 215 A185 185, 0, 
+		0, 1, 197.4798373703 357.8776097767 L315 215, Z" class="fill1"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="374.0056007936" y="402.2815442398">Jan  36%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M197.4798373703 357.8776097767 A185 185, 0, 
+		0, 1, 183.0362122921 344.6555387702 L315 215, Z" class="fill2"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="170.0829628936" y="371.4578097456">Feb   2%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M183.0362122921 344.6555387702 A185 185, 0, 
+		0, 1, 318.264229905 30.0288000711 L315 215, Z" class="fill3"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="125.0341498395" y="161.9478968186">Mar  38%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M318.264229905 30.0288000711 A185 185, 0, 
+		0, 1, 459.9286449018 100.0187498462 L315 215, Z" class="fill4"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="376.9446783095" y="69.138401983">Apr  14%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M459.9286449018 100.0187498462 A185 185, 0, 
+		0, 1, 499.9999999974 214.9990181718 L315 215, Z" class="fill5"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="469.6950005218" y="174.1176807875">May  11%</text>		
+				
+									
+
+
+
+<!-- //////////////////////////////// KEY /////// ////////////////////////// -->
+
+	
+
+
+<!-- //////////////////////////////// MAIN TITLES ////////////////////////// -->
+
+<!-- main graph title -->
+	
+<!-- graph sub title -->
+	
+</svg>

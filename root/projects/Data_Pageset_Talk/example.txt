@@ -1,0 +1,96 @@
+<!-- #########################  START OF PAGING   #########################
+-->
+<table border="0" cellspacing="0" cellpadding="0" width="1">
+	 <tr bgcolor="#ffffff"> 
+<!-- constant --> 
+		<td background="/images/paging/paging_lt.gif"><img
+src="/images/s.gif" width="6" height="16"></td>
+<!-- end constant -->
+	 
+<!-- previous --> 
+[% IF page_set.previous_set %]
+		<td colspan="2" background="/images/paging/paging_prevt.gif"
+align="center" id="prev"><a href="[% form_input.url_stub %]&current_page=[%
+page_set.previous %]&submit_type=search" class="paging"
+onMouseOver="document.all.prev.bgColor='#FFFF33'"
+onMouseOut="document.all.prev.bgColor='#FFFFFF'">PREV [% max_pages_per_set
+%]</a></td>
+[% END %]
+<!-- end previous -->
+<!-- numbered buttons --> 
+[% i = 1 %]
+[% FOREACH page = page_set.pages_in_set %]
+[% IF page == page_set.current_page %]
+		<td colspan="2" background="/images/paging/paging_bk.gif"
+align="center" bgcolor="#B8DB63" class="paging">[% page %]</td>
+[% ELSE %]
+		<td colspan="2" background="/images/paging/paging_bk.gif"
+align="center" id="num[% i %]"><a href="[% form_input.url_stub
+%]&current_page=[% page %]&submit_type=search" class="paging"
+onMouseOver="document.all.num[% i %].bgColor='#FFFF33'"
+onMouseOut="document.all.num[% i %].bgColor='#FFFFFF'">[% page %]</a></td>
+[% END %]
+[% i = i + 1 %]
+[% END %]
+<!-- end numbered buttons -->
+<!-- next --> 
+[% IF page_set.next_set %]
+		<td colspan="2" background="/images/paging/paging_prevt.gif"
+align="center" id="next"><a href="[% form_input.url_stub %]&current_page=[%
+page_set.next_set %]&submit_type=search" class="paging"
+onMouseOver="document.all.next.bgColor='#FFFF33'"
+onMouseOut="document.all.next.bgColor='#FFFFFF'">NEXT [% max_pages_per_set
+%]</a></td>
+[% END %]
+<!-- end next -->
+	 </tr>
+	 <tr bgcolor="#ffffff"> 
+<!-- constant -->
+		<td background="/images/paging/paging_lb.gif" valign="top"
+align="center"><img src="/images/s.gif" width="6" height="6"></td>
+<!-- end constant -->
+
+<!-- previous --> 
+[% IF page_set.previous_set %]
+		<td background="/images/paging/paging_b.gif" valign="top"
+align="center"><img src="/images/s.gif" width="46" height="6"></td>
+		<td background="/images/paging/paging_midb.gif" valign="top"
+align="center"><img src="/images/s.gif" width="6" height="6"></td> 
+[% END %]
+<!-- end previous -->
+
+<!-- bottom under the numbered buttons -->
+[% FOREACH page = page_set.pages_in_set %]
+		<td background="/images/paging/paging_b.gif" valign="top"
+align="center"><img src="/images/s.gif" width="20" height="6"></td>
+[% IF page == page_set.last_page && !page_set.next_set %]
+<!-- last page in list and no next button -->
+		<td background="/images/paging/paging_rb.gif" valign="top"
+align="center"><img src="/images/s.gif" width="6" height="6"></td> 
+[% ELSIF !page_set.last_page && !page_set.next_set %]
+[% # For only one page_set %]
+		<td background="/images/paging/paging_rb.gif" valign="top"
+align="center"><img src="/images/s.gif" width="6" height="6"></td> 
+[% ELSE %]
+		<td background="/images/paging/paging_midb.gif" valign="top"
+align="center"><img src="/images/s.gif" width="6" height="6"></td>
+[% END %]
+[% END %]
+<!-- end bottom under the numbered buttons --> 
+		
+<!-- constant -->	  
+ 
+<!-- endconstant -->	  
+
+<!-- end numbered buttons --> 
+
+<!-- next --> 
+[% IF page_set.next_set %]
+		<td background="/images/paging/paging_b.gif" valign="top"
+align="center"><img src="/images/s.gif" width="46" height="6"></td> 
+		<td background="/images/paging/paging_rb.gif" valign="top"
+align="center"><img src="/images/s.gif" width="6" height="6"></td> 
+[% END %]
+<!-- end next -->
+	</tr>
+</table>

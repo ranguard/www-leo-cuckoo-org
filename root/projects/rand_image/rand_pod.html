@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<TITLE>rand_image.pl - Given a directory this script will
+choose an image at random and create the html to display the image with
+a link generated from the file name.</TITLE>
+<LINK REV="made" HREF="mailto:prospector@porky.devel.redhat.com">
+</HEAD>
+
+<BODY>
+
+<A NAME="__index__"></A>
+<!-- INDEX BEGIN -->
+
+<UL>
+
+	<LI><A HREF="#name">NAME</A></LI>
+	<LI><A HREF="#synopsis">SYNOPSIS</A></LI>
+	<LI><A HREF="#description">DESCRIPTION</A></LI>
+	<LI><A HREF="#author">AUTHOR</A></LI>
+	<LI><A HREF="#change log">CHANGE LOG</A></LI>
+	<LI><A HREF="#version">VERSION</A></LI>
+	<LI><A HREF="#bugs/issues">BUGS/ISSUES</A></LI>
+</UL>
+<!-- INDEX END -->
+
+<HR>
+<P>
+<H1><A NAME="name">NAME</A></H1>
+<P>rand_image.pl - Given a directory (containing images) this script will
+choose an image at random and create the html to display the image with
+a link generated from the file name.</P>
+<P>
+<HR>
+<H1><A NAME="synopsis">SYNOPSIS</A></H1>
+<PRE>
+        &lt;!--#include virtual=&quot;/cgi-bin/rand_image.pl?dir=/images&quot;--&gt;</PRE>
+<P>Where dir is the image directory containing images named
+so that the A HREF around them uses the name to create
+an internal (e.g. on the local web site) link.</P>
+<P>
+<HR>
+<H1><A NAME="description">DESCRIPTION</A></H1>
+<P>This script has a specific purpose, it removes the need for a
+configuration file or altering the code for displaying random image.</P>
+<P>The main drawback from this is the lack of an ALT tag in the 
+IMG tag and having to create large file names.</P>
+<P>The naming of an image to link to:</P>
+<P>/path/to/file.html</P>
+<P>would be:</P>
+<P>path-to-file.jpg</P>
+<P>if the directory parsed to the script was /images</P>
+<P>then the file would be</P>
+<P>$DOC_ROOT/images/path-to-file.jpg</P>
+<P>
+<HR>
+<H1><A NAME="author">AUTHOR</A></H1>
+<P>Leo Lapworth <A HREF="mailto:leo@cuckoo.org">leo@cuckoo.org</A></P>
+<P>
+<HR>
+<H1><A NAME="change log">CHANGE LOG</A></H1>
+<P>Date         Change by      Change</P>
+<P>16 Mar 2001	   Leo Lapworth   Created</P>
+<P>
+<HR>
+<H1><A NAME="version">VERSION</A></H1>
+<P>Version 0.6</P>
+<P>
+<HR>
+<H1><A NAME="bugs/issues">BUGS/ISSUES</A></H1>
+<P>This could be used to look at any directory
+under the DOC_ROOT of the server, it's not likely this
+would be able to do much, and cgi code should be
+out side the DOC_ROOT. But it's worth bearing
+in mind.</P>
+
+</BODY>
+
+</HTML>

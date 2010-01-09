@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#header_holder {
+    background-color: #200772;
+    float: left;
+    width: 100%;
+}
+
+.sub_holder {
+    width: 900px;
+    margin: 0 auto;
+}
+a {
+    outline: none;
+    border: none;
+    color: #200772;
+}
+a:hover {
+    color: #9ECB37;
+}
+a img {
+    border: 0;
+}
+#nav {
+    background: #200772 url(i/tab_bg.gif) repeat-x left 4px;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#nav li {
+    display: block;
+    float: left;
+    list-style: none;
+}
+#nav li.sub {
+    float: right;
+}
+#nav li.selected {
+    background: transparent url(i/tab_bg_selected.gif) no-repeat left top;
+}
+#nav li a {
+    text-transform: uppercase;
+    font-size: 75%;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    margin-top: 4px;
+    padding: 3px 15px 3px;
+    border-left: 1px solid #5C40B5;
+    border-right: 1px solid #8971D5;
+}
+#nav li.selected a {
+    margin-top: 0px;
+    padding: 7px 17px 3px;
+    color: #000000 !important;
+    background: transparent url(i/tab_bg_r_selected.gif) no-repeat right top;
+    border: none;
+}
+#nav li.selected a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+#nav li a:hover {
+    background-color: #9ECB37;
+    acolor: #fff;
+    atext-decoration: underline;
+}
+#header_holder .tag {
+    margin: 1px 0 5px 1px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    atext-transform: uppercase;
+    font-size: 70%;
+}
+#header_holder .tag a {
+    color: #B6D862 !important;
+    text-decoration: none;
+}
+#logo_holder {
+    float: left;
+}
+#strap {
+    color: #B6D862;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 150%;
+    float: right;
+    margin-top: 19px;
+}
+#strap strong {
+    color: #fff;
+    font-weight: normal;
+}
+#logo {
+    margin: 10px 0 0 0;
+}
+#roundel {
+    float: left;
+}
+#crum_holder {
+    clear: both;
+    background-color: #f0f0f0;
+    padding: 0;
+}
+#crum_holder .sub_holder {
+    padding: 5px 0;
+    font-size: 70%;
+    color: #999;
+    font-family: Verdana, Arial, sans-serif;
+}
+#crum_holder a {
+    text-decoration: none;
+    color: #999999;
+    padding-right: 15px;
+    margin-right: 8px;
+    background: transparent url(i/arrow_grey.gif) no-repeat center right;
+}
+
+
+#main-wide {
+    float: left;
+    width: 680px;
+}
+
+#main {
+    width: 600px;
+    float: left;
+}
+
+
+h1 {
+    font: normal 250% Georgia;
+    color: #304E70;
+}
+
+h3 {
+    margin: 0px;
+    font: 120% Verdana, Arial, sans-serif;
+ 
+}
+
+div p {
+    margin: 3px 0px 15px 0px;
+    font: 75% Verdana, Arial, sans-serif;
+}
+
+/* Lists on the left */
+
+#short_lists {
+    background-color: #f0f0f0;
+    float: right;
+    width: 200px;
+    color: #304E70;
+}
+#short_lists dl {
+    font: 85% Verdana, Arial, sans-serif;
+}
+#short_lists a {
+    font: 80% Verdana, Arial, sans-serif;
+    color: #304E70;
+}
+
+/* Link lists */
+.quick_links {
+    float: right;
+    width: 180px;
+    border: 1px solid #999;
+
+    margin: 5px 5px;
+    padding: 0px 5px;
+}
+.quick_links dt {
+   border-bottom: 1px solid #999;
+}
+.quick_links dl {
+    margin: 5px;
+}
+
+/* Sponsor space */
+.sponsor a {
+    text-decoration: none;
+}
+.sponsor img {
+    margin: 5px 5px 5px 15px;
+    
+}
+
+/* Main content of the page */
+#main h3 {
+    margin: 0px 0 0 0px;
+    font: 120% Verdana, Arial, sans-serif; 
+}
+
+.points {
+    margin-bottom: 30px;
+}
+.points dt {
+    margin-top: 10px;
+    font: bold 100% Verdana, Arial, sans-serif;
+    color: #304E70;
+}
+.points dd {
+    font: 80% Verdana, Arial, sans-serif;
+    margin-left: 0px;
+}
+
+#content li {
+    margin: 8px;
+    font: 85% Verdana, Arial, sans-serif;
+    
+}
+/* Content modules */
+.module h3 {
+/*    padding-top: 8px;*/
+    margin-left: 52px;
+}
+.module img {
+    float: left;
+}
+.module p {
+    margin-left: 52px;
+}
+
+/* Footer */
+#footer .sites {
+    float: left;
+}
+#footer .copyright {
+    float: right;
+}
+#footer p {
+    margin-top: 0px;
+}
+
+/* Site specific stuff */
+
+.section_home h1 {
+    background:transparent url(i/icons/star.jpg) no-repeat left center;
+    padding-left: 55px;
+}
+
+.section_about h1 {
+    background:transparent url(i/icons/info.jpg) no-repeat left center;
+    padding-left: 55px;
+}
+
+
+.section_docs h1 {
+    background:transparent url(i/icons/learn.jpg) no-repeat left center;
+    padding-left: 55px;
+}
+.section_learn h1 {
+    background:transparent url(i/icons/learn.jpg) no-repeat left center;
+    padding-left: 55px;
+}
+
+
+
+
+
+

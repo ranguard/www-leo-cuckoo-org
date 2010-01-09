@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Data::Pageset Talk</title>
+</head>
+
+<body>
+<center><H1>Data::Pageset, ok and Data::Page, Talk</H1></center>
+
+<a href="#1">Start &gt;</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<H1><a name="1">Bit of History</a></H1>
+<P>
+At Emap we often has lots and lots of pages of results,
+from holidays to concert tickets, and every system had it's
+own way of implimenting it, all crap.
+</P>
+<p>
+I had started a module for this, then <font color="#FFA200">Leon</font> joined and I
+got him to do it properly. Data::Page was born, and now you have Data::Pageset which
+takes it 1 step further (which you don't always need, hence a seperate module).
+</p>
+<p>
+Data::Pageset uses Data::Page as a base class, so you can access all the methods in
+Data::Page as well.
+</p>
+
+<br><br><a href="#2">more &gt;</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<H1><a name="2">Why did you code this Data::Page(set) you speak of ?</a></H1>
+<p>
+<UL>
+	<LI>Page numbering is boring</LI>
+	<LI>Page numbering has several anoying cases (which you always forget)</LI>
+	<LI>Putting in page numbers is a design thing</LI>
+	<LI>Changing the number of pages to list, is a design thing!</LI>
+	<LI>Being able to jump through groups of pages makes navigation faster</LI>
+</UL>
+</p>
+
+<br><br><a href="#3">more &gt;</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<h1><a name="3">Why would I need this Data::Page(set) thing ?</a></h1>
+<p>
+Ever seen something like this:<br>
+<img width="421" height="56" src="images/bad_paging.gif"><br>
+Wondered why they limit it to 20 pages ?
+<BR><br>
+Developer "We didn't have space to put more pages"!
+</p>
+<p>
+Wouldn't you prefer something like this:<br>
+<img width="530" height="49" src="images/good_paging.gif">
+</p>
+
+<br><br><a href="#4">more &gt;</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<h1><a name="4">Ok, so how would I do that ?</a></h1>
+<p>
+<code><pre>
+	use Data::Pageset;
+	my $page_set = Data::Pageset->new({
+		'total_entries'		=> $search->total_results(),
+		'entries_per_page'	=> $form_input->{'per_page'},
+		'current_page'		=> $form_input->{'current_page'},
+		'pages_per_set'		=> 10,
+	});
+</pre></code>
+
+We like Template Toolkit (TT) because then we just do:
+
+<code><pre>
+		%vals = (
+			'page_set'			=> $page_set,
+			....
+		);
+		$tt->process($template, \%vals);
+</pre></code>
+
+The $page_set object is then passed to the template and the
+rest is the designers job....
+
+</p>
+
+<br><br><a href="#5">more &gt;</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h1><a name="5">But I'm the designer as well!</a></h1>
+<p>
+Ok... I guess I can show you that... this is bassed on TT but
+all we're doing is calling the methods. It could be used anywhere, even with <code>print</code> statments!
+<br><br>
+
+<pre>
+<!-- previous --> 
+[% IF page_set.previous_set %]
+		&lt;a href="[% url_stub %]&amp;current_page=[%
+page_set.previous_set %]"&gt;PREV [% page_set.pages_per_set %]&lt;/a&gt; - 
+[% END %]
+<!-- end previous -->
+<!-- numbered buttons --> 
+[% FOREACH page = page_set.pages_in_set %]
+[% IF page == page_set.current_page %]
+		&lt;b&gt;[% page %]&lt;/b&gt;,
+[% ELSE %]
+		&lt;a href="[% url_stub %]&amp;current_page=[% page %]"&gt;[% page %]&lt;/a&gt;,
+[% END %]
+[% END %]
+<!-- end numbered buttons -->
+<!-- next --> 
+[% IF page_set.next_set %]
+		- &lt;a href="[% url_stub %]&amp;current_page=[% page_set.next_set %]"&gt;NEXT [% page_set.pages_per_set %]&lt;/a&gt;
+[% END %]
+<!-- end next -->
+</pre>
+
+and you'll get something like...<br><br>
+
+<code>
+<a href="current_page=1">PREV 10</a> - 
+<a href="current_page=11">11</a>, 
+<a href="current_page=12">12</a>, 
+<a href="current_page=13">13</a>, 
+<a href="current_page=14">14</a>, 
+<a href="current_page=15">15</a>, 
+<a href="current_page=16">16</a>, 
+<a href="current_page=17">17</a>, 
+<a href="current_page=18">18</a>, 
+<a href="current_page=19">19</a>, 
+<b>20</b>, 
+- <a href="current_page=21">NEXT 10</a> 
+</code>
+</p>
+
+The designer could even do:<br><br>
+
+<code>
+[% page_set.pages_per_set(5) %]
+</code>
+
+and we'd get something like this:<br><br>
+<code>
+<a href="current_page=1">PREV 5</a> - 
+<a href="current_page=16">16</a>, 
+<a href="current_page=17">17</a>, 
+<a href="current_page=18">18</a>, 
+<a href="current_page=19">19</a>, 
+<b>20</b>, 
+- <a href="current_page=21">NEXT 5</a> 
+</code>
+
+<br><br><a href="#6">more (optional) &gt;</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<H1><a name="6">So, other methods are there ?</a></H1>
+<p>
+<pre>
+	print "         First page: ", $page_info->first_page, "\n";
+	print "          Last page: ", $page_info->last_page, "\n";
+	print "          Next page: ", $page_info->next_page, "\n";
+	print "      Previous page: ", $page_info->previous_page, "\n";
+	
+	# Results on current page
+	print "First entry on page: ", $page_info->first, "\n";
+	print " Last entry on page: ", $page_info->last, "\n";
+	
+	# Can add in the pages per set after the object is created
+	$page_info->pages_per_set($pages_per_set);
+	
+	print "First page of previous page set: ",  $page_info->previous_set, "\n";
+	print "    First page of next page set: ",  $page_info->next_set, "\n";
+	
+	# Print the page numbers of the current set
+	foreach my $page ($page_info->pages_in_set()) {
+		if($page == $page_info->current_page()) {
+			print "<b>$page</b> ";
+		} else {
+			print "$page ";
+		}
+	}
+	
+	# This method returns the total number of entries.
+	print "Entries:", $page_info->total_entries, "\n";
+	
+	
+	# This method returns the total number of entries per page.
+	print "Per page:", $page_info->entries_per_page, "\n";
+	
+	# This method returns the current page number.
+	print "Page: ", $page_info->current_page, "\n";
+	
+	# This method returns the previous page number, if one
+	  exists. Otherwise it returns undefined.
+	
+	if ($page_info->previous_page) {
+		print "Previous page number: ", $page_info->previous_page, "\n";
+	}
+	
+	# This method returns the next page number, if one exists.
+	Otherwise it returns undefined.
+	
+	if ($page_info->next_page) {
+		print "Next page number: ", $page_info->next_page, "\n";
+	}
+	
+	# This method takes in an listref, and returns only the values which are on the current page.
+	@visible_holidays = $page_info->splice(\@holidays);
+	
+</pre>
+
+</p>
+
+</code>
+</body>
+</html>

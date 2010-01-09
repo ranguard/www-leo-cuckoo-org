@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+	"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg width="230" height="430" viewBox="0 0 230 430" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	<radialGradient id="shadow">
+		<stop offset="85%" style="stop-color: #ccc;"/>
+		<stop offset="100%" style="stop-color: #ccc;stop-opacity: 0"/>
+	</radialGradient>
+<!-- include default stylesheet if none specified -->
+<style type="text/css">
+<![CDATA[
+
+.svgBackground{
+	fill:none;
+}
+.graphBackground{
+	fill:none;
+}
+
+/* graphs titles */
+.mainTitle{
+	text-anchor: middle;
+	fill: #000000;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+.subTitle{
+	text-anchor: middle;
+	fill: #999999;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.dataPointLabel{
+	fill: #000000;
+	text-anchor:middle;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+
+/* key - MUST match fill styles */
+.key1,.fill1{
+	fill: #ff0000;
+	fill-opacity: 0.5;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key2,.fill2{
+	fill: #0000ff;
+	fill-opacity: 0.5;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key3,.fill3{
+	fill-opacity: 0.5;
+	fill: #00ff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key4,.fill4{
+	fill-opacity: 0.5;
+	fill: #ffcc00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key5,.fill5{
+	fill-opacity: 0.5;
+	fill: #00ccff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key6,.fill6{
+	fill-opacity: 0.5;
+	fill: #ff00ff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key7,.fill7{
+	fill-opacity: 0.5;
+	fill: #00ff99;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key8,.fill8{
+	fill-opacity: 0.5;
+	fill: #ffff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key9,.fill9{
+	fill-opacity: 0.5;
+	fill: #cc6666;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key10,.fill10{
+	fill-opacity: 0.5;
+	fill: #663399;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key11,.fill11{
+	fill-opacity: 0.5;
+	fill: #339900;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key12,.fill12{
+	fill-opacity: 0.5;
+	fill: #9966FF;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.keyText{
+	fill: #000000;
+	text-anchor:start;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+]]>
+</style>
+</defs>
+
+
+<!-- svg bg -->
+	<rect x="0" y="0" width="230" height="430" class="svgBackground"/>
+	
+<!-- ///////////////// CALCULATE GRAPH AREA AND BOUNDARIES //////////////// -->
+<!-- get dimensions of actual graph area (NOT SVG area) -->
+			
+<!-- reduce height if graph has title or subtitle -->
+				
+<!-- set start/default coords of graph --> 
+			
+<!-- move centre of pie chart if title present -->
+			
+
+
+		
+<!-- calc radius and check whether KEY will affect this -->
+					
+															<!-- if there is a key, move the pie chart -->
+								<!-- if the radius is too big, shrink it -->
+									
+		
+
+<!-- if chart expanded -->
+	
+
+	<!-- check if a shadow size has been entered -->
+					
+		<!-- only show shadow if not expanded -->
+<circle cx="130" cy="280" r="85.85" style="fill: url(#shadow); stroke: none;"/>
+		
+
+<circle cx="115" cy="265" r="85" fill="#ffffff"/>
+
+<!-- calc grand total and min and max values -->
+					
+																				
+															
+															
+										
+										
+										
+										
+										
+										
+										
+										
+										
+
+<!-- half values used to show values next to wedges -->
+
+	
+	
+	
+						
+		<!-- calc percentage -->
+				
+		
+				
+				<!-- offset values at start to get mid point -->
+					
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M200 265 A85 85, 0, 
+		0, 1, 168.6782871572 330.9063084072 L115 265, Z" class="fill1"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="186.7712654851" y="306.4852407943">  14%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M168.6782871572 330.9063084072 A85 85, 0, 
+		0, 1, 165.8914731902 333.0812599511 L115 265, Z" class="fill2"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="162.2961881817" y="337.0082733822">   1%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M165.8914731902 333.0812599511 A85 85, 0, 
+		0, 1, 90.9398127874 346.5236615425 L115 265, Z" class="fill3"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="125.0051330197" y="353.6650822211">  15%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M90.9398127874 346.5236615425 A85 85, 0, 
+		0, 1, 64.6767913143 333.5023697953 L115 265, Z" class="fill4"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="72.2427370426" y="346.1537201584">   6%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M64.6767913143 333.5023697953 A85 85, 0, 
+		0, 1, 48.5759354591 318.036248452 L115 265, Z" class="fill5"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="51.1163717251" y="331.3002310043">   4%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M48.5759354591 318.036248452 A85 85, 0, 
+		0, 1, 34.5094257412 292.3178962494 L115 265, Z" class="fill6"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="35.4256332014" y="310.7880352136">   6%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M34.5094257412 292.3178962494 A85 85, 0, 
+		0, 1, 30.6034895965 275.1108373397 L115 265, Z" class="fill7"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="27.1087556422" y="288.8159934315">   3%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M30.6034895965 275.1108373397 A85 85, 0, 
+		0, 1, 35.630098934 234.5793030195 L115 265, Z" class="fill8"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="25.6462170381" y="259.5386759913">   8%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M35.630098934 234.5793030195 A85 85, 0, 
+		0, 1, 59.1587138573 200.9160647125 L115 265, Z" class="fill9"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="40.3306402361" y="221.3052332372">   8%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M59.1587138573 200.9160647125 A85 85, 0, 
+		0, 1, 73.5929437145 190.7675563532 L115 265, Z" class="fill10"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="61.1117797242" y="200.4662533854">   3%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M73.5929437145 190.7675563532 A85 85, 0, 
+		0, 1, 112.9964943838 180.0236152496 L115 265, Z" class="fill11"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="87.6398280694" y="187.993764193">   8%</text>		
+				
+										
+						
+		<!-- calc percentage -->
+				
+		
+				
+							
+						
+				
+						
+						
+
+
+	<!-- segments displayed clockwise from ' 3 o'clock ' -->
+			<path d="M112.9964943838 180.0236152496 A85 85, 0, 
+		0, 1, 199.9999999988 264.9995488897 L115 265, Z" class="fill12"/>	
+		
+	
+	<!-- show values next to wedges -->
+					<text x="169.3913448615" y="209.1915453613">  25%</text>		
+				
+									
+
+
+
+<!-- //////////////////////////////// KEY /////// ////////////////////////// -->
+
+	<!-- only allow key under or over chart if the height dimensions are greatest -->
+					
+	<!-- calc y position of start of key -->
+				
+		
+		
+				
+				<rect x="30" y="47" width="12" height="12" class="key1"/>
+
+		<text x="47" y="59" class="keyText">Jan [320] </text>
+						
+		
+				
+				<rect x="30" y="64" width="12" height="12" class="key2"/>
+
+		<text x="47" y="76" class="keyText">Feb [15] </text>
+						
+		
+				
+				<rect x="30" y="81" width="12" height="12" class="key3"/>
+
+		<text x="47" y="93" class="keyText">Mar [335] </text>
+						
+		
+				
+				<rect x="30" y="98" width="12" height="12" class="key4"/>
+
+		<text x="47" y="110" class="keyText">Apr [125] </text>
+						
+		
+				
+				<rect x="30" y="115" width="12" height="12" class="key5"/>
+
+		<text x="47" y="127" class="keyText">May [95] </text>
+						
+		
+				
+				<rect x="30" y="132" width="12" height="12" class="key6"/>
+
+		<text x="47" y="144" class="keyText">Jun [125] </text>
+						
+		
+				<!-- wrap key every 3 entries -->
+										
+				<rect x="106.666666666667" y="47" width="12" height="12" class="key7"/>
+
+		<text x="123.666666666667" y="59" class="keyText">Jul [75] </text>
+						
+		
+				
+				<rect x="106.666666666667" y="64" width="12" height="12" class="key8"/>
+
+		<text x="123.666666666667" y="76" class="keyText">Aug [175] </text>
+						
+		
+				
+				<rect x="106.666666666667" y="81" width="12" height="12" class="key9"/>
+
+		<text x="123.666666666667" y="93" class="keyText">Sep [176] </text>
+						
+		
+				
+				<rect x="106.666666666667" y="98" width="12" height="12" class="key10"/>
+
+		<text x="123.666666666667" y="110" class="keyText">Oct [75] </text>
+						
+		
+				
+				<rect x="106.666666666667" y="115" width="12" height="12" class="key11"/>
+
+		<text x="123.666666666667" y="127" class="keyText">Nov [175] </text>
+						
+		
+				
+				<rect x="106.666666666667" y="132" width="12" height="12" class="key12"/>
+
+		<text x="123.666666666667" y="144" class="keyText">Dec [575] </text>
+						
+
+
+<!-- //////////////////////////////// MAIN TITLES ////////////////////////// -->
+
+<!-- main graph title -->
+			<text x="115" y="15" class="mainTitle">Sales this quarter</text>
+	
+<!-- graph sub title -->
+										<text x="115" y="30" class="subTitle">(Values in thousands)</text>
+	
+</svg>

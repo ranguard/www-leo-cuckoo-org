@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+	"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+	
+<svg width="930" height="530" viewBox="0 0 930 530" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!-- include default stylesheet if none specified -->
+<defs>
+<style type="text/css">
+<![CDATA[
+.svgBackground{
+	fill:#ffffff;
+}
+.graphBackground{
+	fill:#f0f0f0;
+}
+
+/* graphs titles */
+.mainTitle{
+	text-anchor: middle;
+	fill: #000000;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+.subTitle{
+	text-anchor: middle;
+	fill: #999999;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.axis{
+	stroke: #000000;
+	stroke-width: 1px;
+}
+
+.guideLines{
+	stroke: #666666;
+	stroke-width: 1px;
+	stroke-dasharray: 5 5;
+}
+
+.xAxisLabels{
+	text-anchor: middle;
+	fill: #000000;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.yAxisLabels{
+	text-anchor: end;
+	fill: #000000;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.xAxisTitle{
+	text-anchor: middle;
+	fill: #ff0000;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.yAxisTitle{
+	fill: #ff0000;
+	writing-mode: tb; 
+	glyph-orientation-vertical: 0;
+	text-anchor: middle;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.dataPointLabel{
+	fill: #000000;
+	text-anchor:middle;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+/* default fill styles */
+.fill1{
+	fill: #cc0000;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill2{
+	fill: #0000cc;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill3{
+	fill: #00cc00;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill4{
+	fill: #ffcc00;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill5{
+	fill: #00ccff;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill6{
+	fill: #ff00ff;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill7{
+	fill: #00ffff;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill8{
+	fill: #ffff00;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill9{
+	fill: #cc6666;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+.fill10{
+	fill: #663399;
+	fill-opacity: 0.2;
+	stroke: none;
+}
+/* default line styles */
+.line1{
+	fill: none;
+	stroke: #ff0000;
+	stroke-width: 1px;	
+}
+.line2{
+	fill: none;
+	stroke: #0000ff;
+	stroke-width: 1px;	
+}
+.line3{
+	fill: none;
+	stroke: #00ff00;
+	stroke-width: 1px;	
+}
+.line4{
+	fill: none;
+	stroke: #ffcc00;
+	stroke-width: 1px;	
+}
+.line5{
+	fill: none;
+	stroke: #00ccff;
+	stroke-width: 1px;	
+}
+.line6{
+	fill: none;
+	stroke: #ff00ff;
+	stroke-width: 1px;	
+}
+.line7{
+	fill: none;
+	stroke: #00ffff;
+	stroke-width: 1px;	
+}
+.line8{
+	fill: none;
+	stroke: #ffff00;
+	stroke-width: 1px;	
+}
+.line9{
+	fill: none;
+	stroke: #ccc6666;
+	stroke-width: 1px;	
+}
+.line10{
+	fill: none;
+	stroke: #663399;
+	stroke-width: 1px;	
+}
+
+/* default line styles */
+.key1,.dataPoint1{
+	fill: #ff0000;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key2,.dataPoint2{
+	fill: #0000ff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key3,.dataPoint3{
+	fill: #00ff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key4,.dataPoint4{
+	fill: #ffcc00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key5,.dataPoint5{
+	fill: #00ccff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key6,.dataPoint6{
+	fill: #ff00ff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key7,.dataPoint7{
+	fill: #00ffff;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key8,.dataPoint8{
+	fill: #ffff00;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key9,.dataPoint9{
+	fill: #cc6666;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.key10,.dataPoint10{
+	fill: #663399;
+	stroke: none;
+	stroke-width: 1px;	
+}
+.keyText{
+	fill: #000000;
+	text-anchor:start;
+	font-size: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+]]>
+</style>
+</defs>
+<!-- svg bg -->
+	<rect x="0" y="0" width="930" height="530" class="svgBackground"/>
+	
+<!-- ///////////////// CALCULATE GRAPH AREA AND BOUNDARIES //////////////// -->
+<!-- get dimensions of actual graph area (NOT SVG area) -->
+		
+	<!-- set start/default coords of graph --> 
+			
+<!-- CALC WIDTH AND X COORD DIMENSIONS -->
+	<!-- reduce width of graph area if there is labelling on y axis -->
+		
+	<!-- pad ends of graph if there are x labels -->
+				<!-- if there are no y labels or titles BUT there are x labels, then pad left -->
+				
+
+<!-- CALC HEIGHT AND Y COORD DIMENSIONS -->
+	<!-- reduce height of graph area if there is labelling on x axis -->
+			
+	<!-- pad top of graph if y axis has data labels so labels do not get chopped off -->
+		
+	<!-- reduce height if graph has title or subtitle -->
+		
+	
+<!-- reduce graph dimensions if there is a KEY -->
+		
+
+
+
+<!-- calc min and max values -->
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+					
+	<!-- base line -->
+		
+	<!-- how much padding above max point on graph -->
+		
+	
+	<!-- default y_marker '20' set -->
+					
+	
+<!-- //////////////////////////////  BUILD GRAPH AREA ////////////////////////////// -->
+<!-- graph bg -->
+	<rect x="50" y="45" width="870" height="390" class="graphBackground"/>
+
+<!-- axis -->
+	<path d="M50 45 v390" class="axis" id="xAxis"/>
+	<path d="M50 435 h870" class="axis" id="yAxis"/>
+
+<!-- //////////////////////////////  AXIS DISTRIBUTIONS //////////////////////////// -->
+	<!-- get number of data points on x scale -->
+			<!-- ensure x_data_points butt up to edge of graph -->
+		
+<!-- get distribution width on x axis -->
+
+
+<!-- x axis labels -->
+			<text x="50" y="450" class="xAxisLabels">Jan</text>
+									<text x="174" y="450" class="xAxisLabels">Feb</text>
+							<text x="298" y="450" class="xAxisLabels">Mar</text>
+							<text x="422" y="450" class="xAxisLabels">Apr</text>
+							<text x="546" y="450" class="xAxisLabels">May</text>
+							<text x="670" y="450" class="xAxisLabels">Jun</text>
+							<text x="794" y="450" class="xAxisLabels">Jul</text>
+							<text x="918" y="450" class="xAxisLabels">Aug</text>
+					
+
+<!-- distribute Y scale -->
+<!-- ensure y_data_points butt up to edge of graph -->
+						<!-- no stroke for first line -->
+			<text x="45" y="435" class="yAxisLabels">0</text>
+												<text x="45" y="393" class="yAxisLabels">40</text>
+			<path d="M50 393 h870" class="guideLines"/>
+												<text x="45" y="351" class="yAxisLabels">80</text>
+			<path d="M50 351 h870" class="guideLines"/>
+												<text x="45" y="309" class="yAxisLabels">120</text>
+			<path d="M50 309 h870" class="guideLines"/>
+												<text x="45" y="267" class="yAxisLabels">160</text>
+			<path d="M50 267 h870" class="guideLines"/>
+												<text x="45" y="225" class="yAxisLabels">200</text>
+			<path d="M50 225 h870" class="guideLines"/>
+												<text x="45" y="183" class="yAxisLabels">240</text>
+			<path d="M50 183 h870" class="guideLines"/>
+												<text x="45" y="141" class="yAxisLabels">280</text>
+			<path d="M50 141 h870" class="guideLines"/>
+												<text x="45" y="99" class="yAxisLabels">320</text>
+			<path d="M50 99 h870" class="guideLines"/>
+												<text x="45" y="57" class="yAxisLabels">360</text>
+			<path d="M50 57 h870" class="guideLines"/>
+							
+
+
+
+<!-- //////////////////////////////  AXIS TITLES ////////////////////////////// -->
+
+<!-- x axis title -->
+										<text x="485" y="470" class="xAxisTitle">Months</text>
+	
+<!-- y axis title -->
+				<text x="10" y="240" class="yAxisTitle">Appointments</text>
+	
+
+
+
+<!-- //////////////////////////////  SHOW DATA ////////////////////////////// -->
+	
+<!-- data points on graph -->
+					
+													<circle cx="50" cy="330" r="2.5" class="dataPoint1"/>
+							
+					<text x="50" y="324" class="dataPointLabel">100</text>
+														<circle cx="50" cy="349.95" r="2.5" class="dataPoint2"/>
+							
+					<text x="50" y="343.95" class="dataPointLabel">81</text>
+														<circle cx="50" cy="423.45" r="2.5" class="dataPoint3"/>
+							
+					<text x="50" y="417.45" class="dataPointLabel">11</text>
+														<circle cx="50" cy="318.45" r="2.5" class="dataPoint4"/>
+							
+					<text x="50" y="312.45" class="dataPointLabel">111</text>
+														<circle cx="50" cy="423.45" r="2.5" class="dataPoint5"/>
+							
+					<text x="50" y="417.45" class="dataPointLabel">11</text>
+														<circle cx="50" cy="412.95" r="2.5" class="dataPoint6"/>
+							
+					<text x="50" y="406.95" class="dataPointLabel">21</text>
+														<circle cx="50" cy="381.45" r="2.5" class="dataPoint7"/>
+							
+					<text x="50" y="375.45" class="dataPointLabel">51</text>
+																								<circle cx="174" cy="419.25" r="2.5" class="dataPoint1"/>
+							
+					<text x="174" y="413.25" class="dataPointLabel">15</text>
+														<circle cx="174" cy="387.75" r="2.5" class="dataPoint2"/>
+							
+					<text x="174" y="381.75" class="dataPointLabel">45</text>
+														<circle cx="174" cy="419.25" r="2.5" class="dataPoint3"/>
+							
+					<text x="174" y="413.25" class="dataPointLabel">15</text>
+														<circle cx="174" cy="422.4" r="2.5" class="dataPoint4"/>
+							
+					<text x="174" y="416.4" class="dataPointLabel">12</text>
+														<circle cx="174" cy="422.4" r="2.5" class="dataPoint5"/>
+							
+					<text x="174" y="416.4" class="dataPointLabel">12</text>
+														<circle cx="174" cy="411.9" r="2.5" class="dataPoint6"/>
+							
+					<text x="174" y="405.9" class="dataPointLabel">22</text>
+														<circle cx="174" cy="380.4" r="2.5" class="dataPoint7"/>
+							
+					<text x="174" y="374.4" class="dataPointLabel">52</text>
+																								<circle cx="298" cy="62.25" r="2.5" class="dataPoint1"/>
+							
+					<text x="298" y="56.25" class="dataPointLabel">355</text>
+														<circle cx="298" cy="221.85" r="2.5" class="dataPoint2"/>
+							
+					<text x="298" y="215.85" class="dataPointLabel">203</text>
+														<circle cx="298" cy="211.35" r="2.5" class="dataPoint3"/>
+							
+					<text x="298" y="205.35" class="dataPointLabel">213</text>
+														<circle cx="298" cy="200.85" r="2.5" class="dataPoint4"/>
+							
+					<text x="298" y="194.85" class="dataPointLabel">223</text>
+														<circle cx="298" cy="400.35" r="2.5" class="dataPoint5"/>
+							
+					<text x="298" y="394.35" class="dataPointLabel">33</text>
+														<circle cx="298" cy="379.35" r="2.5" class="dataPoint6"/>
+							
+					<text x="298" y="373.35" class="dataPointLabel">53</text>
+														<circle cx="298" cy="368.85" r="2.5" class="dataPoint7"/>
+							
+					<text x="298" y="362.85" class="dataPointLabel">63</text>
+																								<circle cx="422" cy="303.75" r="2.5" class="dataPoint1"/>
+							
+					<text x="422" y="297.75" class="dataPointLabel">125</text>
+														<circle cx="422" cy="172.5" r="2.5" class="dataPoint2"/>
+							
+					<text x="422" y="166.5" class="dataPointLabel">250</text>
+														<circle cx="422" cy="214.5" r="2.5" class="dataPoint3"/>
+							
+					<text x="422" y="208.5" class="dataPointLabel">210</text>
+														<circle cx="422" cy="204" r="2.5" class="dataPoint4"/>
+							
+					<text x="422" y="198" class="dataPointLabel">220</text>
+														<circle cx="422" cy="332.1" r="2.5" class="dataPoint5"/>
+							
+					<text x="422" y="326.1" class="dataPointLabel">98</text>
+														<circle cx="422" cy="353.1" r="2.5" class="dataPoint6"/>
+							
+					<text x="422" y="347.1" class="dataPointLabel">78</text>
+														<circle cx="422" cy="374.1" r="2.5" class="dataPoint7"/>
+							
+					<text x="422" y="368.1" class="dataPointLabel">58</text>
+																								<circle cx="546" cy="335.25" r="2.5" class="dataPoint1"/>
+							
+					<text x="546" y="329.25" class="dataPointLabel">95</text>
+														<circle cx="546" cy="366.75" r="2.5" class="dataPoint2"/>
+							
+					<text x="546" y="360.75" class="dataPointLabel">65</text>
+														<circle cx="546" cy="261.75" r="2.5" class="dataPoint3"/>
+							
+					<text x="546" y="255.75" class="dataPointLabel">165</text>
+														<circle cx="546" cy="303.75" r="2.5" class="dataPoint4"/>
+							
+					<text x="546" y="297.75" class="dataPointLabel">125</text>
+														<circle cx="546" cy="408.75" r="2.5" class="dataPoint5"/>
+							
+					<text x="546" y="402.75" class="dataPointLabel">25</text>
+														<circle cx="546" cy="398.25" r="2.5" class="dataPoint6"/>
+							
+					<text x="546" y="392.25" class="dataPointLabel">35</text>
+														<circle cx="546" cy="377.25" r="2.5" class="dataPoint7"/>
+							
+					<text x="546" y="371.25" class="dataPointLabel">55</text>
+																								<circle cx="670" cy="303.75" r="2.5" class="dataPoint1"/>
+							
+					<text x="670" y="297.75" class="dataPointLabel">125</text>
+														<circle cx="670" cy="372" r="2.5" class="dataPoint2"/>
+							
+					<text x="670" y="366" class="dataPointLabel">60</text>
+														<circle cx="670" cy="267" r="2.5" class="dataPoint3"/>
+							
+					<text x="670" y="261" class="dataPointLabel">160</text>
+														<circle cx="670" cy="309" r="2.5" class="dataPoint4"/>
+							
+					<text x="670" y="303" class="dataPointLabel">120</text>
+														<circle cx="670" cy="414" r="2.5" class="dataPoint5"/>
+							
+					<text x="670" y="408" class="dataPointLabel">20</text>
+														<circle cx="670" cy="403.5" r="2.5" class="dataPoint6"/>
+							
+					<text x="670" y="397.5" class="dataPointLabel">30</text>
+														<circle cx="670" cy="382.5" r="2.5" class="dataPoint7"/>
+							
+					<text x="670" y="376.5" class="dataPointLabel">50</text>
+																								<circle cx="794" cy="356.25" r="2.5" class="dataPoint1"/>
+							
+					<text x="794" y="350.25" class="dataPointLabel">75</text>
+														<circle cx="794" cy="277.5" r="2.5" class="dataPoint2"/>
+							
+					<text x="794" y="271.5" class="dataPointLabel">150</text>
+														<circle cx="794" cy="319.5" r="2.5" class="dataPoint3"/>
+							
+					<text x="794" y="313.5" class="dataPointLabel">110</text>
+														<circle cx="794" cy="309" r="2.5" class="dataPoint4"/>
+							
+					<text x="794" y="303" class="dataPointLabel">120</text>
+														<circle cx="794" cy="414" r="2.5" class="dataPoint5"/>
+							
+					<text x="794" y="408" class="dataPointLabel">20</text>
+														<circle cx="794" cy="403.5" r="2.5" class="dataPoint6"/>
+							
+					<text x="794" y="397.5" class="dataPointLabel">30</text>
+														<circle cx="794" cy="382.5" r="2.5" class="dataPoint7"/>
+							
+					<text x="794" y="376.5" class="dataPointLabel">50</text>
+																								<circle cx="918" cy="251.25" r="2.5" class="dataPoint1"/>
+							
+					<text x="918" y="245.25" class="dataPointLabel">175</text>
+														<circle cx="918" cy="324.75" r="2.5" class="dataPoint2"/>
+							
+					<text x="918" y="318.75" class="dataPointLabel">105</text>
+														<circle cx="918" cy="314.25" r="2.5" class="dataPoint3"/>
+							
+					<text x="918" y="308.25" class="dataPointLabel">115</text>
+														<circle cx="918" cy="303.75" r="2.5" class="dataPoint4"/>
+							
+					<text x="918" y="297.75" class="dataPointLabel">125</text>
+														<circle cx="918" cy="408.75" r="2.5" class="dataPoint5"/>
+							
+					<text x="918" y="402.75" class="dataPointLabel">25</text>
+														<circle cx="918" cy="377.25" r="2.5" class="dataPoint6"/>
+							
+					<text x="918" y="371.25" class="dataPointLabel">55</text>
+														<circle cx="918" cy="387.75" r="2.5" class="dataPoint7"/>
+							
+					<text x="918" y="381.75" class="dataPointLabel">45</text>
+														
+
+
+<!-- join the dots (for each line if applicable)... -->
+	<path d="M
+						50 330,
+								L
+				174 419.25,
+							298 62.25,
+							422 303.75,
+							546 335.25,
+							670 303.75,
+							794 356.25,
+							918 251.25,
+			" class="line1"/>
+		<path d="M
+						50 349.95,
+								L
+				174 387.75,
+							298 221.85,
+							422 172.5,
+							546 366.75,
+							670 372,
+							794 277.5,
+							918 324.75,
+			" class="line2"/>
+		<path d="M
+						50 423.45,
+								L
+				174 419.25,
+							298 211.35,
+							422 214.5,
+							546 261.75,
+							670 267,
+							794 319.5,
+							918 314.25,
+			" class="line3"/>
+		<path d="M
+						50 318.45,
+								L
+				174 422.4,
+							298 200.85,
+							422 204,
+							546 303.75,
+							670 309,
+							794 309,
+							918 303.75,
+			" class="line4"/>
+		<path d="M
+						50 423.45,
+								L
+				174 422.4,
+							298 400.35,
+							422 332.1,
+							546 408.75,
+							670 414,
+							794 414,
+							918 408.75,
+			" class="line5"/>
+		<path d="M
+						50 412.95,
+								L
+				174 411.9,
+							298 379.35,
+							422 353.1,
+							546 398.25,
+							670 403.5,
+							794 403.5,
+							918 377.25,
+			" class="line6"/>
+		<path d="M
+						50 381.45,
+								L
+				174 380.4,
+							298 368.85,
+							422 374.1,
+							546 377.25,
+							670 382.5,
+							794 382.5,
+							918 387.75,
+			" class="line7"/>
+	
+
+<!-- //////////////////////////////// KEY /////// ////////////////////////// -->
+	<!-- calc y position of start of key -->
+										<rect x="50" y="477" width="12" height="12" class="key1"/>
+
+		<text x="67" y="489" class="keyText">Accounts</text>
+							<rect x="50" y="494" width="12" height="12" class="key2"/>
+
+		<text x="67" y="506" class="keyText">Managed A</text>
+							<rect x="50" y="511" width="12" height="12" class="key3"/>
+
+		<text x="67" y="523" class="keyText">Property Management</text>
+							<!-- wrap key every 3 entries -->
+										<rect x="250" y="478" width="12" height="12" class="key4"/>
+
+		<text x="267" y="490" class="keyText">Corporate</text>
+							<rect x="250" y="495" width="12" height="12" class="key5"/>
+
+		<text x="267" y="507" class="keyText">Renewals</text>
+							<rect x="250" y="512" width="12" height="12" class="key6"/>
+
+		<text x="267" y="524" class="keyText">Gas Safety</text>
+							<!-- wrap key every 3 entries -->
+										<rect x="450" y="479" width="12" height="12" class="key7"/>
+
+		<text x="467" y="491" class="keyText">Managed B</text>
+				
+	
+<!-- //////////////////////////////// MAIN TITLES ////////////////////////// -->
+
+<!-- main graph title -->
+			<text x="435" y="15" class="mainTitle">Sales this quarter</text>
+	
+<!-- graph sub title -->
+										<text x="435" y="30" class="subTitle">(Values in thousands)</text>
+	</svg>
