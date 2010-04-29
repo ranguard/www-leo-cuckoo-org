@@ -3,6 +3,8 @@ use inc::Module::Install;
 name 'Leo-Site';
 all_from 'lib/Leo/Site.pm';
 
+requires 'JSON' => '0';
+requires 'Image::Imlib2' => '0';
 requires 'Catalyst' => '5.7011';
 requires 'Catalyst::Plugin::ConfigLoader';
 requires 'Catalyst::Plugin::Static::Simple';

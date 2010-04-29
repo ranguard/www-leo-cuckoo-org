@@ -45,7 +45,7 @@ Attempt to render a view, if needed.
 sub end : ActionClass('RenderView') {
     my ( $self, $c ) = @_;
 
-
+    return if $c->res->body();
 
     return if $c->stash->{do_not_render};
 

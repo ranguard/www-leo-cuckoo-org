@@ -3,6 +3,8 @@ package Leo::Site;
 use strict;
 use warnings;
 
+use JSON;
+
 use Catalyst::Runtime '5.70';
 
 # Set flags and add plugins for the application
@@ -34,6 +36,18 @@ __PACKAGE__->config( name => 'Leo::Site',
 # Start the application
 __PACKAGE__->setup;
 
+sub send_as_json {
+    my ( $c, $data ) = @_;
+
+    # Encode and return the results.
+    my $json        = JSON->new->pretty;
+    my $json_string = $json->encode($data);
+
+    $c->res->content_type('application/json');
+    $c->res->body($json_string);
+
+    return 1;
+}
 
 =head1 NAME
 
