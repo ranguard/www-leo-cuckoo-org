@@ -3,7 +3,7 @@ use inc::Module::Install;
 name 'Leo-Site';
 all_from 'lib/Leo/Site.pm';
 
-requires 'JSON'            => '0';
+requires 'JSON::Any'       => '0';
 requires 'Data::UUID'      => '0';
 requires 'DateTime'        => '0';
 requires 'Path::Class'     => '0';

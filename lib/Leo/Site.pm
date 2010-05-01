@@ -3,7 +3,7 @@ package Leo::Site;
 use strict;
 use warnings;
 
-use JSON;
+use JSON::Any;
 
 use Catalyst::Runtime '5.70';
 
@@ -12,14 +12,14 @@ use Catalyst::Runtime '5.70';
 #         -Debug: activates the debug mode for very useful log messages
 #   ConfigLoader: will load the configuration from a YAML file in the
 #                 application's home directory
-# Static::Simple: will serve static files from the application's root 
+# Static::Simple: will serve static files from the application's root
 #                 directory
 
 use Catalyst qw/-Debug ConfigLoader Static::Simple/;
 
 our $VERSION = '0.01';
 
-# Configure the application. 
+# Configure the application.
 #
 # Note that settings in Leo::Site.yml (or other external
 # configuration file that you set up manually) take precedence
@@ -28,11 +28,11 @@ our $VERSION = '0.01';
 # with a external configuration file acting as an override for
 # local deployment.
 
-__PACKAGE__->config( name => 'Leo::Site',
-	static => {
-		ignore_extensions => [qw/html svg/],
-	}
- );
+__PACKAGE__->config(
+    name   => 'Leo::Site',
+    static => { ignore_extensions => [qw/html svg/], }
+);
+
 # Start the application
 __PACKAGE__->setup;
 
@@ -40,7 +40,7 @@ sub send_as_json {
     my ( $c, $data ) = @_;
 
     # Encode and return the results.
-    my $json        = JSON->new->pretty;
+    my $json        = JSON::Any->new();
     my $json_string = $json->encode($data);
 
     $c->res->content_type('application/json');
