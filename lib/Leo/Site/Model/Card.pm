@@ -5,6 +5,7 @@ use Image::Imlib2;
 use Net::Amazon::S3;
 use Path::Class;
 use Data::UUID;
+use DateTime;
 
 has 'img_source' => (
     is      => 'rw',
@@ -50,7 +51,7 @@ sub merge {
     
     return $self->upload_to_s3({
         file => $file,
-        file_name => $file_name,
+        file_name => DateTime->now()->ymd('/') . '/' . $file_name,
     });
     
 
