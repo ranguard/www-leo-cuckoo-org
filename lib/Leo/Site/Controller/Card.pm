@@ -23,17 +23,18 @@ sub generate : Local {
 
     my $params = $c->req->parameters();
 
-    use Data::Dumper;
-    warn Dumper($params);
+    my $card = $c->model('Card')->new($params);
 
-    my $response = {
-        status => 'error',
-    };
+    my $response;
+    if ( my $card_url = $card->merge() ) {
+        $response = { status => 'ok', img_src => $card_url, };
+    } else {
+        $response = { status => 'error', };
+    }
 
     $c->send_as_json($response);
 
 }
-
 
 =head1 AUTHOR
 
