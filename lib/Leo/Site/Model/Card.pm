@@ -7,10 +7,15 @@ use Path::Class;
 use Data::UUID;
 use DateTime;
 
+use Sys::Hostname;
+my $host = hostname();
+
 has 'img_source' => (
     is      => 'rw',
     'isa'   => 'Str',
-    default => '/home/leo/git/iphone-card/Resources/cards/'
+    default => $host eq 'braga'
+    ? '/vhosts/leo.cuckoo.org/iphone-card/Resources/cards/'
+    : '/home/leo/git/iphone-card/Resources/cards/'
 );
 
 has 'image'      => ( is => 'rw', 'isa' => 'Str' );
@@ -31,39 +36,39 @@ sub merge {
     foreach my $field (qw(image background forground)) {
         if ( my $img = $self->$field() ) {
             my $filename = file($img)->basename();
-            
+
             my $source = $self->img_source() . $field . 's/' . $filename;
             if ( -r $source ) {
                 my $to_merge = Image::Imlib2->load($source);
-                $image->blend($to_merge, 1, 0, 0, $self->width(), $self->height(), 0, 0, $self->width(), $self->height() );
+                $image->blend( $to_merge, 1, 0, 0, $self->width(),
+                    $self->height(), 0, 0, $self->width(), $self->height() );
             } else {
                 warn "Could not find: $source";
             }
 
         }
     }
-    
+
     my $uuid      = Data::UUID->new->create_str;
     my $file_name = $uuid . '.png';
-    my $file = "/tmp/$file_name";
-    
+    my $file      = "/tmp/$file_name";
+
     $image->save($file);
-    
-    return $self->upload_to_s3({
-        file => $file,
-        file_name => DateTime->now()->ymd('/') . '/' . $file_name,
-    });
-    
+
+    return $self->upload_to_s3(
+        {   file      => $file,
+            file_name => DateTime->now()->ymd('/') . '/' . $file_name,
+        }
+    );
 
 }
 
 sub upload_to_s3 {
     my $self = shift;
     my $conf = shift;
-    
-    my $file         = file($conf->{file});
-    
-    
+
+    my $file = file( $conf->{file} );
+
     my $aws_access_key_id     = '0Z2QPJMCSKBMS9JPYHR2';
     my $aws_secret_access_key = 'jfLFCQNAWxtJS5HhU7Z6SR13N4mRFe+CAuoW/tdk';
 
@@ -74,19 +79,19 @@ sub upload_to_s3 {
             timeout               => 120,
         }
     );
-    
+
     my $client = Net::Amazon::S3::Client->new( s3 => $s3 );
     my $bucket = $client->bucket( name => 'hinu-cards' );
-    
+
     my $upload_conf = {
-        acl_short => 'public-read',
+        acl_short    => 'public-read',
         content_type => $conf->{content_type} || 'image/png',
-        key => $conf->{file_name},
+        key          => $conf->{file_name},
     };
 
     my $object = $bucket->object(%$upload_conf);
-    $object->put_filename($conf->{file});
-    
+    $object->put_filename( $conf->{file} );
+
     return 'http://hinu-cards.s3.amazonaws.com/' . $conf->{file_name};
 
 }
