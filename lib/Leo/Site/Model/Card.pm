@@ -21,15 +21,19 @@ has 'img_source' => (
 has 'image'      => ( is => 'rw', 'isa' => 'Str' );
 has 'background' => ( is => 'rw', 'isa' => 'Str' );
 has 'forground'  => ( is => 'rw', 'isa' => 'Str' );
-has 'to'         => ( is => 'rw', 'isa' => 'Str' );
-has 'message'    => ( is => 'rw', 'isa' => 'Str' );
-has 'from'       => ( is => 'rw', 'isa' => 'Str' );
+has 'to'         => ( is => 'rw', 'isa' => 'Str', default => 'Hi' );
+has 'message'    => ( is => 'rw', 'isa' => 'Str', default => '' );
+has 'from'       => ( is => 'rw', 'isa' => 'Str', default => 'Take care' );
 
-has 'width'  => ( is => 'ro', 'isa' => 'Int', default => 426 );
-has 'height' => ( is => 'ro', 'isa' => 'Int', default => 552 );
+# has 'width'  => ( is => 'ro', 'isa' => 'Int', default => 426 );
+# has 'height' => ( is => 'ro', 'isa' => 'Int', default => 552 );
+has 'width'  => ( is => 'ro', 'isa' => 'Int', default => 480 );
+has 'height' => ( is => 'ro', 'isa' => 'Int', default => 622 );
+
 
 sub merge {
     my $self = shift;
+    my $tmp_file = shift;
 
     my $image = Image::Imlib2->new( $self->width(), $self->height() );
 
@@ -48,18 +52,42 @@ sub merge {
 
         }
     }
+    
+    $image->add_font_path('/usr/share/fonts/truetype/ttf-dejavu/');
+    
+    # Add in copy
+    
+    $image->load_font("DejaVuSans/18");
+
+    $image->draw_text(25,390,  $self->to());
+    
+    my $message = "This is a test with a\nReturn character.";
+    
+    my @lines = split("\n", $self->message());
+    my $message_top = 430;
+    foreach my $msg (@lines) {
+        my ($message_x, $message_y) = $image->get_text_size($msg);
+        my $message_left = ($self->width() - $message_x) / 2;
+        $image->draw_text($message_left, $message_top, $msg);
+        $message_top += 30;
+    }
+    
+    my ($from_x, $from_y) = $image->get_text_size($self->from());
+    my $from_left = ($self->width() - 25) - $from_x;
+    $image->draw_text($from_left, 480, $self->from());
+    
 
     my $uuid      = Data::UUID->new->create_str;
     my $file_name = $uuid . '.png';
-    my $file      = "/tmp/$file_name";
+    my $file      = $tmp_file || "/tmp/$file_name";
 
     $image->save($file);
 
-    return $self->upload_to_s3(
-        {   file      => $file,
-            file_name => DateTime->now()->ymd('/') . '/' . $file_name,
-        }
-    );
+    # return $self->upload_to_s3(
+    #     {   file      => $file,
+    #         file_name => DateTime->now()->ymd('/') . '/' . $file_name,
+    #     }
+    # );
 
 }
 

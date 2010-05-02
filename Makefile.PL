@@ -7,7 +7,7 @@ requires 'JSON::Any'       => '0';
 requires 'Data::UUID'      => '0';
 requires 'DateTime'        => '0';
 requires 'Path::Class'     => '0';
-requires 'Net::Amazon::S3' => '0';
+requires 'Net::Amazon::S3' => '0.53';
 requires 'Image::Imlib2'   => '0';
 requires 'Catalyst'        => '5.7011';
 requires 'Catalyst::Plugin::ConfigLoader';
