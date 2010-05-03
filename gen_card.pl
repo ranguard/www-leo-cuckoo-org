@@ -4,22 +4,65 @@ use strict;
 use lib qw(lib);
 use Path::Class;
 use File::Find::Rule;
+use JSON::Any;
+use Data::Dumper;
+use File::Slurp;
 
 use Leo::Site::Model::Card;
 
-make_thumbnails();
+create_image_json_list();
 
-# my $card = Leo::Site::Model::Card->new({
-#     'image'      => 'cat_01.png',
-#     'background' => 'bg_blue.png',
-#     'forground' => 'flowers_orange_trans.png',
-#     # 'forground'  => 'flowers_orange.png',
-#     'to'         => 'Dear Fred',
-#     'message'    => "Happy Birthday\nYou old codger",
-#     'from'       => 'Love ME'
-# });
-#
-# $card->merge('here.png');
+# make_thumbnails();
+# create_test_card();
+
+sub create_image_json_list {
+
+    my $card = Leo::Site::Model::Card->new();
+
+    my $files = $card->non_thumb_images();
+
+    my $out;
+    foreach my $file (@$files) {
+        $file = file($file);
+
+        my $section = ( $file->parent()->dir_list() )[-1];
+        my $thumb_file
+            = dir( $file->dir(), 'thumb' )->file( $file->basename() );
+
+        $out->{"$section"}->{ $file->basename() } = {
+            title => 'None',
+
+            # thumb => "$thumb_file" if -r $thumb_file,
+        };
+    }
+    my $j    = JSON::Any->new;
+    my $json = $j->objToJson($out);
+
+    my $out_file = dir( $card->img_source() )->parent()->subdir('lib')
+        ->file('image_data.js');
+    write_file(
+        "$out_file",
+        (   "// do not edit, this file is created automatically\n",
+            "var image_data = $json;\n"
+        )
+    );
+}
+
+sub create_test_card {
+    my $card = Leo::Site::Model::Card->new(
+        {   'image'      => 'cat_01.png',
+            'background' => 'bg_blue.png',
+            'forground'  => 'flowers_orange_trans.png',
+
+            # 'forground'  => 'flowers_orange.png',
+            'to'      => 'Dear Fred',
+            'message' => "Happy Birthday\nYou old codger",
+            'from'    => 'Love ME'
+        }
+    );
+
+    $card->merge('here.png');
+}
 
 sub make_thumbnails {
 
@@ -38,8 +81,6 @@ sub make_thumbnails {
                 to   => "$thumb_file"
             }
         );
-
     }
-
 }
 
