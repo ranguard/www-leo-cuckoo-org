@@ -6,6 +6,7 @@ use Net::Amazon::S3;
 use Path::Class;
 use Data::UUID;
 use DateTime;
+use File::Find::Rule;
 
 use Sys::Hostname;
 my $host = hostname();
@@ -25,11 +26,27 @@ has 'to'         => ( is => 'rw', 'isa' => 'Str', default => 'Hi' );
 has 'message'    => ( is => 'rw', 'isa' => 'Str', default => '' );
 has 'from'       => ( is => 'rw', 'isa' => 'Str', default => 'Take care' );
 
-# has 'width'  => ( is => 'ro', 'isa' => 'Int', default => 426 );
-# has 'height' => ( is => 'ro', 'isa' => 'Int', default => 552 );
 has 'width'  => ( is => 'ro', 'isa' => 'Int', default => 480 );
 has 'height' => ( is => 'ro', 'isa' => 'Int', default => 622 );
 
+sub crop_image {
+    my ($self, $conf) = @_;
+    
+    my $image = Image::Imlib2->load( $conf->{from} );
+    my $cropped_image = $image->crop(0, 0, $self->width(), 450);
+    my $scaled_image = $cropped_image->create_scaled_image(58,58);
+    $scaled_image->save($conf->{to});
+}
+
+sub non_thumb_images {
+    my $self = shift;
+    
+    my @files = File::Find::Rule->file()->name( ( '*.jpg', '*.png' ) )
+        ->in( ( $self->img_source() ) );
+        
+    @files = grep { !/thumb/ } @files;
+    return \@files;
+}
 
 sub merge {
     my $self = shift;
