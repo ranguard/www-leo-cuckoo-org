@@ -53,6 +53,7 @@ sub merge {
     my $tmp_file = shift;
 
     my $image = Image::Imlib2->new( $self->width(), $self->height() );
+	$image->set_quality(100);
 
     foreach my $field (qw(image background forground)) {
         if ( my $img = $self->$field() ) {
@@ -76,7 +77,7 @@ sub merge {
     
     $image->load_font("DejaVuSans/18");
 
-    $image->draw_text(25,390,  $self->to());
+    $image->draw_text(30,390,  $self->to());
     
     my $message = "This is a test with a\nReturn character.";
     
@@ -95,16 +96,17 @@ sub merge {
     
 
     my $uuid      = Data::UUID->new->create_str;
-    my $file_name = $uuid . '.png';
+    my $file_name = $uuid . '.jpg';
     my $file      = $tmp_file || "/tmp/$file_name";
 
+	$image->set_quality(100);
     $image->save($file);
 
-    # return $self->upload_to_s3(
-    #     {   file      => $file,
-    #         file_name => DateTime->now()->ymd('/') . '/' . $file_name,
-    #     }
-    # );
+    return $self->upload_to_s3(
+         {   file      => $file,
+             file_name => DateTime->now()->ymd('/') . '/' . $file_name,
+         }
+    );
 
 }
 
@@ -136,7 +138,7 @@ sub upload_to_s3 {
 
     my $object = $bucket->object(%$upload_conf);
     $object->put_filename( $conf->{file} );
-
+warn 'http://hinu-cards.s3.amazonaws.com/' . $conf->{file_name};
     return 'http://hinu-cards.s3.amazonaws.com/' . $conf->{file_name};
 
 }
