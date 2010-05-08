@@ -87,28 +87,47 @@ sub merge {
         }
     }
     
-    $image->add_font_path('/usr/share/fonts/truetype/ttf-dejavu/');
+    my @dirs = qw(/home/leo/git/www-leo-cuckoo-org /Users/leo/git/www-leo-cuckoo-org /vhosts/leo.cuckoo.org);
+    foreach my $dir (@dirs) {
+        if(-d $dir) {
+            warn "Adding: $dir/ttfonts/";
+            $image->add_font_path("$dir/ttfonts/");            
+        }
+        
+    }
     
     # Add in copy
-    
-    $image->load_font("DejaVuSans/18");
+    $image->load_font("Arial/20");
 
     $image->draw_text(30,410,  $self->to());
-    
-    my $message = "This is a test with a\nReturn character.";
-    
+        
     my @lines = split("\n", $self->message());
-    my $message_top = 450;
+    my $message_top = 440;
+    
+    my $spacing = 30;
+    my $rows = @lines;
+    if($rows == 4) {
+        $spacing = 30;
+    } elsif($rows == 3) {
+        $message_top = 450;
+        $spacing = 40;
+    } elsif($rows == 2) {
+        $message_top = 460;
+        $spacing = 50;
+    } else {
+        $message_top = 485;
+    }
+    
     foreach my $msg (@lines) {
         my ($message_x, $message_y) = $image->get_text_size($msg);
         my $message_left = ($self->width() - $message_x) / 2;
         $image->draw_text($message_left, $message_top, $msg);
-        $message_top += 30;
+        $message_top += $spacing;
     }
     
     my ($from_x, $from_y) = $image->get_text_size($self->from());
     my $from_left = ($self->width() - 30) - $from_x;
-    $image->draw_text($from_left, 480, $self->from());
+    $image->draw_text($from_left, 560, $self->from());
     
 
     my $uuid      = Data::UUID->new->create_str;
@@ -118,11 +137,11 @@ sub merge {
 	$image->set_quality(100);
     $image->save($file);
 
-    return $self->upload_to_s3(
-         {   file      => $file,
-             file_name => DateTime->now()->ymd('/') . '/' . $file_name,
-         }
-    );
+    # return $self->upload_to_s3(
+    #      {   file      => $file,
+    #          file_name => DateTime->now()->ymd('/') . '/' . $file_name,
+    #      }
+    # );
 
 }
 

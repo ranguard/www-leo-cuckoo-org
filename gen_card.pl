@@ -12,8 +12,8 @@ use Leo::Site::Model::Card;
 
 #create_image_json_list();
 
-make_thumbnails();
-# create_test_card();
+#make_thumbnails();
+create_test_card();
 
 sub create_image_json_list {
 
@@ -50,13 +50,13 @@ sub create_image_json_list {
 
 sub create_test_card {
     my $card = Leo::Site::Model::Card->new(
-        {   'image'      => 'cat_01.png',
-            'background' => 'bg_blue.png',
-            'forground'  => 'flowers_orange_trans.png',
+        {   'image'      => 'img_animals_dog04.jpg',
+            'background' => 'bg_red.png',
+            'forground'  => 'fr_flowers_02.png',
 
             # 'forground'  => 'flowers_orange.png',
             'to'      => 'Dear Fred',
-            'message' => "Happy Birthday\nYou old codger",
+            'message' => "This is a test with a\nReturn character.\n FOOO",
             'from'    => 'Love ME'
         }
     );
