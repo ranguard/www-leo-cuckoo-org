@@ -23,6 +23,11 @@ sub generate : Local {
 
     my $params = $c->req->parameters();
 
+    my $upload = $c->req->upload('user_file');
+    if($upload) {
+        $params->{image} = $upload->tempname();
+    }
+
     my $card = $c->model('Card')->new($params);
 
     my $response;

@@ -10,9 +10,9 @@ use File::Slurp;
 
 use Leo::Site::Model::Card;
 
-create_image_json_list();
+#create_image_json_list();
 
-# make_thumbnails();
+make_thumbnails();
 # create_test_card();
 
 sub create_image_json_list {

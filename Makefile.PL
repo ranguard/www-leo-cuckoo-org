@@ -5,6 +5,7 @@ all_from 'lib/Leo/Site.pm';
 
 requires 'JSON::Any'       => '0';
 requires 'Data::UUID'      => '0';
+requires 'Catalyst::Request::Upload' => '0';
 requires 'DateTime'        => '0';
 requires 'Path::Class'     => '0';
 requires 'Net::Amazon::S3' => '0.53';

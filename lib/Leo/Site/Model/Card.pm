@@ -33,7 +33,13 @@ sub crop_image {
     my ($self, $conf) = @_;
     
     my $image = Image::Imlib2->load( $conf->{from} );
-    my $cropped_image = $image->crop(0, 0, $self->width(), 450);
+    
+    my $cropped_image;
+    if($conf->{from} =~ /image/) {
+        $cropped_image = $image->crop(30, 20, 350, 350);
+    } else {
+        $cropped_image = $image->crop(0, 0, $self->width(), 450);
+    }
     my $scaled_image = $cropped_image->create_scaled_image(58,58);
     $scaled_image->save($conf->{to});
 }
@@ -60,7 +66,17 @@ sub merge {
             my $filename = file($img)->basename();
 
             my $source = $self->img_source() . $field . 's/' . $filename;
-            if ( -r $source ) {
+            
+            if($img =~ /tmp/ && -r $img) {
+                # User supplied image
+                # left 25, top: 26 - width & height 430
+                
+                my $user_img = Image::Imlib2->load($img);
+
+                $image->blend($user_img, 1, 0, 0, $user_img->width(),
+                    $user_img->height(), 25, 26, 430, 430);
+                          
+            } elsif ( -r $source ) {
                 my $to_merge = Image::Imlib2->load($source);
                 $image->blend( $to_merge, 1, 0, 0, $self->width(),
                     $self->height(), 0, 0, $self->width(), $self->height() );
@@ -77,12 +93,12 @@ sub merge {
     
     $image->load_font("DejaVuSans/18");
 
-    $image->draw_text(30,390,  $self->to());
+    $image->draw_text(30,410,  $self->to());
     
     my $message = "This is a test with a\nReturn character.";
     
     my @lines = split("\n", $self->message());
-    my $message_top = 430;
+    my $message_top = 450;
     foreach my $msg (@lines) {
         my ($message_x, $message_y) = $image->get_text_size($msg);
         my $message_left = ($self->width() - $message_x) / 2;
@@ -91,7 +107,7 @@ sub merge {
     }
     
     my ($from_x, $from_y) = $image->get_text_size($self->from());
-    my $from_left = ($self->width() - 25) - $from_x;
+    my $from_left = ($self->width() - 30) - $from_x;
     $image->draw_text($from_left, 480, $self->from());
     
 

@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use JSON::Any;
+use Catalyst::Request::Upload;
 
 use Catalyst::Runtime '5.70';
 
