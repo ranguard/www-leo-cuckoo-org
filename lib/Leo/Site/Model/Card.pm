@@ -90,16 +90,17 @@ sub merge {
     my @dirs = qw(/home/leo/git/www-leo-cuckoo-org /Users/leo/git/www-leo-cuckoo-org /vhosts/leo.cuckoo.org);
     foreach my $dir (@dirs) {
         if(-d $dir) {
-            warn "Adding: $dir/ttfonts/";
             $image->add_font_path("$dir/ttfonts/");            
-        }
-        
+        }        
     }
     
     # Add in copy
-    $image->load_font("Arial/20");
+    $image->load_font("Arial_Bold/20");
 
-    $image->draw_text(30,410,  $self->to());
+    # $image->set_colour(255, 255, 255, 255); # white
+    $image->set_colour(  0,   0,   0, 255); # black
+    # $image->set_colour(127, 127, 127, 255); # 50% gray
+    $image->draw_text(30,410, $self->to());
         
     my @lines = split("\n", $self->message());
     my $message_top = 440;
