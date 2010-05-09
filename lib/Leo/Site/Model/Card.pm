@@ -138,11 +138,16 @@ sub merge {
 	$image->set_quality(100);
     $image->save($file);
 
-    # return $self->upload_to_s3(
-    #      {   file      => $file,
-    #          file_name => DateTime->now()->ymd('/') . '/' . $file_name,
-    #      }
-    # );
+    if($tmp_file) {
+        warn "Not uploading to S3";
+        return;
+    }
+
+    return $self->upload_to_s3(
+         {   file      => $file,
+             file_name => DateTime->now()->ymd('/') . '/' . $file_name,
+         }
+    );
 
 }
 

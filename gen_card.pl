@@ -12,8 +12,8 @@ use Leo::Site::Model::Card;
 
 #create_image_json_list();
 
-#make_thumbnails();
-create_test_card();
+make_thumbnails();
+#create_test_card();
 
 sub create_image_json_list {
 
