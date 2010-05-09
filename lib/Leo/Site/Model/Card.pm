@@ -25,57 +25,59 @@ has 'forground'  => ( is => 'rw', 'isa' => 'Str' );
 has 'to'         => ( is => 'rw', 'isa' => 'Str', default => 'Hi' );
 has 'message'    => ( is => 'rw', 'isa' => 'Str', default => '' );
 has 'from'       => ( is => 'rw', 'isa' => 'Str', default => 'Take care' );
+has 'font_color' => ( is => 'rw', 'isa' => 'Str', default => '#000000' );
 
 has 'width'  => ( is => 'ro', 'isa' => 'Int', default => 480 );
 has 'height' => ( is => 'ro', 'isa' => 'Int', default => 622 );
 
 sub crop_image {
-    my ($self, $conf) = @_;
-    
+    my ( $self, $conf ) = @_;
+
     my $image = Image::Imlib2->load( $conf->{from} );
-    
+
     my $cropped_image;
-    if($conf->{from} =~ /image/) {
-        $cropped_image = $image->crop(30, 20, 350, 350);
+    if ( $conf->{from} =~ /image/ ) {
+        $cropped_image = $image->crop( 30, 20, 350, 350 );
     } else {
-        $cropped_image = $image->crop(0, 0, $self->width(), 450);
+        $cropped_image = $image->crop( 0, 0, $self->width(), 450 );
     }
-    my $scaled_image = $cropped_image->create_scaled_image(58,58);
-    $scaled_image->save($conf->{to});
+    my $scaled_image = $cropped_image->create_scaled_image( 58, 58 );
+    $scaled_image->save( $conf->{to} );
 }
 
 sub non_thumb_images {
     my $self = shift;
-    
+
     my @files = File::Find::Rule->file()->name( ( '*.jpg', '*.png' ) )
         ->in( ( $self->img_source() ) );
-        
+
     @files = grep { !/thumb/ } @files;
     return \@files;
 }
 
 sub merge {
-    my $self = shift;
+    my $self     = shift;
     my $tmp_file = shift;
 
     my $image = Image::Imlib2->new( $self->width(), $self->height() );
-	$image->set_quality(100);
+    $image->set_quality(100);
 
     foreach my $field (qw(image background forground)) {
         if ( my $img = $self->$field() ) {
             my $filename = file($img)->basename();
 
             my $source = $self->img_source() . $field . 's/' . $filename;
-            
-            if($img =~ /tmp/ && -r $img) {
+
+            if ( $img =~ /tmp/ && -r $img ) {
+
                 # User supplied image
                 # left 25, top: 26 - width & height 430
-                
+
                 my $user_img = Image::Imlib2->load($img);
 
-                $image->blend($user_img, 1, 0, 0, $user_img->width(),
-                    $user_img->height(), 25, 26, 430, 430);
-                          
+                $image->blend( $user_img, 1, 0, 0, $user_img->width(),
+                    $user_img->height(), 25, 26, 430, 430 );
+
             } elsif ( -r $source ) {
                 my $to_merge = Image::Imlib2->load($source);
                 $image->blend( $to_merge, 1, 0, 0, $self->width(),
@@ -86,67 +88,73 @@ sub merge {
 
         }
     }
-    
-    my @dirs = qw(/home/leo/git/www-leo-cuckoo-org /Users/leo/git/www-leo-cuckoo-org /vhosts/leo.cuckoo.org);
+
+    my @dirs
+        = qw(/home/leo/git/www-leo-cuckoo-org /Users/leo/git/www-leo-cuckoo-org /vhosts/leo.cuckoo.org);
     foreach my $dir (@dirs) {
-        if(-d $dir) {
-            $image->add_font_path("$dir/ttfonts/");            
-        }        
+        if ( -d $dir ) {
+            $image->add_font_path("$dir/ttfonts/");
+        }
     }
-    
+
     # Add in copy
     $image->load_font("Arial_Bold/20");
 
+    my $color = $self->font_color();
+    $color =~ s/#//;
+    my $r = CORE::hex(substr($color,0,2));
+    my $g = CORE::hex(substr($color,2,2));
+    my $b = CORE::hex(substr($color,4,2));
+
     # $image->set_colour(255, 255, 255, 255); # white
-    $image->set_colour(  0,   0,   0, 255); # black
-    # $image->set_colour(127, 127, 127, 255); # 50% gray
-    $image->draw_text(30,410, $self->to());
-        
-    my @lines = split("\n", $self->message());
+    $image->set_colour( $r, $g, $b, 255 );    # black
+           # $image->set_colour(127, 127, 127, 255); # 50% gray
+    $image->draw_text( 30, 410, $self->to() );
+
+    my @lines = split( "\n", $self->message() );
     my $message_top = 440;
-    
+
     my $spacing = 30;
-    my $rows = @lines;
-    if($rows == 4) {
+    my $rows    = @lines;
+    if ( $rows == 4 ) {
         $spacing = 30;
-    } elsif($rows == 3) {
+    } elsif ( $rows == 3 ) {
         $message_top = 450;
-        $spacing = 40;
-    } elsif($rows == 2) {
+        $spacing     = 40;
+    } elsif ( $rows == 2 ) {
         $message_top = 460;
-        $spacing = 50;
+        $spacing     = 50;
     } else {
         $message_top = 485;
     }
-    
+
     foreach my $msg (@lines) {
-        my ($message_x, $message_y) = $image->get_text_size($msg);
-        my $message_left = ($self->width() - $message_x) / 2;
-        $image->draw_text($message_left, $message_top, $msg);
+        my ( $message_x, $message_y ) = $image->get_text_size($msg);
+        my $message_left = ( $self->width() - $message_x ) / 2;
+        $image->draw_text( $message_left, $message_top, $msg );
         $message_top += $spacing;
     }
-    
-    my ($from_x, $from_y) = $image->get_text_size($self->from());
-    my $from_left = ($self->width() - 30) - $from_x;
-    $image->draw_text($from_left, 560, $self->from());
-    
+
+    my ( $from_x, $from_y ) = $image->get_text_size( $self->from() );
+    my $from_left = ( $self->width() - 30 ) - $from_x;
+    $image->draw_text( $from_left, 560, $self->from() );
 
     my $uuid      = Data::UUID->new->create_str;
     my $file_name = $uuid . '.jpg';
     my $file      = $tmp_file || "/tmp/$file_name";
 
-	$image->set_quality(100);
+    $image->set_quality(100);
     $image->save($file);
 
-    if($tmp_file) {
+    if ($tmp_file) {
         warn "Not uploading to S3";
         return;
     }
 
     return $self->upload_to_s3(
-         {   file      => $file,
-             file_name => DateTime->now()->ymd('/') . '/' . $file_name,
-         }
+        {   file      => $file,
+            file_name => DateTime->now()->ymd('/') . '/' . $file_name,
+        }
     );
 
 }
@@ -179,7 +187,7 @@ sub upload_to_s3 {
 
     my $object = $bucket->object(%$upload_conf);
     $object->put_filename( $conf->{file} );
-warn 'http://hinu-cards.s3.amazonaws.com/' . $conf->{file_name};
+    warn 'http://hinu-cards.s3.amazonaws.com/' . $conf->{file_name};
     return 'http://hinu-cards.s3.amazonaws.com/' . $conf->{file_name};
 
 }
