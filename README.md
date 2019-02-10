@@ -2,10 +2,12 @@
 
 #### Installing
 ```
+cd root
 npm install
 ```
 
 #### Developing
 ```
+cd root
 npm run dev
 ```
