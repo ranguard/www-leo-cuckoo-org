@@ -10,7 +10,10 @@ Code licensed under the BSD License:
 http://developer.yahoo.net/yui/license.txt
 */
 /**
- * @description <p>Creates a rich Toolbar widget based on Button. Primarily used with the Rich Text Editor</p>
+ * @description 
+Creates a rich Toolbar widget based on Button. Primarily used with the Rich Text Editor
+
+
  * @class Toolbar
  * @namespace YAHOO.widget
  * @requires yahoo, dom, element, event
@@ -1642,7 +1645,10 @@ http://developer.yahoo.net/yui/license.txt
 */
 /**
  * @module editor
- * @description <p>The Rich Text Editor is a UI control that replaces a standard HTML textarea; it allows for the rich formatting of text content, including common structural treatments like lists, formatting treatments like bold and italic text, and drag-and-drop inclusion and sizing of images. The Rich Text Editor's toolbar is extensible via a plugin architecture so that advanced implementations can achieve a high degree of customization.</p>
+ * @description 
+The Rich Text Editor is a UI control that replaces a standard HTML textarea; it allows for the rich formatting of text content, including common structural treatments like lists, formatting treatments like bold and italic text, and drag-and-drop inclusion and sizing of images. The Rich Text Editor's toolbar is extensible via a plugin architecture so that advanced implementations can achieve a high degree of customization.
+
+
  * @namespace YAHOO.widget
  * @requires yahoo, dom, element, event, toolbar, container, menu, button
  * @optional dragdrop, animation
@@ -2848,7 +2854,10 @@ var Dom = YAHOO.util.Dom,
                     break;
                 case 13:
                     if (this.browser.ie) {
-                        //Insert a <br> instead of a <p></p> in Internet Explorer
+                        //Insert a <br> instead of a 
+
+
+ in Internet Explorer
                         var _range = this._getRange();
                         var tar = this._getSelectedElement();
                         if (!this._isElement(tar, 'li')) {
@@ -3497,8 +3506,13 @@ var Dom = YAHOO.util.Dom,
             * @attribute html
             * @description The default HTML to be written to the iframe document before the contents are loaded
             * @default This HTML requires a few things if you are to override:
-                <p><code>{TITLE}, {CSS}, {HIDDEN_CSS}</code> and <code>{CONTENT}</code> need to be there, they are passed to YAHOO.lang.substitute to be replace with other strings.<p>
-                <p><code>onload="document.body._rteLoaded = true;"</code> : the onload statement must be there or the editor will not finish loading.</p>
+                
+<code>{TITLE}, {CSS}, {HIDDEN_CSS}</code> and <code>{CONTENT}</code> need to be there, they are passed to YAHOO.lang.substitute to be replace with other strings.
+
+                
+<code>onload="document.body._rteLoaded = true;"</code> : the onload statement must be there or the editor will not finish loading.
+
+
                 <code>
                 <pre>
                 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
@@ -5359,9 +5373,12 @@ var Dom = YAHOO.util.Dom,
 		    html = html.replace(/<br\/>/gi, '<YUI_BR>');
 		    html = html.replace(/<br \/>/gi, '<YUI_BR>');
 		    html = html.replace(/<div><YUI_BR><\/div>/gi, '<YUI_BR>');
-		    html = html.replace(/<p>(&nbsp;|&#160;)<\/p>/g, '<YUI_BR>');            
-		    html = html.replace(/<p><br>&nbsp;<\/p>/gi, '<YUI_BR>');
-		    html = html.replace(/<p>&nbsp;<\/p>/gi, '<YUI_BR>');
+		    html = html.replace(/
+(&nbsp;|&#160;)<\/p>/g, '<YUI_BR>');            
+		    html = html.replace(/
+<br>&nbsp;<\/p>/gi, '<YUI_BR>');
+		    html = html.replace(/
+&nbsp;<\/p>/gi, '<YUI_BR>');
 		    html = html.replace(/<img([^>]*)\/>/gi, '<YUI_IMG$1>');
 		    html = html.replace(/<img([^>]*)>/gi, '<YUI_IMG$1>');
 		    html = html.replace(/<ul([^>]*)>/gi, '<YUI_UL$1>');
@@ -5411,7 +5428,9 @@ var Dom = YAHOO.util.Dom,
             //Fix last BR
 	        html = html.replace(/<YUI_BR>$/, '');
             //Fix last BR in P
-	        html = html.replace(/<YUI_BR><\/p>/g, '</p>');
+	        html = html.replace(/<YUI_BR><\/p>/g, '
+
+');
             //Fix last BR in LI
 		    html = html.replace(/<YUI_BR><\/li>/gi, '</li>');
 

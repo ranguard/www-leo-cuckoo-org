@@ -6,7 +6,8 @@ version: 2.3.1
 */
 /**
 * @module button
-* @description <p>The Button Control enables the creation of rich, graphical 
+* @description 
+The Button Control enables the creation of rich, graphical 
 * buttons that function like traditional HTML form buttons.  <em>Unlike</em> 
 * tradition HTML form buttons, buttons created with the Button Control can have 
 * a label that is different from its value.  With the inclusion of the optional 
@@ -14,8 +15,13 @@ version: 2.3.1
 * used to create menu buttons and split buttons, controls that are not 
 * available natively in HTML.  The Button Control can also be thought of as a 
 * way to create more visually engaging implementations of the browser's 
-* default radio-button and check-box controls.</p>
-* <p>The Button Control supports the following types:</p>
+* default radio-button and check-box controls.
+
+
+* 
+The Button Control supports the following types:
+
+
 * <dl>
 * <dt>push</dt>
 * <dd>Basic push button that can execute a user-specified command when 

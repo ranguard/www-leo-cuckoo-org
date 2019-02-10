@@ -14,20 +14,29 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <H1><a name="1">Bit of History</a></H1>
-<P>
+
+
 At Emap we often has lots and lots of pages of results,
 from holidays to concert tickets, and every system had it's
 own way of implimenting it, all crap.
-</P>
-<p>
+
+
+
+
+
 I had started a module for this, then <font color="#FFA200">Leon</font> joined and I
 got him to do it properly. Data::Page was born, and now you have Data::Pageset which
 takes it 1 step further (which you don't always need, hence a seperate module).
-</p>
-<p>
+
+
+
+
+
 Data::Pageset uses Data::Page as a base class, so you can access all the methods in
 Data::Page as well.
-</p>
+
+
+
 
 <br><br><a href="#2">more &gt;</a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -35,7 +44,8 @@ Data::Page as well.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <H1><a name="2">Why did you code this Data::Page(set) you speak of ?</a></H1>
-<p>
+
+
 <UL>
 	<LI>Page numbering is boring</LI>
 	<LI>Page numbering has several anoying cases (which you always forget)</LI>
@@ -43,7 +53,9 @@ Data::Page as well.
 	<LI>Changing the number of pages to list, is a design thing!</LI>
 	<LI>Being able to jump through groups of pages makes navigation faster</LI>
 </UL>
-</p>
+
+
+
 
 <br><br><a href="#3">more &gt;</a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -52,17 +64,23 @@ Data::Page as well.
 
 
 <h1><a name="3">Why would I need this Data::Page(set) thing ?</a></h1>
-<p>
+
+
 Ever seen something like this:<br>
 <img width="421" height="56" src="images/bad_paging.gif"><br>
 Wondered why they limit it to 20 pages ?
 <BR><br>
 Developer "We didn't have space to put more pages"!
-</p>
-<p>
+
+
+
+
+
 Wouldn't you prefer something like this:<br>
 <img width="530" height="49" src="images/good_paging.gif">
-</p>
+
+
+
 
 <br><br><a href="#4">more &gt;</a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -71,7 +89,8 @@ Wouldn't you prefer something like this:<br>
 
 
 <h1><a name="4">Ok, so how would I do that ?</a></h1>
-<p>
+
+
 <code><pre>
 	use Data::Pageset;
 	my $page_set = Data::Pageset->new({
@@ -95,7 +114,9 @@ We like Template Toolkit (TT) because then we just do:
 The $page_set object is then passed to the template and the
 rest is the designers job....
 
-</p>
+
+
+
 
 <br><br><a href="#5">more &gt;</a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -103,7 +124,8 @@ rest is the designers job....
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <h1><a name="5">But I'm the designer as well!</a></h1>
-<p>
+
+
 Ok... I guess I can show you that... this is bassed on TT but
 all we're doing is calling the methods. It could be used anywhere, even with <code>print</code> statments!
 <br><br>
@@ -147,7 +169,9 @@ and you'll get something like...<br><br>
 <b>20</b>, 
 - <a href="current_page=21">NEXT 10</a> 
 </code>
-</p>
+
+
+
 
 The designer could even do:<br><br>
 
@@ -173,7 +197,8 @@ and we'd get something like this:<br><br>
 
 
 <H1><a name="6">So, other methods are there ?</a></H1>
-<p>
+
+
 <pre>
 	print "         First page: ", $page_info->first_page, "\n";
 	print "          Last page: ", $page_info->last_page, "\n";
@@ -228,7 +253,9 @@ and we'd get something like this:<br><br>
 	
 </pre>
 
-</p>
+
+
+
 
 </code>
 </body>

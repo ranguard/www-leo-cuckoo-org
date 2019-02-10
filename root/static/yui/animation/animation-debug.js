@@ -19,7 +19,10 @@ http://developer.yahoo.net/yui/license.txt
 /**
  *
  * Base animation class that provides the interface for building animated effects.
- * <p>Usage: var myAnim = new YAHOO.util.Anim(el, { width: { from: 10, to: 100 } }, 1, YAHOO.util.Easing.easeOut);</p>
+ * 
+Usage: var myAnim = new YAHOO.util.Anim(el, { width: { from: 10, to: 100 } }, 1, YAHOO.util.Easing.easeOut);
+
+
  * @class Anim
  * @namespace YAHOO.util
  * @requires YAHOO.util.AnimMgr
@@ -674,8 +677,11 @@ YAHOO.util.Bezier = new function() {
 (function() {
 /**
  * Anim subclass for color transitions.
- * <p>Usage: <code>var myAnim = new Y.ColorAnim(el, { backgroundColor: { from: '#FF0000', to: '#FFFFFF' } }, 1, Y.Easing.easeOut);</code> Color values can be specified with either 112233, #112233, 
- * [255,255,255], or rgb(255,255,255)</p>
+ * 
+Usage: <code>var myAnim = new Y.ColorAnim(el, { backgroundColor: { from: '#FF0000', to: '#FFFFFF' } }, 1, Y.Easing.easeOut);</code> Color values can be specified with either 112233, #112233, 
+ * [255,255,255], or rgb(255,255,255)
+
+
  * @class ColorAnim
  * @namespace YAHOO.util
  * @requires YAHOO.util.Anim
@@ -1146,7 +1152,10 @@ YAHOO.util.Easing = {
 /**
  * Anim subclass for moving elements along a path defined by the "points" 
  * member of "attributes".  All "points" are arrays with x, y coordinates.
- * <p>Usage: <code>var myAnim = new YAHOO.util.Motion(el, { points: { to: [800, 800] } }, 1, YAHOO.util.Easing.easeOut);</code></p>
+ * 
+Usage: <code>var myAnim = new YAHOO.util.Motion(el, { points: { to: [800, 800] } }, 1, YAHOO.util.Easing.easeOut);</code>
+
+
  * @class Motion
  * @namespace YAHOO.util
  * @requires YAHOO.util.Anim
@@ -1298,7 +1307,10 @@ YAHOO.util.Easing = {
 /**
  * Anim subclass for scrolling elements to a position defined by the "scroll"
  * member of "attributes".  All "scroll" members are arrays with x, y scroll positions.
- * <p>Usage: <code>var myAnim = new YAHOO.util.Scroll(el, { scroll: { to: [0, 800] } }, 1, YAHOO.util.Easing.easeOut);</code></p>
+ * 
+Usage: <code>var myAnim = new YAHOO.util.Scroll(el, { scroll: { to: [0, 800] } }, 1, YAHOO.util.Easing.easeOut);</code>
+
+
  * @class Scroll
  * @namespace YAHOO.util
  * @requires YAHOO.util.Anim

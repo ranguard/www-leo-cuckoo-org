@@ -713,8 +713,11 @@ if (!YAHOO.util.Event) {
              * The number of times it will poll and the frequency are
              * configurable.  By default it will poll for 10 seconds.
              *
-             * <p>The callback is executed with a single parameter:
-             * the custom object parameter, if provided.</p>
+             * 
+The callback is executed with a single parameter:
+             * the custom object parameter, if provided.
+
+
              *
              * @method onAvailable
              *
@@ -752,11 +755,23 @@ if (!YAHOO.util.Event) {
              * window onload event has fired without having had a listener attached 
              * to it when it did so?
              *
-             * <p>The callback is a CustomEvent, so the signature is:</p>
-             * <p>type <string>, args <array>, customobject <object></p>
-             * <p>For DOMReady events, there are no fire argments, so the
-             * signature is:</p>
-             * <p>"DOMReady", [], obj</p>
+             * 
+The callback is a CustomEvent, so the signature is:
+
+
+             * 
+type <string>, args <array>, customobject <object>
+
+
+             * 
+For DOMReady events, there are no fire argments, so the
+             * signature is:
+
+
+             * 
+"DOMReady", [], obj
+
+
              *
              *
              * @method onDOMReady
@@ -793,8 +808,11 @@ if (!YAHOO.util.Event) {
              * state of sibling elements to determine if the content of the
              * available element is safe to modify.
              *
-             * <p>The callback is executed with a single parameter:
-             * the custom object parameter, if provided.</p>
+             * 
+The callback is executed with a single parameter:
+             * the custom object parameter, if provided.
+
+
              *
              * @method onContentReady
              *

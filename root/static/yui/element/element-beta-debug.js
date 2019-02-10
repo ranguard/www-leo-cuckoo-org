@@ -950,27 +950,41 @@ var _registerHTMLAttr = function(key, map) {
 
 /**
  * Fires when the Element's HTMLElement can be retrieved by Id.
- * <p>See: <a href="#addListener">Element.addListener</a></p>
- * <p><strong>Event fields:</strong><br>
+ * 
+See: <a href="#addListener">Element.addListener</a>
+
+
+ * 
+<strong>Event fields:</strong><br>
  * <code>&lt;String&gt; type</code> available<br>
  * <code>&lt;HTMLElement&gt;
  * target</code> the HTMLElement bound to this Element instance<br>
- * <p><strong>Usage:</strong><br>
+ * 
+<strong>Usage:</strong><br>
  * <code>var handler = function(e) {var target = e.target};<br>
- * myTabs.addListener('available', handler);</code></p>
+ * myTabs.addListener('available', handler);</code>
+
+
  * @event available
  */
  
 /**
  * Fires when the Element's HTMLElement subtree is rendered.
- * <p>See: <a href="#addListener">Element.addListener</a></p>
- * <p><strong>Event fields:</strong><br>
+ * 
+See: <a href="#addListener">Element.addListener</a>
+
+
+ * 
+<strong>Event fields:</strong><br>
  * <code>&lt;String&gt; type</code> contentReady<br>
  * <code>&lt;HTMLElement&gt;
  * target</code> the HTMLElement bound to this Element instance<br>
- * <p><strong>Usage:</strong><br>
+ * 
+<strong>Usage:</strong><br>
  * <code>var handler = function(e) {var target = e.target};<br>
- * myTabs.addListener('contentReady', handler);</code></p>
+ * myTabs.addListener('contentReady', handler);</code>
+
+
  * @event contentReady
  */
 

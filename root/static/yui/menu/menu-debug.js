@@ -8,11 +8,17 @@ version: 2.3.1
 
 /**
 * @module menu
-* @description <p>The Menu family of components features a collection of 
+* @description 
+The Menu family of components features a collection of 
 * controls that make it easy to add menus to your website or web application.  
 * With the Menu Controls you can create website fly-out menus, customized 
 * context menus, or application-style menu bars with just a small amount of 
-* scripting.</p><p>The Menu family of controls features:</p>
+* scripting.
+
+
+The Menu family of controls features:
+
+
 * <ul>
 *    <li>Screen-reader accessibility.</li>
 *    <li>Keyboard and mouse navigation.</li>

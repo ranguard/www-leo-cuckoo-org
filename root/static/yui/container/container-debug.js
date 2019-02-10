@@ -1219,11 +1219,14 @@ version: 2.3.1
             * Specifies if the module should be rendered as the first child 
             * of document.body or appended as the last child when render is called
             * with document.body as the "appendToNode".
-            * <p>
+            * 
+
             * Appending to the body while the DOM is still being constructed can 
             * lead to Operation Aborted errors in IE hence this flag is set to 
             * false by default.
-            * </p>
+            * 
+
+
             * 
             * @config appendtodocumentbody
             * @type Boolean
@@ -1575,20 +1578,26 @@ version: 2.3.1
         * Renders the Module by inserting the elements that are not already 
         * in the main Module into their correct places. Optionally appends 
         * the Module to the specified node prior to the render's execution. 
-        * <p>
+        * 
+
         * For Modules without existing markup, the appendToNode argument 
         * is REQUIRED. If this argument is ommitted and the current element is 
         * not present in the document, the function will return false, 
         * indicating that the render was a failure.
-        * </p>
-        * <p>
+        * 
+
+
+        * 
+
         * NOTE: As of 2.3.1, if the appendToNode is the document's body element
         * then the module is rendered as the first child of the body element, 
         * and not appended to it, to avoid Operation Aborted errors in IE when 
         * rendering the module before window's load event is fired. You can 
         * use the appendtodocumentbody configuration property to change this 
         * to append to document.body if required.
-        * </p>
+        * 
+
+
         * @method render
         * @param {String} appendToNode The element id to which the Module 
         * should be appended to prior to rendering <em>OR</em>
@@ -1767,13 +1776,19 @@ version: 2.3.1
          * This method is a private helper, used when constructing the DOM structure for the module 
          * to account for situations which may cause Operation Aborted errors in IE. It should not 
          * be used for general DOM construction.
-         * <p>
+         * 
+
          * If the parentNode is not document.body, the element is appended as the last element.
-         * </p>
-         * <p>
+         * 
+
+
+         * 
+
          * If the parentNode is document.body the element is added as the first child to help
          * prevent Operation Aborted errors in IE.
-         * </p>
+         * 
+
+
          *
          * @param {parentNode} The HTML element to which the element will be added
          * @param {element} The HTML element to be added to parentNode's children
@@ -2778,12 +2793,15 @@ version: 2.3.1
          * the Overlay element. The zindex of the iframe is set to be one less 
          * than the Overlay element's zindex.
          * 
-         * <p>NOTE: This method will not bump up the zindex of the Overlay element
+         * 
+NOTE: This method will not bump up the zindex of the Overlay element
          * to ensure that the iframe shim has a non-negative zindex.
          * If you require the iframe zindex to be 0 or higher, the zindex of 
          * the Overlay element should be set to a value greater than 0, before 
          * this method is called.
-         * </p>
+         * 
+
+
          * @method stackIframe
          */
         stackIframe: function() {
@@ -5752,11 +5770,14 @@ version: 2.3.1
          * the Panel element. The zindex of the mask is set to be one less 
          * than the Panel element's zindex.
          * 
-         * <p>NOTE: This method will not bump up the zindex of the Panel
+         * 
+NOTE: This method will not bump up the zindex of the Panel
          * to ensure that the mask has a non-negative zindex. If you require the
          * mask zindex to be 0 or higher, the zindex of the Panel 
          * should be set to a value higher than 0, before this method is called.
-         * </p>
+         * 
+
+
          * @method stackMask
          */
         stackMask: function() {

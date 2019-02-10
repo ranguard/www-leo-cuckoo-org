@@ -41,7 +41,10 @@ YAHOO.lang.extend(YAHOO.tool.TestLogger, YAHOO.widget.LogReader, {
         var category /*:String*/ = message.category;        
         var text /*:String*/ = this.html2Text(message.msg);
         
-        return "<pre><p><span class=\"" + category + "\">" + category.toUpperCase() + "</span> " + text + "</p></pre>";
+        return "<pre>
+<span class=\"" + category + "\">" + category.toUpperCase() + "</span> " + text + "
+
+</pre>";
     
     },
     

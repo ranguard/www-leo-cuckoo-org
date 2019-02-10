@@ -1000,12 +1000,15 @@ YAHOO.widget.DateMath = {
 * implementation, it has the ability to render a calendar widget on the page
 * that can be manipulated to select a single date, move back and forth between
 * months and years.
-* <p>To construct the placeholder for the calendar widget, the code is as
+* 
+To construct the placeholder for the calendar widget, the code is as
 * follows:
 *	<xmp>
 *		<div id="cal1Container"></div>
 *	</xmp>
-* </p>
+* 
+
+
 * @namespace YAHOO.widget
 * @class Calendar
 * @constructor
