@@ -1,59 +1,46 @@
-[% meta = {
+---
 	title = 'Senior Perl Developer CV',
 	section = 'cv',
 	keywords = 'Leo Lapworth, senior perl developer london, perl, london perl programmer, perl cv, london, technical manager, cv, ranguard',
 	description = 'This is the CV of Leo Lapworth, a senior perl developer and technical manager based in London.',
-} %][% INCLUDE "includes/header.html" meta => meta %]
-<link rel="stylesheet" type="text/css" href="style.css" />
+---
 
-<table width="640" border="0">
-<tr><td>
-<h1><a name="top"> </a>Leo Lapworth BSc (Hons.) - Senior Perl Developer London CV</h1>
-<h3>
-Tel: <a href="/contact/">http://leo.cuckoo.org/contact/</a><br />
-Email: leo at cuckoo.org<br />
+## Leo Lapworth BSc (Hons.) - Senior Perl Developer London CV
 
-Driving license: Clean<br />
-</h3>
-
+- Tel: <a href="/contact/">http://leo.cuckoo.org/contact/</a>
+- Email: leo at cuckoo.org
+- Driving license: Clean
 
 A short version of this CV can be found at: <a href="/cv/short.html">http://leo.cuckoo.org/cv/short.html</a>
 
 
-
-
-<h3>Types of job I would be interested in (though I am not looking at present):</h3>
-
+#### Types of job I would be interested in:
 
 Senior Perl Developer / Team Leader with management responsibilities, around central
 / west London.
 
 
+### Skills:
 
 
-<div class="nav">
-[ <a href="#top">top</a> | <a href="#skills">Skills</a> | <a href="#personality">Personality</a> | <a href="#work">Work Experience</a> | <a href="#education">Education</a> | <a href="#other">Other experience</a> ]
-</div>
-
-<h1><a name="skills">Skills:</a></h1>
-
-    <TABLE WIDTH="100%" border="0">
+<table>
 	<tr>
 	    <th valign="top">Web &amp; Development</th>
 	    <th valign="top">SysAdmin</th>
-	    <th valign="top">Management</th></tr>
+	    <th valign="top">Management</th>
+	</tr>
 	<tr>
 	    <td valign="top">
 		<ul>
-			<li>Perl <script type="text/javascript">calc_year(1996)</script></li>
-			<li>OO <script type="text/javascript">calc_year(1999)</script></li>
-			<li>Mod_perl <script type="text/javascript">calc_year(1999)</script></li>
+			<li>Perl {{ calc_year(1996) }}</li>
+			<li>OO {{ calc_year(1999) }}</li>
+			<li>Mod_perl {{ calc_year(1999) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
-			<li>Cloud computing (ec2/ebs/s3) <script type="text/javascript">calc_year(2008)</script>.</li>
-			<li>Apache web server <script type="text/javascript">calc_year(1996)</script></li>
+			<li>Cloud computing (ec2/ebs/s3) {{ calc_year(2008) }}.</li>
+			<li>Apache web server {{ calc_year(1996) }}</li>
 			<li>Server architecture.</li>
 		</ul>
 	    </td>
@@ -62,20 +49,21 @@ Senior Perl Developer / Team Leader with management responsibilities, around cen
 			<li>Team management</li>
 			<li>Project management</li>
 		</ul>
-	    </td></tr>
+	    </td>
+	</tr>
 	<tr>
 	    <td valign="top">
 		<ul>
-			<li>SQL (MySQL) <script type="text/javascript">calc_year(1998)</script></li>
+			<li>SQL (MySQL) {{ calc_year(1998) }}</li>
 			<li>Template Toolkit</li>
-			<li>(X)HTML <script type="text/javascript">calc_year(1998)</script></li>
+			<li>(X)HTML {{ calc_year(1998) }}</li>
 			<li>XML / DTDs / XPath</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
-			<li>Puppet <script type="text/javascript">calc_year(2008)</script></li>
-			<li>*nix SysAdmin <script type="text/javascript">calc_year(1996)</script></li>
+			<li>Puppet {{ calc_year(2008) }}</li>
+			<li>*nix SysAdmin {{ calc_year(1996) }}</li>
 			<li>Debian packaging &amp; deployment</li>
 		</ul>
 	    </td>
@@ -90,9 +78,9 @@ Senior Perl Developer / Team Leader with management responsibilities, around cen
 	<tr>
 	    <td valign="top">
 		<ul>
-			<li><a href="http://www.appcelerator.com/products/titanium-mobile-application-development/">Titanium</a> iPhone Apps <script type="text/javascript">var started = 2010;</script></li>
-			<li>JavaScript <script type="text/javascript">calc_year(2006)</script></li>
-			<li>jQuery <script type="text/javascript">calc_year(2008)</script></li>
+			<li><a href="http://www.appcelerator.com/products/titanium-mobile-application-development/">Titanium</a> iPhone Apps </li>
+			<li>JavaScript {{ calc_year(2006) }}</li>
+			<li>jQuery {{ calc_year(2008) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
@@ -109,53 +97,31 @@ Senior Perl Developer / Team Leader with management responsibilities, around cen
 		</ul>
 	    </td>
 	 </tr>
-</TABLE>
+</table>
 
-               
-<div class="nav">
-[ <a href="#top">top</a> | <a href="#skills">Skills</a> | <a href="#personality">Personality</a> | <a href="#work">Work Experience</a> | <a href="#education">Education</a> | <a href="#other">Other experience</a> ]
-</div>
-
-<h1><a name="personality">Personality:</a> </h1>
-
-
+### Personality
 
 Friendly, high self motivation / initiative as well as the ability to work with others and to problem solve quickly.
 
+### Work Experience
 
 
 
-<div class="nav">
-[ <a href="#top">top</a> | <a href="#skills">Skills</a> | <a href="#personality">Personality</a> | <a href="#work">Work Experience</a> | <a href="#education">Education</a> | <a href="#other">Other experience</a> ]
-</div>
-
-<h1><a name="work">Work Experience:</a></h1>
-
-<h2>Foxtons - Senior Web Developer / Web Manager</h2>
-<h3>July 2001 - Present</h3>
-
+#### Foxtons - Senior Web Developer / Web Manager
+##### July 2001 - Sept 2018
 
 Foxtons estate agents had a small team of inexperienced perl developers. I was
 asked to join as the senior developer and quickly took on managing the team as well.
 
-
-
-
 Initially the focus was development of a new site, though at the same time I 
 implemented significant automation of all systems and started improving the
 technical abilities of the existing members of the team.
-
-
-
 
 The team I now run are constantly trying to maintain the "market leading" status which
 we have achieved for the Foxtons website, the awards which we have 
 <a href="http://www.foxtons.co.uk/foxtons/awards/">received</a> is a testament to this. 
 Since joining Foxtons the traffic on the UK site has gone from
 2 million page impressions a month to over 21 million.
-
-
-
 
 A few of the many projects I have run are: working with Akamai/edge networks for the USA (when 
 it existed)  and UK Foxtons websites, plasma screen display and monitoring systems for the 
@@ -164,11 +130,8 @@ shop front offices, internal motivation personalised dashboards and intranets.
  <a href="http://itunes.apple.com/gb/app/uk-mortgage-calculators/id359431533"> application</a> development. The list is too numerous to fully expand upon here.
 
 
-
-
-<h2>Cloudband.com - DBA / Developer</h2>
-<h3>April 2001 - June 2001</h3>
-
+#### Cloudband.com - DBA / Developer
+##### April 2001 - June 2001
 
 Cloudband required me to redesign their database schema and 
 migrate the existing (2 years worth of) data into the new postgreSQL schema.
@@ -178,30 +141,19 @@ the new schema (60+ tables) and a perl script which would create both the docume
 from the XML. I then created a migration OO module to assist
 with the data migration and testing of the data's validity.
 
-
-
-
-<h2>Torrington Interactive Ltd - Senior Developer</h2>
-<h3>Feb 2001 - End March 2001</h3>
-
+#### Torrington Interactive Ltd - Senior Developer
+##### Feb 2001 - End March 2001
 
 In my short time at Torrington (another causality of the Internet low), I designed
-and created several systems and projects:<br />
-Agents - creating an agent to gather information from the web / mailing lists / news<br />
-Mail Analyzer - comparing information on subscribers to multiple mailing lists.<br />
-Technology comparisons, comparing HTML::Template with Template Toolkit.<br />
+and created several systems and projects:
+Agents - creating an agent to gather information from the web / mailing lists / news
+Mail Analyzer - comparing information on subscribers to multiple mailing lists.
+Technology comparisons, comparing HTML::Template with Template Toolkit.
 
-
-
-
-<h2>Emap Online - Technical Manager</h2>
-<h3>April 2000 -  Jan 2001</h3>
-
+#### Emap Online - Technical Manager
+##### April 2000 -  Jan 2001
 
 Emap Online: <a href="http://www.emaponline.com/">www.emaponline.com</a> was the award winning online division of Emap PLC, one of the worlds largest publishing companies.
-
-
-
 
 As Technical Manager I was able to build a strong team of people and guide
 the teams development to a point where we had invested sufficient time to
@@ -209,15 +161,9 @@ drastically reduce project development costs through a set of standard
 approaches. This has made Digital TV versions of our sites and XML feeds
 of our content very simple to implement. 
 
-
-
-
 We had just finished the development of several key systems, one of which 
 allowed the full integration of all location information (from resort guides
 to piest maps) across all the travel Products in the companies portfolio.
-
-
-
 
 I was responsible for all day to day issues relating to the technical team, which
 included the management of the four permanent staff working for me and any contractors we
@@ -227,26 +173,16 @@ development to start. When a project had been signed off I was required to Proje
 manage all technical aspects and liaise with the other areas of the company; from
 design to commercial and content.
 
-
-
-
 I was still actively developing, creating a new system for the Escaperoutes site 
 which included a generic shopping basket system.
 
-
-
-
-<h2>Emap Online - Technical Operations Manager</h2>
-<h3>August 1999 -  April 2000</h3>
-
+#### Emap Online - Technical Operations Manager
+##### August 1999 -  April 2000
 
 As Technical Operations Manager I was responsible for the day to day running off all the company servers; 
 14 Solaris machines, a linux box and an NT server. I was also responsible for creating and 
 implementing infrastructure and security policies,
 as well as personalised email list systems. I was the line manager for the Technical Operations Assistant.
-
-
-
 
 During my time as Technical Operations Manager I devised and implemented a new web server
 farm. The primary goal of this network was to make our sites fast, resilient and reliable.
@@ -254,184 +190,125 @@ This was accomplished by using firewalls and load balancing with front end serve
 better logging of information and easier sharing of functionality between sites and
 versions.
 
-
-
-
 I also remained the technical contact for A2bFlights.com (as I developed the site from scratch)
  and Bargainholidays.com as well as working on other projects when it was required.
 
-
-
-
-
-<h2>Emap Online - Network Manager - Webmaster  / Internet developer</h2>
-<h3>August 1997 -  August 1999</h3>
-
+#### Emap Online - Network Manager - Webmaster  / Internet developer
+##### August 1997 -  August 1999
 
 As Network Manger my primary responsibility was the servers. From ordering and liaising with hosting companies to maintenance and development, for all 9 servers (Web, DNS, Mail and Office) which were hosted on an array of machines (Sun Solaris, linux and NT). 
 
-
-
-
 I spent the bulk of my time developing and maintaining several of the companies web sites (Bargainholidays.com, Whatsonstage.com, The Digital City Network) as well as working with others in the technical team on all of Emap Online's products which were coded predominantly in Perl using DBI and MySql. I created numerous web editing systems and user interfaces to databases, including versions for Web, Digital TV, Palm Pilots and other Mobile devices. Regularly working with third parties required that I communicated methods and ideas for development (both technical and personal) between us.
-
-
-
 
 I was often used for problem solving and fire fighting within the company as I had a broad knowledge of all systems as well as being able to quickly comprehend and find requirements for a solution.
 
-
-
-<h2>Channel D Ltd - Webmaster / Net Software Engineer.</h2>
-<h3>June 1996 - July 1997</h3>
-
+#### Channel D Ltd - Webmaster / Net Software Engineer.
+##### June 1996 - July 1997
 
 My duties included setting up and running Internet and Intranet servers (including editing systems) for small to medium sized companies. I used HTML, CGI and Perl to implement a range of projects from shopping baskets to online database interfaces. This job allowed me to develop my TCP/IP networking and PC support skills.
 
-
-
-<h2>Inter-Action Ltd. - PC training / support</h2>
-<h3>July 1995 - Sept 1995</h3>
+#### Inter-Action Ltd. - PC training / support
+##### July 1995 - Sept 1995
 
 I worked for Inter-action as their technical support, updating and troubleshooting the PC systems and training other members of staff how to use the new software.
 
 
+### Education
 
-
-<div class="nav">
-[ <a href="#top">top</a> | <a href="#skills">Skills</a> | <a href="#personality">Personality</a> | <a href="#work">Work Experience</a> | <a href="#education">Education</a> | <a href="#other">Other experience</a> ]
-</div>
-
-<h1><a name="education">Education:</a></h1>
-
-<ul>
-	<li>BSc (Hons) Psychology - Essex University</li>
-	<li>A-levels: Maths, Politics, Geography - LA SWAP 6th form.</li>
-	<li>GCSEs: 8 (A-C), 1 D - Stoke Newington School.</li>
-</ul>
-
-<div class="nav">
-[ <a href="#top">top</a> | <a href="#skills">Skills</a> | <a href="#personality">Personality</a> | <a href="#work">Work Experience</a> | <a href="#education">Education</a> | <a href="#other">Other experience</a> ]
-</div>
-
-<h1><a name="other">Other Experience:</a></h1>
-
-<h3>London.pm Leader</h3>
-
-I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</a> at the end of October 2010
+- BSc (Hons) Psychology - Essex University
+- A-levels: Maths, Politics, Geography - LA SWAP 6th form.
+- GCSEs: 8 (A-C), 1 D - Stoke Newington School.
 
 
 
-<h3>Just Amazing Cards: iPhone apps</h3>
+### Other Experience
 
-In July 2010 I launched <a href="http://www.justamazingcards.com/">Just Amazing Cards</a> an iPhone app with my brother.
+#### Various projects
+
+Can be viewed at <a href="http://leo.cuckoo.org/projects/">http://leo.cuckoo.org/projects/</a>
+
+#### London.pm Leader
+##### Nov 2010 - April 2012
+
+I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</a>
+
+#### Just Amazing Cards: iPhone apps (defunct)
+##### 2010
+
+I built and launched **Just Amazing Cards** an iPhone app with my brother.
+
+#### Perl.com
+##### July 2010
+
+I helped co-ordinate the migration of Perl.com from O'Reilly publishers to <a href="http://www.perlfoundation.org/">TPF</a>.
+
+#### Perl.org
+##### Dec 2009
+
+I redesigned and cleaned up the <a href="http://www.perl.org">Perl.org</a> websites, starting with the main <a href="http://www.perl.org/">www.perl.org</a> site, I also recoded <a href="http://learn.perl.org/">Learn</a>, <a href="http://dbi.perl.org/">DBI</a>, <a href="http://qa.perl.org/">QA</a>, <a href="http://dev.perl.org/">Dev</a>.
 
 
+#### MighTyV
+##### 2005
 
-<h3>Perl.com:</h3>
+MighTyV was a TV listings website, we won the 2005 BBC Backstage compeition
+when they just made their data set available publically.
 
-In July 2010 I helped co-ordinate the migration of Perl.com from O'Reilly publishers to <a href="http://www.perlfoundation.org/">TPF</a>.
-
-
-
-<h3>Perl.org:</h3>
-
-In December 2009 I redesigned and cleaned up the <a href="http://www.perl.org">Perl.org</a> websites, starting with the main <a href="http://www.perl.org/">www.perl.org</a> site,
-    I also recoded <a href="http://learn.perl.org/">Learn</a>, <a href="http://dbi.perl.org/">DBI</a>, <a href="http://qa.perl.org/">QA</a>, <a href="http://dev.perl.org/">Dev</a>
-
-
-
-<h3>MighTyV: <a href="http://www.mightyv.com/">http://www.mightyv.com/</a></h3>
-
-
-<a href="http://www.mightyv.com/">MighTyV</a> is a TV listings website, we won the
-<a href="http://backstage.bbc.co.uk/news/archives/2005/10/backstage_compe.html">BBC Backstage compeition</a> - see the <a href="http://www.mightyv.com/about/">about page</a> for more info.
-
-
-
-
-<h3>My Own Servers</h3>
-
+#### My Own Servers
 
 I have my own servers on the internet (2 debian boxes) which I SysAdmin and
 host several friends sites (DNS / Email / Mailing lists / Blogs / Web / DB etc). 
 
-
-
-
-<h3>London.pm</h3>
-
+#### London.pm
+##### Since 1998
 
 I am a member of the London Perl Mongers group and take an active part in the perl community.
-I am also a <a href="http://search.cpan.org/author/LLAP/">CPAN</a> author. I ran the London.pm web site:
+I am also a <a href="https://metacpan.org/author/LLAP">CPAN</a> author. I ran the London.pm web site:
 <a href="http://london.pm.org/">http://london.pm.org</a> for a while as well.
 
 
+#### All2cool: gadget review site
+##### Jan 2000 - 2008
 
-
-<h3>Current Open Source Projects</h3>
-
-
-Can be viewed at <a href="http://leo.cuckoo.org/projects/">http://leo.cuckoo.org/projects/</a>
-
-
-
-
-<h3>All2cool: gadget review site</h3>
-
-
-Jan 2000 - 2008<br />
 I was the sole technical person on this site which went been through many incarnations.
 
+#### The Cuckoo's Nest
+##### Sept 1995 - present day
 
-
-
-<h3>The Cuckoo's Nest: <a href="http://www.cuckoo.org/">www.cuckoo.org</a> </h3>
-
-Sept 1995 - present day<br />
 This is a web site I run with several friends. It was initially planned as a 
 community portal but it was decided that there were to many other similar sites.
 
+#### Inter-Action - Advisor to the Youth-Tech Advisory panel for Inter-Action
+##### April 1997 - June 1999
 
-
-
-<h3>Inter-Action - Advisor to the Youth-Tech Advisory panel for Inter-Action</h3>
-
-
-April 1997 - June 1999<br />
 Inter-Action was a London based charity working in the IT field, training underprivileged Londoners (mainly people aged 14 to 25) in the use of computers and multimedia tools. My role on the advisory panel was to offer technical knowledge of the Internet. I helped devise and teach a peer training system in business and computer skills for peer trainers working with Inter-Action. This course was run both in the UK and Russia.
 
+#### Prompt
+##### Sept 1994 - June 1996
 
-
-
-<h3>Prompt</h3>
-
-University of Essex computer society - Webmaster, teacher &amp; founder member.<br />
-Sept 1994 - June 1996<br />
+University of Essex computer society - Webmaster, teacher &amp; founder member.
 Prompt was the second largest society on campus, we developed it to help teach each other Unix and to improve the Universities software libraries. Eventually Prompt diversified to teaching courses on using the University computer system. I taught several courses in web page creation and how to use email programs. I also created and maintained the societies web site.
 
 
 
-</td></tr>
-
-<tr><td>
-
-<div class="nav">
-[ <a href="#top">top</a> | <a href="#skills">Skills</a> | <a href="#personality">Personality</a> | <a href="#work">Work Experience</a> | <a href="#education">Education</a> | <a href="#other">Other experience</a> ]
-</div>
 
 
 
-Last updated: March 2006<br />
-Location: <a href="http://leo.cuckoo.org/cv/">http://leo.cuckoo.org/cv/</a>
+<script>
 
-
-
-</td></tr>
-
-</table>
-
-
-
-[% INCLUDE "includes/footer.html" meta => meta %]
-
+export default {
+  name: "App",
+  methods: {
+	  calc_year: function(start) {
+		var d = new Date();
+		var year = d.getFullYear();
+                var diff = year - start;
+                if(diff == 1) {
+                        return '(' + diff + ' year)';
+                } else {
+                        return '(' + diff + ' years)';
+                }
+	  }
+  }
+}
+</script>
