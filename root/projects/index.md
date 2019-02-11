@@ -13,8 +13,8 @@ Various non-work sites and projects that I have been involved in.
 ### MighTyV.com (defunct)
 	
 Leon Brocard and I entered the BBC Backstage competition and Won!
-The results of our hard work can be seen at <a href="https://web.archive.org/web/20140215235448/http://www.mightyv.com/">http://www.mightyv.com/ (wayback)</a>. Make sure to check out the 'about' page to see all the features it has. Leon and I did a talk at the 2005 London Perl Workshop about MighTyV.com,
-you can <a href="mightyv.pdf">Download a PDF of the presentation</a>.
+The results of our hard work can be seen at [http://www.mightyv.com/ (wayback)](https://web.archive.org/web/20140215235448/http://www.mightyv.com/). Make sure to check out the 'about' page to see all the features it has. Leon and I did a talk at the 2005 London Perl Workshop about MighTyV.com,
+you can view our [presentation](mightyv.pdf)
 
 ### Just Amazing Cards - iOS greeting card app (defunct)
 
@@ -23,13 +23,17 @@ backgrounds / borders / messages / fonts etc and email the generated output to s
 
 ### Phil Lapworth
 	
-I created my dad's website <a href="http://www.murhill.com/">Psychotherapy, Counselling and Supervision near Bath</a>.
+I created my dad's website [Psychotherapy, Counselling and Supervision near Bath](http://www.murhill.com/).
 
 ### Laurie Lapworth
 	
-I built my brothers website, he is a <a href="http://www.laurielapworth.com/">Photographer near Bath</a>.
+I built my brothers website, he is a [Photographer near Bath](http://www.laurielapworth.com/).
+
+### Olivia Lousada
+
+I build my mum's website, [Hidden Twins](http://www.hiddentwins.com/).
 
 ### Mini Canvases (defunct)
+##### 2012
 
 `Imageeasel.com` was a company run by my brother producing miniature canvas prints from your own images. I helped him to build the website, including image upload and payment portal.
-
