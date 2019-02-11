@@ -2,7 +2,7 @@
 
 ## What's this site about ?
 	
-Well, me, Leo Lapworth <a href="/cv/">Senior perl developer</a> and perl monge
+Well, me, Leo Lapworth <a href="/cv/">Senior perl developer</a> and perl monger
 	
 I also thought I should really have a place to keep all the bits I've done over the years as after having been working with perl, on the internet since (quick calculation) 1994, and actually working in the field since 1996 I've managed to amass lots of stuff on many different sites I'm involved in and on many different servers.
 

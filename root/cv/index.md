@@ -20,8 +20,7 @@ Senior Perl Developer / Team Leader with management responsibilities, around cen
 / west London.
 
 
-### Skills:
-
+### Skills
 
 <table>
 	<tr>
