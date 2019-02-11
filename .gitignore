@@ -1,2 +1,2 @@
-htdocs/
-app.psgi
+root/.vuepress/dist/
+root/node_modules/

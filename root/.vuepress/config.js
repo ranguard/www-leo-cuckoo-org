@@ -2,11 +2,14 @@ module.exports = {
   title: 'Leo Lapworth',
   description: 'Just playing around',
     themeConfig: {
+      sidebar: 'auto',
+      sidebarDepth: 5,
+      displayAllHeaders: true,
     	search: false,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
+      { text: 'Projects', link: '/projects/' },
+      { text: 'CV', link: '/cv/' },
     ]
   }
 }
