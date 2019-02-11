@@ -1,9 +1,8 @@
 ---
-	title = 'Projects'
-	section = 'projects'
+	title: Open Source
 ---
 
-## Open source
+# Open source
 	
 Some of the open source work I currently do and others that have done over the years. Mostly taking
 on a role, be that sysadmin, editor or html implimentor that other parts
@@ -16,13 +15,12 @@ of the communities didn't have someone to cover.
 ### White camel
 ##### 2011
 
-I received the [Perl White Camel Community Award](https://www.perl.org/advocacy/white_camel/2011.html)
+I received the [Perl White Camel Community Award](https://www.perl.org/advocacy/white_camel/2011.html) for some of the work listed below.
 
 ### London.pm Member and Leader
 ##### Since 1998 (leader for: Nov 2010 - April 2012)
 
-I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</a>
-
+I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</a>. Big plans, but lack of time! Honored my commitment to let others organise both technical and social events.
 
 ## Websites 
 
@@ -31,7 +29,7 @@ I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</
 
 I act as the systems administrator, having written most of the [Puppet](https://github.com/metacpan/metacpan-puppet) setup, I also run the [Fastly CDN](https://www.fastly.com) config and the Honeycomb.io intergrations. This site
 is now run across 2 datacenters (EU and US) with Elasticsearch backup
-for assurance of continuity.
+for assurance of continuity. Limiting the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) has always been important for me. 
 
 ### *.Perl.org
 ##### December 2009 - present
@@ -60,7 +58,7 @@ I redesigned  <a href="http://www.pm.org/">www.pm.org</a> from scratch.
 I reviewed/rewrote most of the content on <a href="http://www.cpan.org/">www.cpan.org</a> I also
 implemented a new design.
 
-### PerlNews.org (defunct)
+### PerlNews.org <Badge text="deactivated" type="warn"/>
 ##### March 2011
 
 I launched Perl news</> site with Dave Cross, which targeted

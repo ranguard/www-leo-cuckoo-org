@@ -1,13 +1,10 @@
 ---
-	title = 'Senior Perl Developer CV',
-	section = 'cv',
-	keywords = 'Leo Lapworth, senior perl developer, perl,  perl programmer, perl cv, technical manager, cv, ranguard',
-	description = 'This is the CV of Leo Lapworth, a senior perl developer and technical manager.',
+	title: Leo Lapworth Senior Perl Developer CV
 ---
 
-## Leo Lapworth BSc (Hons.) - Senior Perl Developer London CV
+## Leo Lapworth CV
 
-- Tel: <a href="/contact/">http://leo.cuckoo.org/contact/</a>
+- Tel: +4477 1167 1828
 - Email: leo at cuckoo.org
 - Driving license: Clean
 
@@ -235,8 +232,20 @@ University of Essex computer society - Webmaster, teacher &amp; founder member.
 Prompt was the second largest society on campus, we developed it to help teach each other Unix and to improve the Universities software libraries. Eventually Prompt diversified to teaching courses on using the University computer system. I taught several courses in web page creation and how to use email programs. I also created and maintained the societies web site.
 
 
-
-
+<!-- Hide stuff when printing this page -->
+<style  type="text/css">
+	@media print {
+		.sidebar {
+			display: none;
+		}
+		.navbar {
+			display: none;
+		}
+		.page {
+			padding-left: 0 !important;
+		}
+	}
+</style>
 
 
 <script>

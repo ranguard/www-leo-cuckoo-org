@@ -8,9 +8,9 @@ module.exports = {
     	search: false,
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Open Source', link: '/opensource/' },
       { text: 'Projects', link: '/projects/' },
       { text: 'Talks', link: '/talks/' },
-      { text: 'Open Source', link: '/opensource/' },
       { text: 'CV', link: '/cv/' },
     ]
   }
