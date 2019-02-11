@@ -1,9 +1,0 @@
-
-
-
-main: full width = 750
-usually with 50 padding on right
-
-2 col:
-
-|---- 350 ----| 25 |------ 350 ---| 25

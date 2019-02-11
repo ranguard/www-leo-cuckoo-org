@@ -30,13 +30,13 @@ Two talks I have done for <a href="http://www.yapceurope.org/">YAPC::Europe</a> 
 ### Data::Pageset
 	
 Here is a talk I did for London.pm on Data::Pageset, it's
-	a bit rought and ready but might be of use, <a
-	href="/projects/Data_Pageset_Talk/">Read here..</a> or
-	<a href="/projects/Data_Pageset_Talk/dp.tar">download tar here</a>.
+a bit rought and ready but might be of use, 
+<a href="/projects/Data_Pageset_Talk/">Read here..</a> or
+<a href="/projects/Data_Pageset_Talk/dp.tar">download tar here</a>.
 
 ### Perl.org - white papers
     
-In March 2010 I started wrote and organising a set of <a href= "http://www.perl.org/about/whitepapers/">Perl White Papers</a> on Perl.org
+In March 2010 I started wrote and organising a set of <a hrefmeta= "http://www.perl.org/about/whitepapers/">Perl White Papers</a> on Perl.org
     
 
 ## Websites / Apps
@@ -106,21 +106,21 @@ the website (his design, my tech).
 Text::vCard is used to parse a vCard
 	formatted file into a perl object with accessor methods.
 	It can be downloaded from <a
-	href="http://search.cpan.org/dist/Text-vCard/">http://search.cpan.org/dist/Text-vCard/</a>, <a href="http://code.google.com/p/llap/source/browse">Subversion</a>
+	href="https://metacpan.org/release//Text-vCard/">https://metacpan.org/release//Text-vCard/</a>, <a href="http://code.google.com/p/llap/source/browse">Subversion</a>
 
 
 ### Data::Pageset
 	
 This perl object inherits from Data::Page and adds additional functionality
 	so that one can create page sets rather than having one massive list
-	of pages. Latest version can be downloaded from <a href="http://search.cpan.org/dist/Data-Pageset/">http://search.cpan.org/dist/Data-Pageset/</a>, <a
+	of pages. Latest version can be downloaded from <a href="https://metacpan.org/release//Data-Pageset/">https://metacpan.org/release//Data-Pageset/</a>, <a
 	href="http://code.google.com/p/llap/source/browse">Subversion</a>
 	
 ### SVG::TT::Graph
 	
 This perl module makes creating presentation quality SVG graphs
 	from any data source very easy, with many display options;
-	key, title, sub title, x-lables, y-lables etc. <a href="http://search.cpan.org/dist/SVG-TT-Graph/">http://search.cpan.org/dist/SVG-TT-Graph/</a>, <a
+	key, title, sub title, x-lables, y-lables etc. <a href="https://metacpan.org/release//SVG-TT-Graph/">https://metacpan.org/release//SVG-TT-Graph/</a>, <a
 	href="http://code.google.com/p/llap/source/browse">Subversion</a>, <a href="/projects/SVG-TT-Graph/">Examples</a>
 
 
