@@ -142,3 +142,23 @@ Friendly, high self motivation / initiative as well as the ability to work with 
 - <a href="http://leo.cuckoo.org/opensource/">Open source - http://leo.cuckoo.org/opensource/</a>
 - <a href="http://leo.cuckoo.org/talks/">Talks - http://leo.cuckoo.org/talks/</a>
 - <a href="http://leo.cuckoo.org/projects/">Projects - http://leo.cuckoo.org/projects/</a>
+
+
+<script>
+
+export default {
+  name: "App",
+  methods: {
+	  calc_year: function(start) {
+		var d = new Date();
+		var year = d.getFullYear();
+                var diff = year - start;
+                if(diff == 1) {
+                        return '(' + diff + ' year)';
+                } else {
+                        return '(' + diff + ' years)';
+                }
+	  }
+  }
+}
+</script>
