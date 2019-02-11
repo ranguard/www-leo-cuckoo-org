@@ -3,16 +3,20 @@
 	section = 'projects'
 ---
 
-# Open source
+## Open source
 	
 Some of the open source work I currently do and others that have done over the years. Mostly taking
 on a role, be that sysadmin, editor or html implimentor that other parts
 of the communities didn't have someone to cover.
+ 
+- [My Github account](http://github.com/ranguard/)
+- [My Perl Blog](http://blogs.perl.org/users/leo_lapworth/) (not updated much)
+- [My Perl CPAN modules](http://search.cpan.org/~llap/)
 
 ### White camel
-##### FIXME
+##### 2011
 
-I was given the `Perl White Camel Award` (for no technical contributions to the Perl community)
+I received the [Perl White Camel Community Award](https://www.perl.org/advocacy/white_camel/2011.html)
 
 ### London.pm Leader
 ##### Nov 2010 - April 2012
@@ -22,32 +26,39 @@ I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</
 
 ## Websites 
 
+### MetaCPAN.org
+##### 2012 - present
+
+I act as the systems administrator, having written most of the [Puppet](https://github.com/metacpan/metacpan-puppet) setup, I also run the [Fastly CDN](https://www.fastly.com) config and the Honeycomb.io intergrations. This site
+is now run across 2 datacenters (EU and US) with Elasticsearch backup
+for assurance of continuity.
+
 ### *.Perl.org
 ##### December 2009 - present
     
 I revamped most of the <a href="http://www.perl.org">Perl.org</a> websites, starting with the main <a href="http://www.perl.org/">www.perl.org</a> site, I also recoded <a href="http://learn.perl.org/">Learn</a>, <a href="http://dbi.perl.org/">DBI</a>, <a href="http://qa.perl.org/">QA</a>, <a href="http://dev.perl.org/">Dev</a>.
-I am now one of the maintainers of these sites.
+I am now one of the 3 maintainers of these sites.
 
 ### Perlsphere.net
-##### Jan 2010 - preswent
+##### Jan 2010 - 2019
     
 Took on running and maintaining <a href="http://perlsphere.net/">Perlsphere.net</a>.
 
-### www.pm.org - site redesign
+### www.pm.org
 ##### Auguest 2012
 
 I redesigned  <a href="http://www.pm.org/">www.pm.org</a> from scratch.
 
-### www.cpan.org - site redesign and content update
+### www.cpan.org
 ##### March 2011
     
 I reviewed/rewrote most of the content on <a href="http://www.cpan.org/">www.cpan.org</a> I also
 implemented a new design.
 
-### perlnews.org - Perl News blog (now defunct)
+### PerlNews.org (defunct)
 ##### March 2011
 
-I launched Perl news</a> site with Dave Cross, which targeted
+I launched Perl news</> site with Dave Cross, which targeted
 major announcements within the Perl community. Now that <a href="https://www.perl.com/">Perl.com</a> is active again we have redirected to there.
 
 ## Perl Modules
