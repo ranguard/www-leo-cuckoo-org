@@ -1,3 +1,9 @@
+---
+home: true
+heroText: Leo Lapworth
+actionText: View CV
+actionLink: ./cv/
+---
 
 
 ## What's this site about ?
@@ -10,7 +16,7 @@ So this is me trying to put some sort of order on all that, whether I achieve th
 
 ## Who am I ?
 	
-If you don't know, then why are you bothering to look at my site? I'm not going to do the "My name is bob (which it isn't) and I like computers bit (true, but sounds like geek to me - which I am, but this protrudes all sorts of nasty images which just isn't true, anyway I digress)".
+If you don't know, then why are you bothering to look at my site? I'm not going to do the "My name is bob (which it isn't) and I like computers bit (true, but sounds like geek to me - which I am, but this protrudes all sorts of images which just arn't all true, anyway I digress)".
 		
 To know who I am, look around this site, or turn up to one of the <a href="http://london.pm.org/"><span class="link">London Perl Mongers</span></a> meets as I am often there, or catch me on irc.perl.org #London.pm. You could always look at my <a href="/cv/">CV</a>.
 

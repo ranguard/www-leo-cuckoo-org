@@ -18,8 +18,8 @@ of the communities didn't have someone to cover.
 
 I received the [Perl White Camel Community Award](https://www.perl.org/advocacy/white_camel/2011.html)
 
-### London.pm Leader
-##### Nov 2010 - April 2012
+### London.pm Member and Leader
+##### Since 1998 (leader for: Nov 2010 - April 2012)
 
 I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</a>
 
@@ -38,6 +38,11 @@ for assurance of continuity.
     
 I revamped most of the <a href="http://www.perl.org">Perl.org</a> websites, starting with the main <a href="http://www.perl.org/">www.perl.org</a> site, I also recoded <a href="http://learn.perl.org/">Learn</a>, <a href="http://dbi.perl.org/">DBI</a>, <a href="http://qa.perl.org/">QA</a>, <a href="http://dev.perl.org/">Dev</a>.
 I am now one of the 3 maintainers of these sites.
+
+#### Perl.com
+##### July 2010
+
+I helped co-ordinate the migration of Perl.com from O'Reilly publishers to <a href="http://www.perlfoundation.org/">TPF</a>.
 
 ### Perlsphere.net
 ##### Jan 2010 - 2019

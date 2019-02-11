@@ -11,21 +11,20 @@
 - Email: leo at cuckoo.org
 - Driving license: Clean
 
-A short version of this CV can be found at: <a href="/cv/short.html">http://leo.cuckoo.org/cv/short.html</a>
-
-
 #### Types of job I would be interested in:
 
-Senior Perl Developer / Team Leader with management responsibilities, around central
-/ west London.
-
+Mostly remote, CTO/team lead/systems architect level. I'm interested in TypeScript and Serverless, ideally using AWS cloud services, though that's just a passion
+at the moment. I love working with Perl, though I wouldn't start a new project in it.
 
 ### Skills
+
+I've limited this to more recent technologies but know a lot of
+others.
 
 <table>
 	<tr>
 	    <th valign="top">Web &amp; Development</th>
-	    <th valign="top">SysAdmin</th>
+	    <th valign="top">Architecure</th>
 	    <th valign="top">Management</th>
 	</tr>
 	<tr>
@@ -33,29 +32,30 @@ Senior Perl Developer / Team Leader with management responsibilities, around cen
 		<ul>
 			<li>Perl {{ calc_year(1996) }}</li>
 			<li>OO {{ calc_year(1999) }}</li>
-			<li>Mod_perl {{ calc_year(1999) }}</li>
+			<li>TypeScript {{ calc_year(2018) }}</li>
+			<li>JavaScript {{ calc_year(2006) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
-			<li>Cloud computing (ec2/ebs/s3) {{ calc_year(2008) }}.</li>
-			<li>Apache web server {{ calc_year(1996) }}</li>
-			<li>Server architecture.</li>
+			<li>Serverless computing {{ calc_year(2018) }}.</li>
+			<li>Event driven architecure {{ calc_year(2018) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
-			<li>Team management</li>
-			<li>Project management</li>
+			<li>Agile(ish)</li>
+			<li>Teams</li>
+			<li>Projects</li>
 		</ul>
 	    </td>
 	</tr>
 	<tr>
 	    <td valign="top">
 		<ul>
+			<li>Vue.js {{ calc_year(2018) }}</li>
 			<li>SQL (MySQL) {{ calc_year(1998) }}</li>
 			<li>Template Toolkit</li>
-			<li>(X)HTML {{ calc_year(1998) }}</li>
 			<li>XML / DTDs / XPath</li>
 		</ul>
 	    </td>
@@ -70,29 +70,23 @@ Senior Perl Developer / Team Leader with management responsibilities, around cen
 		<ul>
 			<li>Specifications</li>
 			<li>Standards</li>
-			<li>Microsoft Visio</li>
 		</ul>
 	    </td>
 	</tr>
 	<tr>
 	    <td valign="top">
 		<ul>
-			<li><a href="http://www.appcelerator.com/products/titanium-mobile-application-development/">Titanium</a> iPhone Apps </li>
-			<li>JavaScript {{ calc_year(2006) }}</li>
-			<li>jQuery {{ calc_year(2008) }}</li>
+			<li>Git {{ calc_year(2006) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
 			<li>DNS / Exim etc</li>
-			<li>Git / gitalist / subversion</li>
-			<li>MailMan</li>
-			<li>Majordomo</li>
+			<li>[Fastly CDN](https://www.fastly.com/) VCL</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
-			<li>Time management</li>
 		</ul>
 	    </td>
 	 </tr>
@@ -222,60 +216,12 @@ I worked for Inter-action as their technical support, updating and troubleshooti
 
 ### Other Experience
 
-#### Various projects
+#### Other things too numerious to mention
 
-Can be viewed at <a href="http://leo.cuckoo.org/projects/">http://leo.cuckoo.org/projects/</a>
+- <a href="http://leo.cuckoo.org/opensource/">Open source - http://leo.cuckoo.org/opensource/</a>
+- <a href="http://leo.cuckoo.org/talks/">Talks - http://leo.cuckoo.org/talks/</a>
+- <a href="http://leo.cuckoo.org/projects/">Projects - http://leo.cuckoo.org/projects/</a>
 
-#### London.pm Leader
-##### Nov 2010 - April 2012
-
-I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</a>
-
-#### Just Amazing Cards: iPhone apps (defunct)
-##### 2010
-
-I built and launched **Just Amazing Cards** an iPhone app with my brother.
-
-#### Perl.com
-##### July 2010
-
-I helped co-ordinate the migration of Perl.com from O'Reilly publishers to <a href="http://www.perlfoundation.org/">TPF</a>.
-
-#### Perl.org
-##### Dec 2009
-
-I redesigned and cleaned up the <a href="http://www.perl.org">Perl.org</a> websites, starting with the main <a href="http://www.perl.org/">www.perl.org</a> site, I also recoded <a href="http://learn.perl.org/">Learn</a>, <a href="http://dbi.perl.org/">DBI</a>, <a href="http://qa.perl.org/">QA</a>, <a href="http://dev.perl.org/">Dev</a>.
-
-
-#### MighTyV
-##### 2005
-
-MighTyV was a TV listings website, we won the 2005 BBC Backstage compeition
-when they just made their data set available publically.
-
-#### My Own Servers
-
-I have my own servers on the internet (2 debian boxes) which I SysAdmin and
-host several friends sites (DNS / Email / Mailing lists / Blogs / Web / DB etc). 
-
-#### London.pm
-##### Since 1998
-
-I am a member of the London Perl Mongers group and take an active part in the perl community.
-I am also a <a href="https://metacpan.org/author/LLAP">CPAN</a> author. I ran the London.pm web site:
-<a href="http://london.pm.org/">http://london.pm.org</a> for a while as well.
-
-
-#### All2cool: gadget review site
-##### Jan 2000 - 2008
-
-I was the sole technical person on this site which went been through many incarnations.
-
-#### The Cuckoo's Nest
-##### Sept 1995 - present day
-
-This is a web site I run with several friends. It was initially planned as a 
-community portal but it was decided that there were to many other similar sites.
 
 #### Inter-Action - Advisor to the Youth-Tech Advisory panel for Inter-Action
 ##### April 1997 - June 1999

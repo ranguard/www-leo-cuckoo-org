@@ -9,17 +9,29 @@ Various non-work sites and projects that I have been involved in.
 
 ## Websites / Apps
 
+### Just Amazing Cards - iOS greeting card app (defunct)
+##### 2010
+
+In July 2010 released my first personal iPhone app. It was my brothers idea and he did all the design work. You could record messages / intergrate your own photos / choose
+backgrounds / borders / messages / fonts etc and email the generated output to someone. [Demo video](https://www.youtube.com/watch?v=sCfh85Mxk1Q).
 
 ### MighTyV.com (defunct)
-	
+##### 2005
+
 Leon Brocard and I entered the BBC Backstage competition and Won!
 The results of our hard work can be seen at [http://www.mightyv.com/ (wayback)](https://web.archive.org/web/20140215235448/http://www.mightyv.com/). Make sure to check out the 'about' page to see all the features it has. Leon and I did a talk at the 2005 London Perl Workshop about MighTyV.com,
 you can view our [presentation](mightyv.pdf)
 
-### Just Amazing Cards - iOS greeting card app (defunct)
+#### All2cool: gadget review site
+##### Jan 2000 - 2008
 
-In July 2010 released my first personal iPhone app. It was my brothers idea and he did all the design work. You could record messages / intergrate your own photos / choose
-backgrounds / borders / messages / fonts etc and email the generated output to someone. [Demo video](https://www.youtube.com/watch?v=sCfh85Mxk1Q).
+I was the sole technical person on this site which went been through many incarnations.
+
+#### The Cuckoo's Nest
+##### Sept 1995 - present day
+
+This is a web site I run with several friends. It was initially planned as a 
+community portal but it was decided that there were to many other similar sites.
 
 ### Phil Lapworth
 	
