@@ -1,8 +1,8 @@
 ---
 	title = 'Senior Perl Developer CV',
 	section = 'cv',
-	keywords = 'Leo Lapworth, senior perl developer london, perl, london perl programmer, perl cv, london, technical manager, cv, ranguard',
-	description = 'This is the CV of Leo Lapworth, a senior perl developer and technical manager based in London.',
+	keywords = 'Leo Lapworth, senior perl developer, perl,  perl programmer, perl cv, technical manager, cv, ranguard',
+	description = 'This is the CV of Leo Lapworth, a senior perl developer and technical manager.',
 ---
 
 ## Leo Lapworth BSc (Hons.) - Senior Perl Developer London CV
