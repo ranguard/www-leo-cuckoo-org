@@ -10,8 +10,8 @@
 
 #### Types of job I would be interested in:
 
-Mostly remote, CTO/team lead/systems architect level. I'm interested in TypeScript and Serverless, ideally using AWS cloud services, though that's just a passion
-at the moment. I love working with Perl, though I wouldn't start a new project in it.
+Mostly remote / Bath area; CTO/team lead/systems architect level. I'm interested in 
+all web related technologieds, especially TypeScript and Serverless, ideally using AWS cloud services, though that's a passion at the moment. I love working with Perl, though I wouldn't start a new project in it.
 
 ### Skills
 

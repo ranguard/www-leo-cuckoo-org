@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Leo Lapworth',
-  description: 'Just playing around',
+  description: 'Technologist, developer and manager',
     themeConfig: {
       sidebar: 'auto',
       sidebarDepth: 5,
