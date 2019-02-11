@@ -1,24 +1,23 @@
 ---
-home: true
-heroText: Leo Lapworth
-actionText: View CV
-actionLink: ./cv/
+    home: true
+    title: Leo Lapworth (aka Ranguard)
+    heroText: Leo Lapworth
+    actionText: View CV
+    actionLink: ./cv/
 ---
-
 
 ## What's this site about ?
 	
-Well, me, Leo Lapworth <a href="/cv/">Senior perl developer</a> and perl monger
+Well, me, Leo Lapworth <a href="/cv/">technologist, developer and manager</a>
 	
-I also thought I should really have a place to keep all the bits I've done over the years as after having been working with perl, on the internet since (quick calculation) 1994, and actually working in the field since 1996 I've managed to amass lots of stuff on many different sites I'm involved in and on many different servers.
+I needed to have a place to keep all the bits I've done over the years, after having been working with Perl, on the internet since (quick calculation) 1994, and actually working in the field since 1996 I've managed to amass lots of stuff on many different sites and projects I've been involved in.
 
-So this is me trying to put some sort of order on all that, whether I achieve this or not is a different matter.
+This is me trying to put some sort of order on all that, whether I achieve this or not is a different matter.
 
 ## Who am I ?
-	
-If you don't know, then why are you bothering to look at my site? I'm not going to do the "My name is bob (which it isn't) and I like computers bit (true, but sounds like geek to me - which I am, but this protrudes all sorts of images which just arn't all true, anyway I digress)".
-		
-To know who I am, look around this site, or turn up to one of the <a href="http://london.pm.org/"><span class="link">London Perl Mongers</span></a> meets as I am often there, or catch me on irc.perl.org #London.pm. You could always look at my <a href="/cv/">CV</a>.
+
+I'm an open source technologist, with a strong background in Perl, websites, infrastructure, running
+projects and teams. I've been interested in the serverless paradigm, microservices and TypeScript/Node.js for a while now and have enjoyed exploring it's potential.
 
 ## Who am I not ?
 	

@@ -1,5 +1,5 @@
 ---
-	title: Leo Lapworth Senior Perl Developer CV
+	title: Leo Lapworth Technologist - CV
 ---
 
 ## Leo Lapworth CV
@@ -15,8 +15,7 @@ at the moment. I love working with Perl, though I wouldn't start a new project i
 
 ### Skills
 
-I've limited this to more recent technologies but know a lot of
-others.
+I've limited this to more recent technologies!
 
 <table>
 	<tr>
@@ -29,14 +28,15 @@ others.
 		<ul>
 			<li>Perl {{ calc_year(1996) }}</li>
 			<li>OO {{ calc_year(1999) }}</li>
-			<li>TypeScript {{ calc_year(2018) }}</li>
+			<li>TypeScript/Node.js {{ calc_year(2018) }}</li>
 			<li>JavaScript {{ calc_year(2006) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
 		<ul>
-			<li>Serverless computing {{ calc_year(2018) }}.</li>
+			<li>Serverless computing {{ calc_year(2018) }}</li>
 			<li>Event driven architecure {{ calc_year(2018) }}</li>
+			<li>AWS: SQS, SNS, SES, DynamoDB, ApiGateway, Lambda, CDK, AppSync, Amolify etc</li>
 		</ul>
 	    </td>
 	    <td valign="top">
@@ -50,10 +50,9 @@ others.
 	<tr>
 	    <td valign="top">
 		<ul>
-			<li>Vue.js {{ calc_year(2018) }}</li>
+			<li><a href="https://vuejs.org/">Vue.js</a> {{ calc_year(2018) }}</li>
 			<li>SQL (MySQL) {{ calc_year(1998) }}</li>
-			<li>Template Toolkit</li>
-			<li>XML / DTDs / XPath</li>
+			<li>ElasticSearch {{ calc_year(2014) }}</li>
 		</ul>
 	    </td>
 	    <td valign="top">
@@ -79,7 +78,7 @@ others.
 	    <td valign="top">
 		<ul>
 			<li>DNS / Exim etc</li>
-			<li>[Fastly CDN](https://www.fastly.com/) VCL</li>
+			<li><a href="https://www.fastly.com/">Fastly CDN/VCL</a></li>
 		</ul>
 	    </td>
 	    <td valign="top">
@@ -92,6 +91,15 @@ others.
 ### Personality
 
 Friendly, high self motivation / initiative as well as the ability to work with others and to problem solve quickly.
+
+
+### Open Source / Talks / Projects
+
+- <a href="http://leo.cuckoo.org/opensource/">Open source - http://leo.cuckoo.org/opensource/</a>
+- <a href="http://leo.cuckoo.org/talks/">Talks - http://leo.cuckoo.org/talks/</a>
+- <a href="http://leo.cuckoo.org/projects/">Projects - http://leo.cuckoo.org/projects/</a>
+
+
 
 ### Work Experience
 
@@ -210,15 +218,7 @@ I worked for Inter-action as their technical support, updating and troubleshooti
 - GCSEs: 8 (A-C), 1 D - Stoke Newington School.
 
 
-
-### Other Experience
-
-#### Other things too numerious to mention
-
-- <a href="http://leo.cuckoo.org/opensource/">Open source - http://leo.cuckoo.org/opensource/</a>
-- <a href="http://leo.cuckoo.org/talks/">Talks - http://leo.cuckoo.org/talks/</a>
-- <a href="http://leo.cuckoo.org/projects/">Projects - http://leo.cuckoo.org/projects/</a>
-
+### Other Experiences
 
 #### Inter-Action - Advisor to the Youth-Tech Advisory panel for Inter-Action
 ##### April 1997 - June 1999

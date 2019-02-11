@@ -1,2 +1,4 @@
 root/.vuepress/dist/
 root/node_modules/
+
+*.DS_Store

@@ -4,7 +4,7 @@
 
 # Open source
 	
-Some of the open source work I currently do and others that have done over the years. Mostly taking
+Open source work I currently do, or have done over the years. Mostly taking
 on a role, be that sysadmin, editor or html implimentor that other parts
 of the communities didn't have someone to cover.
  
@@ -24,35 +24,35 @@ I was elected leader of the <a href="http://london.pm.org">London Perl Mongers</
 
 ## Websites 
 
-### MetaCPAN.org
+### MetaCPAN.org <Badge text="active" type="tip"/>
 ##### 2012 - present
 
 I act as the systems administrator, having written most of the [Puppet](https://github.com/metacpan/metacpan-puppet) setup, I also run the [Fastly CDN](https://www.fastly.com) config and the Honeycomb.io intergrations. This site
 is now run across 2 datacenters (EU and US) with Elasticsearch backup
 for assurance of continuity. Limiting the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) has always been important for me. 
 
-### *.Perl.org
+### *.Perl.org <Badge text="active" type="tip"/>
 ##### December 2009 - present
     
 I revamped most of the <a href="http://www.perl.org">Perl.org</a> websites, starting with the main <a href="http://www.perl.org/">www.perl.org</a> site, I also recoded <a href="http://learn.perl.org/">Learn</a>, <a href="http://dbi.perl.org/">DBI</a>, <a href="http://qa.perl.org/">QA</a>, <a href="http://dev.perl.org/">Dev</a>.
 I am now one of the 3 maintainers of these sites.
 
-#### Perl.com
+### Perlsphere.net <Badge text="active" type="tip"/>
+##### Jan 2010 - present
+    
+Took on running and maintaining <a href="http://perlsphere.net/">Perlsphere.net</a>.
+
+#### Perl.com <Badge text="completed" type="warn"/>
 ##### July 2010
 
 I helped co-ordinate the migration of Perl.com from O'Reilly publishers to <a href="http://www.perlfoundation.org/">TPF</a>.
 
-### Perlsphere.net
-##### Jan 2010 - 2019
-    
-Took on running and maintaining <a href="http://perlsphere.net/">Perlsphere.net</a>.
-
-### www.pm.org
+### www.pm.org <Badge text="completed" type="warn"/>
 ##### Auguest 2012
 
 I redesigned  <a href="http://www.pm.org/">www.pm.org</a> from scratch.
 
-### www.cpan.org
+### www.cpan.org <Badge text="completed" type="warn"/>
 ##### March 2011
     
 I reviewed/rewrote most of the content on <a href="http://www.cpan.org/">www.cpan.org</a> I also
