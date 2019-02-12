@@ -10,7 +10,7 @@ source projects.
  
 - [My Github account](http://github.com/ranguard/)
 - [My Perl Blog](http://blogs.perl.org/users/leo_lapworth/) (not updated much)
-- [My Perl CPAN modules](http://search.cpan.org/~llap/)
+- [My Perl CPAN modules](https://metacpan.org/author/LLAP)
 
 ### White camel
 ##### 2011
