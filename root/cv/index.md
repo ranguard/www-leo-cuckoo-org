@@ -15,7 +15,7 @@ title: Leo Lapworth - CV
 
 ##### A little about me and the types of job I would be interested in:
 
-`CTO for SME` / `team lead` / `systems architect` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based architecture`, using AWS - though this is a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
+I'm looking for something interesting either as `CTO for SME`, `Team lead`, `Systems architect` or `Senior Developer` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based architecture`, using AWS - though this is a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
 
 I have `full stack` experience, including helping UI/UX teams I've had working for me, though with the knowledge CSS and HTML are not where my strengths lie, and lets not talk about design skills!
 
@@ -96,15 +96,15 @@ The team I ran maintained the `market leading` status for many years, winning ma
 
 Over the long period I was at Foxtons I saw the full life cycle of many projects. The focus was always on delivering excellence and the right solutions for the situation. Here are a few of the technologies and projects I ran:
 
-##### Tech
+##### Core Tech
 
 - Perl, Starman (webserver), Nginx, memcached, MySQL, ElasticSearch, Fastly (CDN/caching service), Puppet, Debian, UI/UX, Prototypes.
 
-##### Projects
+##### Main areas of Focus
 
 - `Website` - Gateway to the business, with a wealth of features from location / draw / travel time (when Foxtons IPO'ed an estimated 70% of the business value was in it's IT systems).
 - polygon searches to local area guides and some of the best UK school information on the internet.
-- `Portal` - Allowing customers to login and access their data and proceed with business (document uploading, document signing, payment portal, data gathering, user updates and CTA's)
+- `Portal` - Allowing customers to login and access their data and proceed with business (document uploading, document signing, payment portal, data gathering, issue tracking e.g. leaking sink, user updates and CTA's), This made a significant different to the efficiency of the business and the quality of service that the business offered.
 - `Imports` - property / school / transport / location data / etc 
 - `Exports` - our data to 3rd parties e.g. Rightmove / Zoopla using various APIs
 - `Email alerts` - Generating the property email alerts each day
@@ -115,18 +115,15 @@ Over the long period I was at Foxtons I saw the full life cycle of many projects
 - `Internal sysadmin` - monitoring systems both internal and external
 
 
-The list is too numerous to fully expand upon here.
-
 ### Cloudband.com - DBA / Developer
 ##### April 2001 - June 2001
 
 Cloudband required me to redesign their database schema and 
 migrate the existing (2 years worth of) data into the new postgreSQL schema.
 I approached this by creating an XML document and DTD describing
-the new schema (60+ tables) and a perl script which would create both the documentation
-(something which was non-existent) and the database creation code 
-from the XML. I then created a migration OO module to assist
-with the data migration and testing of the data validity.
+the new schema (60+ tables) and a perl script which would create both the 
+documentation (something which was non-existent) and the database creation code 
+from the XML. I then created a migration OO module to assist with the data migration and testing of the data validity.
 
 ### Torrington Interactive Ltd - Senior Developer
 ##### Feb 2001 - End March 2001
@@ -206,7 +203,7 @@ University of Essex computer society - Webmaster, teacher &amp; founder member.
 Prompt was the second largest society on campus, we developed it to help teach each other Unix and to improve the Universities software libraries. Eventually Prompt diversified to teaching courses on using the University computer system. I taught several courses in web page creation and how to use email programs. I also created and maintained the societies web site.
 
 
-<!-- Hide stuff when printing this page -->
+<!-- Hide stuff/add page break when printing this page -->
 <style  type="text/css">
 	@media print {
 		.sidebar {
