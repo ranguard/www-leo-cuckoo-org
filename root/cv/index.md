@@ -107,8 +107,7 @@ Over the long period I was at Foxtons I saw the full life cycle of many projects
 
 ##### Main areas of Focus
 
-- `Website` - Gateway to the business, with a wealth of features from location / draw / travel time (when Foxtons IPO'ed an estimated 70% of the business value was in it's IT systems).
-- polygon searches to local area guides and some of the best UK school information on the internet.
+- `Website` - Gateway to the business, with a wealth of features from location / draw / travel time (when Foxtons IPO'ed an estimated 70% of the business value was in it's IT systems). Polygon searches to local area guides and some of the best UK school information on the internet.
 - `Portal` - Allowing customers to login and access their data and proceed with business (document uploading, document signing, payment portal, data gathering, issue tracking e.g. leaking sink, user updates and CTA's), This made a significant different to the efficiency of the business and the quality of service that the business offered.
 - `Imports` - property / school / transport / location data / etc 
 - `Exports` - our data to 3rd parties e.g. Rightmove / Zoopla using various APIs
