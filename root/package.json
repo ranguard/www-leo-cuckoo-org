@@ -33,5 +33,8 @@
     "@vuepress/theme-default": "^1.0.0-alpha.37",
     "vuepress": "^1.0.0-alpha.37",
     "vuepress-plugin-flowchart": "^1.4.2"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.6.6"
   }
 }
