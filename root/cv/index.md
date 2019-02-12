@@ -4,7 +4,7 @@
 
 ## Leo Lapworth CV 
 
-##### Print friendly page
+##### Print friendly page (if you must)
 
 - Web: [https://leo.cuckoo.org](https://leo.cuckoo.org/)
 - Email: leo at cuckoo.org
@@ -210,7 +210,7 @@ Prompt was the second largest society on campus, we developed it to help teach e
 		.page {
 			padding-left: 0 !important;
 		}
-		#print-friendly-page {
+		#print-friendly-page-if-you-must {
 			display: none;
 		}
 		.pagebreak { 
