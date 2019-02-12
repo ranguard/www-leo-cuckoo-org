@@ -29,10 +29,10 @@ if there is something specific you are after, I might have experience!
 
 - [Perl](https://www.perl.org/) {{ calc_year(1996) }} - `OO Perl` {{ calc_year(1999) }}, including [Moose](https://metacpan.org/release/Moose) and [Moo](https://metacpan.org/release/Moo), [Catalyst](https://metacpan.org/release/Catalyst-Runtime) and [Mojolicious](https://metacpan.org/release/Mojolicious), [Template toolkit](https://metacpan.org/release/Template-Toolkit) and [DBIx::Class](https://metacpan.org/release/DBIx-Class) (ORM) and 1001 other modules.
 - JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} - including [Vue.JS](https://vuejs.org/), [Quasar Framework](https://quasar-framework.org/) and [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
-- AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, and [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
+- AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/) (GraphQL), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, and [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
 - SQL: [MySQL](https://www.mysql.com/) {{ calc_year(1998) }}
 - NoSQL: [ElasticSearch](https://www.elastic.co/) {{ calc_year(2014) }} and [DynamoDB](https://aws.amazon.com/dynamodb/) {{ calc_year(2018) }}
-- [Git](https://git-scm.com/) {{ calc_year(2006) }}
+- Misc: [Swagger REST API](https://swagger.io/), [Git](https://git-scm.com/) {{ calc_year(2006) }}
 
 #### System Architecture and sysadmin
 
@@ -71,9 +71,17 @@ if there is something specific you are after, I might have experience!
 
 ## Work Experience
 
+### Foxtons - Operations Director (web)
+##### July 2017 - Sept 2018
 
-### Foxtons - Senior Web Developer / Web Manager
-##### July 2001 - Sept 2018
+As the team expanded to 9 people (1 ux, 2 front end, 6 developers) I needed the ability to focus more on the strategic direction of the team's projects, and still have time to do code reviews and hands on technical mentoring. To this end we hired a fantastic Web Manager who reported to me and ran the team day to day.
+
+This dynamic worked really well. The team referred to us as their work mum and dad, I was able to give clearer technical focus and the Web Manager was able to support them on a daily and more personal level.
+
+During this time we experimented with new technologies and delivered several great projects, including a major change for Landlords and Tenants, being able to see a gamified progress of a lettings deal and access a huge amount of additional information. This made a major difference to the business, alleviating a lot of the chasing of clients for information.
+
+### Foxtons - Web Manager / Senior Web Developer
+##### July 2001 - July 2017
 
 Foxtons estate agents had a small team of inexperienced perl developers. I was
 asked to join as the senior developer and quickly took on managing the team as well.
@@ -82,18 +90,32 @@ Initially the focus was development of a new site, though at the same time I
 implemented significant automation of all systems and started improving the
 technical abilities of the existing members of the team.
 
-The team I now run are constantly trying to maintain the "market leading" status which
-we have achieved for the Foxtons website, the awards which we have 
-<a href="http://www.foxtons.co.uk/foxtons/awards/">received</a> is a testament to this. 
-Since joining Foxtons the traffic on the UK site has gone from
-2 million page impressions a month to over 21 million.
+The team I ran maintained the "market leading" status for many years winning many [awards](https://www.foxtons.co.uk/foxtons/awards/) for the [Foxtons website](https://www.foxtons.co.uk/). The site scaled from 2 million page impressions a month to over 21 million.
 
-A few of the many projects I have run are: working with Akamai/edge networks for the USA (when 
-it existed)  and UK Foxtons websites, plasma screen display and monitoring systems for the 
-shop front offices, internal motivation personalised dashboards and intranets.
-<a href="http://itunes.apple.com/gb/app/foxtons-property-search/id383326726">iPhone</a>
- <a href="http://itunes.apple.com/gb/app/uk-mortgage-calculators/id359431533"> application</a> development. The list is too numerous to fully expand upon here.
+Over the long period I was at Foxtons I saw the full life cycle of many projects. The focus was always on delivering excellence and the right solutions for the situation.
 
+A few of the technologies and projects we worked on to deliver excellence to our users and the business.
+
+##### Tech
+
+- Perl, Starman (webserver), nginx, memcached, MySQL, ElasticSearch, Fastly (CDN/caching service), Puppet, Debian
+
+##### Projects
+
+- `Website` - Gateway to the business, with a wealth of features from location / draw / travel time
+- polygon searches to local area guides and some of the best UK school information on the internet.
+- `Portal` - Allowing customers to login and access their data and proceed with business (document uploading, document signing, payment portal, data gathering, user updates and CTA's)
+- `Imports` - property / school / transport / location data / etc 
+- `Exports` - our data to 3rd parties e.g. Rightmove / Zoopla using various APIs
+- `Email alerts` - Generating the property email alerts each day
+- `Business Reports` - e.g. Land Registry analysis to work out market share).
+- `Apps` - providing APIs for various apps, I built the first versions many years ago
+- `Internal systems` - intranet / internal admin for data sets / plasma screens for front offices
+- `Internal Motivation Systems` - plasma screens / friday boards (team meetings with data driven presentation)
+- `Internal sysadmin` - monitoring systems both internal and external
+
+
+The list is too numerous to fully expand upon here.
 
 ### Cloudband.com - DBA / Developer
 ##### April 2001 - June 2001
@@ -104,7 +126,7 @@ I approached this by creating an XML document and DTD describing
 the new schema (60+ tables) and a perl script which would create both the documentation
 (something which was non-existent) and the database creation code 
 from the XML. I then created a migration OO module to assist
-with the data migration and testing of the data's validity.
+with the data migration and testing of the data validity.
 
 ### Torrington Interactive Ltd - Senior Developer
 ##### Feb 2001 - End March 2001
@@ -118,7 +140,7 @@ Technology comparisons, comparing HTML::Template with Template Toolkit.
 ### Emap Online - Technical Manager
 ##### April 2000 -  Jan 2001
 
-Emap Online: <a href="http://www.emaponline.com/">www.emaponline.com</a> was the award winning online division of Emap PLC, one of the worlds largest publishing companies.
+Emap Online: was the award winning online division of [Emap PLC](https://www.emap.com/), one of the worlds largest publishing companies.
 
 As Technical Manager I was able to build a strong team of people and guide
 the teams development to a point where we had invested sufficient time to
@@ -138,7 +160,7 @@ development to start. When a project had been signed off I was required to Proje
 manage all technical aspects and liaise with the other areas of the company; from
 design to commercial and content.
 
-I was still actively developing, creating a new system for the Escaperoutes site which included a generic shopping basket system.
+I was still actively developing, creating a new system for the EscapeRoutes.com site which included a generic shopping basket system.
 
 ### Emap Online - Technical Operations Manager
 ##### August 1999 -  April 2000
