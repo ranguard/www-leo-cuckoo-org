@@ -35,7 +35,8 @@ if there is something specific you are after, I might have experience!
 #### Web/Internet Development
 
 - [Perl](https://www.perl.org/) {{ calc_year(1996) }} - `OO Perl` {{ calc_year(1999) }}, including [Moose](https://metacpan.org/release/Moose) and [Moo](https://metacpan.org/release/Moo), [Catalyst](https://metacpan.org/release/Catalyst-Runtime) and [Mojolicious](https://metacpan.org/release/Mojolicious), [Template toolkit](https://metacpan.org/release/Template-Toolkit) and [DBIx::Class](https://metacpan.org/release/DBIx-Class) (ORM) and 1001 other modules.
-- JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} - including [Vue.JS](https://vuejs.org/), [Quasar Framework](https://quasar-framework.org/) and [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
+- JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} including [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
+- Front-end: [Vue.JS](https://vuejs.org/) {{ calc_year(2018) }}, [Quasar Framework](https://quasar-framework.org/) and [VuePress](https://vuepress.vuejs.org/)
 - AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/) (GraphQL), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, and [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
 - SQL: [MySQL](https://www.mysql.com/) {{ calc_year(1998) }}
 - NoSQL: [ElasticSearch](https://www.elastic.co/) {{ calc_year(2014) }} and [DynamoDB](https://aws.amazon.com/dynamodb/) {{ calc_year(2018) }}
