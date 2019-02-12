@@ -92,19 +92,17 @@ Initially the focus was development of a new site, though at the same time I
 implemented significant automation of all systems and started improving the
 technical abilities of the existing members of the team.
 
-The team I ran maintained the "market leading" status for many years winning many [awards](https://www.foxtons.co.uk/foxtons/awards/) for the [Foxtons website](https://www.foxtons.co.uk/). The site scaled from 2 million page impressions a month to over 21 million.
+The team I ran maintained the `market leading` status for many years, winning many [awards](https://www.foxtons.co.uk/foxtons/awards/) for the [Foxtons website](https://www.foxtons.co.uk/). The site scaled from 2 million page impressions a month to over 21 million.
 
-Over the long period I was at Foxtons I saw the full life cycle of many projects. The focus was always on delivering excellence and the right solutions for the situation.
-
-A few of the technologies and projects we worked on to deliver excellence to our users and the business.
+Over the long period I was at Foxtons I saw the full life cycle of many projects. The focus was always on delivering excellence and the right solutions for the situation. Here are a few of the technologies and projects I ran:
 
 ##### Tech
 
-- Perl, Starman (webserver), nginx, memcached, MySQL, ElasticSearch, Fastly (CDN/caching service), Puppet, Debian
+- Perl, Starman (webserver), Nginx, memcached, MySQL, ElasticSearch, Fastly (CDN/caching service), Puppet, Debian, UI/UX, Prototypes.
 
 ##### Projects
 
-- `Website` - Gateway to the business, with a wealth of features from location / draw / travel time
+- `Website` - Gateway to the business, with a wealth of features from location / draw / travel time (when Foxtons IPO'ed an estimated 70% of the business value was in it's IT systems).
 - polygon searches to local area guides and some of the best UK school information on the internet.
 - `Portal` - Allowing customers to login and access their data and proceed with business (document uploading, document signing, payment portal, data gathering, user updates and CTA's)
 - `Imports` - property / school / transport / location data / etc 
@@ -154,32 +152,18 @@ We had just finished the development of several key systems, one of which
 allowed the full integration of all location information (from resort guides
 to piest maps) across all the travel Products in the companies portfolio.
 
-I was responsible for all day to day issues relating to the technical team, which
-included the management of the four permanent staff working for me and any contractors we
-might be using. Once a specification had been
-created for a project it was my responsibility to raise any issues before allowing
-development to start. When a project had been signed off I was required to Project
-manage all technical aspects and liaise with the other areas of the company; from
-design to commercial and content.
+I was responsible for all day to day issues relating to the technical team, which included the management of the four permanent staff working for me and any contractors we might be using. Once a specification had been created for a project it was my responsibility to raise any issues before allowing development to start. When a project had been signed off I was required to Project manage all technical aspects and liaise with the other areas of the company; from design to commercial and content.
 
 I was still actively developing, creating a new system for the EscapeRoutes.com site which included a generic shopping basket system.
 
 ### Emap Online - Technical Operations Manager
 ##### August 1999 -  April 2000
 
-As Technical Operations Manager I was responsible for the day to day running off all the company servers; 
-14 Solaris machines, a linux box and an NT server. I was also responsible for creating and 
-implementing infrastructure and security policies,
-as well as personalised email list systems. I was the line manager for the Technical Operations Assistant.
+As Technical Operations Manager I was responsible for the day to day running off all the company servers; 14 Solaris machines, a linux box and an NT server. I was also responsible for creating and implementing infrastructure and security policies, as well as personalised email list systems. I was the line manager for the Technical Operations Assistant.
 
-During my time as Technical Operations Manager I devised and implemented a new web server
-farm. The primary goal of this network was to make our sites fast, resilient and reliable.
-This was accomplished by using firewalls and load balancing with front end servers which proxy to back end application machines. Implementing the new server farm also included the full configuration of the servers and a new set of standards for development which allowed
-better logging of information and easier sharing of functionality between sites and
-versions.
+During my time as Technical Operations Manager I devised and implemented a new web server farm. The primary goal of this network was to make our sites fast, resilient and reliable. This was accomplished by using firewalls and load balancing with front end servers which proxy to back end application machines. Implementing the new server farm also included the full configuration of the servers and a new set of standards for development which allowed better logging of information and easier sharing of functionality between sites and versions.
 
-I also remained the technical contact for A2bFlights.com (as I developed the site from scratch)
- and Bargainholidays.com as well as working on other projects when it was required.
+I also remained the technical contact for A2bFlights.com (as I developed the site from scratch) and Bargainholidays.com as well as working on other projects when it was required.
 
 ### Emap Online - Network Manager - Webmaster  / Internet developer
 ##### August 1997 -  August 1999
