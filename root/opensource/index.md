@@ -81,7 +81,7 @@ This perl object inherits from Data::Page and adds additional functionality so t
 ### SVG::TT::Graph
 	
 This perl module makes creating presentation quality SVG graphs
-from any data source very easy, with many display options;
+from any data source very easy (it was created before [D3.js](https://d3js.org/) and other such libraries existed), with many display options;
 key, title, sub title, x-lables, y-lables etc. 
 [https://metacpan.org/release/SVG-TT-Graph/](https://metacpan.org/release/SVG-TT-Graph/), [Examples](/projects/SVG-TT-Graph/)
 
