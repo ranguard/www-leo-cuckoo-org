@@ -12,8 +12,9 @@ meta:
 
 ## What's this site about ?
 
+![Leo Lapworth](/i/leo_400x400.jpg "Leo Lapworth")
 
-Well, me, Leo Lapworth <a href="/cv/">technologist, developer and manager</a> (sometimes known as Ranguard around the internet)
+Well, me.. Leo Lapworth <a href="/cv/">technologist, developer and manager</a> (sometimes known as Ranguard around the internet)
 	
 I needed to have a place to keep all the bits I've done over the years, after having been working with Perl, on the internet since (quick calculation) 1994, and actually working in the field since 1996 I've managed to amass lots of stuff on many different sites and projects I've been involved in.
 
@@ -35,3 +36,14 @@ Checkout my [CV](/cv/), [Open Source work](/opensource/), [Talks](/talks/) I hav
 - <i class="fab fa-twitter"></i> [Twitter - Ranguard](https://twitter.com/ranguard) - more personal / Perl / historical
 - <i class="fas fa-blog"></i> [Blogs.Perl.Org](http://blogs.perl.org/users/leo_lapworth/)
 
+<style>
+
+/* Make circle */
+.content.custom img {
+  width: 250px;
+  border-radius: 50%;
+  float: right;
+  padding-left: 7%;
+}
+
+</style>
