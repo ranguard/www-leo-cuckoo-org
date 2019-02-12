@@ -8,10 +8,10 @@ module.exports = {
     	lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Open Source', link: '/opensource/' },
-      { text: 'Projects', link: '/projects/' },
-      { text: 'Talks', link: '/talks/' },
       { text: 'CV', link: '/cv/' },
+      { text: 'Open Source', link: '/opensource/' },
+      { text: 'Talks', link: '/talks/' },
+      { text: 'Projects', link: '/projects/' }
     ]
   }
 }

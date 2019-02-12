@@ -2,51 +2,57 @@
 	title: Leo Lapworth Technologist - CV
 ---
 
-## Leo Lapworth CV
+## Leo Lapworth CV 
 
-- Tel: +4477 1167 1828
+##### Print friendly page
+
+- Web: [https://leo.cuckoo.org](https://leo.cuckoo.org/)
 - Email: leo at cuckoo.org
+- Tel: +4477 1167 1828
 - Driving license: Clean
 
 #### A little about me and the types of job I would be interested in:
 
-`CTO for SME`/`team lead`/`systems architect` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based` architecture, using AWS - though that's a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
+`CTO for SME` / `team lead` / `systems architect` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based architecture`, using AWS - though this is a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
 
-I have `full stack` experience, though with the knowledge CSS and HTML
-are not where my strengths lie, and lets not talk about design skills!
+I have `full stack` experience, including helping UI/UX teams I've had working for me, though with the knowledge CSS and HTML are not where my strengths lie, and lets not talk about design skills!
 
-I want to offer my experience in creating value for wherever I work, providing excellence and excitement to the end users of the systems I help with. I also love finding the cleanest simplest solution to problems and supporting others that I work with to do the same.
+I want to offer my `experience in creating value` for wherever I work, `providing excellence` and excitement to the end users of the systems I help with. I also love finding the `cleanest simplest solution to complex problems` and `supporting others` that I work with to do the same.
 
 ### Skills
 
 I've limited this list to where I am most experienced,
-or have most interest. It is not an exhaustive list, please do ask
+or have most interest. It is not exhaustive, please do ask
 if there is something specific you are after, I might have experience!
 
-#### Web Development
+#### Web/Internet Development
 
 - [Perl](https://www.perl.org/) {{ calc_year(1996) }} - `OO Perl` {{ calc_year(1999) }}, including [Moose](https://metacpan.org/release/Moose) and [Moo](https://metacpan.org/release/Moo), [Catalyst](https://metacpan.org/release/Catalyst-Runtime) and [Mojolicious](https://metacpan.org/release/Mojolicious), [Template toolkit](https://metacpan.org/release/Template-Toolkit) and [DBIx::Class](https://metacpan.org/release/DBIx-Class) (ORM) and 1001 other modules.
 - JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} - including [Vue.JS](https://vuejs.org/), [Quasar Framework](https://quasar-framework.org/) and [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
-- AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, including [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
+- AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, and [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
 - SQL: [MySQL](https://www.mysql.com/) {{ calc_year(1998) }}
 - NoSQL: [ElasticSearch](https://www.elastic.co/) {{ calc_year(2014) }} and [DynamoDB](https://aws.amazon.com/dynamodb/) {{ calc_year(2018) }}
-  
-#### System Architecture &amp; sysadmin
+- [Git](https://git-scm.com/) {{ calc_year(2006) }}
 
-- [Fastly CDN/VCL](https://www.fastly.com/) - `load balancing` / `headers` / `caching` / `purging` / `scale`
+#### System Architecture and sysadmin
+
+- [Fastly CDN/VCL](https://www.fastly.com/) - `VCL` / `load balancing` / `headers` / `caching` / `purging` / `scale`
+- Cloud config with [Terraform](https://www.terraform.io/) and [AWS CDK](https://awslabs.github.io/aws-cdk/) 
 - Serverless computing {{ calc_year(2018) }}
 - Event driven architecure {{ calc_year(2018) }}
-- Puppet {{ calc_year(2008) }}
+- Server config with [Puppet](https://puppet.com/) {{ calc_year(2008) }}
 - *nix SysAdmin {{ calc_year(1996) }}
 - Debian packaging &amp; deployment
-- DNS / Exim etc
-- [Git](https://git-scm.com/) {{ calc_year(2006) }}
+- DNS / Email / etc
+
 
 #### Team and project management
 
-- Agile(ish) {{ calc_year(2014) }} - `stand ups` / `code review` / `one to ones` / `issue tracking`
-- Teams - happy to `run mixed skilled teams`
-- Projects - `very good at working with all levels of the business` - `identifying need, rather than want`, and `delivering to exceed expectations`.
+- Agile(ish) {{ calc_year(2013) }} - `stand ups` / `code review` / `one to ones` / `issue tracking` / `prioritisation`
+- Teams {{ calc_year(1999) }} - enjoy `running mixed skilled teams` and `mentoring`
+- Projects {{ calc_year(1997) }} - `very good at working with all levels of the business` - `identifying need, rather than want`, and `delivering to exceed expectations`.
+
+<div class="pagebreak"> </div>
 
 ## Open Source / Talks / Projects
 
@@ -204,6 +210,12 @@ Prompt was the second largest society on campus, we developed it to help teach e
 		.page {
 			padding-left: 0 !important;
 		}
+		#print-friendly-page {
+			display: none;
+		}
+		.pagebreak { 
+			page-break-before: always;
+		} /* page-break-after works, as well */
 	}
 </style>
 
