@@ -1,8 +1,13 @@
 ---
-    home: true
-    heroText: Leo Lapworth
-    actionText: View CV
-    actionLink: ./cv/
+home: true
+heroText: Leo Lapworth
+actionText: View CV
+actionLink: ./cv/
+meta:
+  - name: description
+    content: Leo Lapworth - Open Source Technologist and Contractor
+  - name: keywords
+    content: Leo Lapworth, Perl, Open Source, Developer, CTO, serverless, aws
 ---
 
 ## What's this site about ?

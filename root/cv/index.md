@@ -1,5 +1,10 @@
 ---
 title: Leo Lapworth - CV
+meta:
+  - name: description
+    content: CV of Leo Lapworth - Open Source Technologist and Remote Contractor
+  - name: keywords
+    content: Leo Lapworth, senior perl developer, cto, perl, perl programmer, perl cv, technical manager, cv, Ranguard
 ---
 
 ## Leo Lapworth CV 
