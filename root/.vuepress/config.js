@@ -5,7 +5,7 @@ module.exports = {
       sidebar: 'auto',
       sidebarDepth: 5,
       displayAllHeaders: true,
-    	// search: false,
+    	lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Open Source', link: '/opensource/' },
