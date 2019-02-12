@@ -10,88 +10,42 @@
 
 #### Types of job I would be interested in:
 
-Mostly remote / Bath area; CTO/team lead/systems architect level. I'm interested in 
-all web related technologieds, especially TypeScript and Serverless, ideally using AWS cloud services, though that's a passion at the moment. I love working with Perl, though I wouldn't start a new project in it.
+Mostly `remote` / `Bath area`; `CTO for SME`/`team lead`/`systems architect`. I'm interested in all web related technologies, especially TypeScript and `Serverless`, ideally using AWS cloud services, though that's a passion at the moment. I love working with `Perl`, though I wouldn't start a new project in it.
 
 ### Skills
 
-I've limited this to more recent technologies!
+I've limited this list to where I am most experienced,
+or have most interest. It is not an exhaustive list, please do ask
+if there is something specific you are after, I might have experience!
 
-<table>
-	<tr>
-	    <th valign="top">Web &amp; Development</th>
-	    <th valign="top">Architecure</th>
-	    <th valign="top">Management</th>
-	</tr>
-	<tr>
-	    <td valign="top">
-		<ul>
-			<li>Perl {{ calc_year(1996) }}</li>
-			<li>OO {{ calc_year(1999) }}</li>
-			<li>TypeScript/Node.js {{ calc_year(2018) }}</li>
-			<li>JavaScript {{ calc_year(2006) }}</li>
-		</ul>
-	    </td>
-	    <td valign="top">
-		<ul>
-			<li>Serverless computing {{ calc_year(2018) }}</li>
-			<li>Event driven architecure {{ calc_year(2018) }}</li>
-			<li>AWS: SQS, SNS, SES, DynamoDB, ApiGateway, Lambda, CDK, AppSync, Amolify etc</li>
-		</ul>
-	    </td>
-	    <td valign="top">
-		<ul>
-			<li>Agile(ish)</li>
-			<li>Teams</li>
-			<li>Projects</li>
-		</ul>
-	    </td>
-	</tr>
-	<tr>
-	    <td valign="top">
-		<ul>
-			<li><a href="https://vuejs.org/">Vue.js</a> {{ calc_year(2018) }}</li>
-			<li>SQL (MySQL) {{ calc_year(1998) }}</li>
-			<li>ElasticSearch {{ calc_year(2014) }}</li>
-		</ul>
-	    </td>
-	    <td valign="top">
-		<ul>
-			<li>Puppet {{ calc_year(2008) }}</li>
-			<li>*nix SysAdmin {{ calc_year(1996) }}</li>
-			<li>Debian packaging &amp; deployment</li>
-		</ul>
-	    </td>
-	    <td valign="top">
-		<ul>
-			<li>Specifications</li>
-			<li>Standards</li>
-		</ul>
-	    </td>
-	</tr>
-	<tr>
-	    <td valign="top">
-		<ul>
-			<li>Git {{ calc_year(2006) }}</li>
-		</ul>
-	    </td>
-	    <td valign="top">
-		<ul>
-			<li>DNS / Exim etc</li>
-			<li><a href="https://www.fastly.com/">Fastly CDN/VCL</a></li>
-		</ul>
-	    </td>
-	    <td valign="top">
-		<ul>
-		</ul>
-	    </td>
-	 </tr>
-</table>
+#### Web &amp; Development
+
+- [Perl](https://www.perl.org/) {{ calc_year(1996) }} - `OO Perl` {{ calc_year(1999) }}, including [Moose](https://metacpan.org/release/Moose) and [Moo](https://metacpan.org/release/Moo), [Catalyst](https://metacpan.org/release/Catalyst-Runtime) and [Mojolicious](https://metacpan.org/release/Mojolicious), [Template toolkit](https://metacpan.org/release/Template-Toolkit) and [DBIx::Class](https://metacpan.org/release/DBIx-Class) (ORM) and 1001 other modules.
+- JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} - including [Vue.JS](https://vuejs.org/), [Quasar Framework](https://quasar-framework.org/) and [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
+- AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, including [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
+- SQL: [MySQL](https://www.mysql.com/) {{ calc_year(1998) }}
+- NoSQL: [ElasticSearch](https://www.elastic.co/) {{ calc_year(2014) }} and [DynamoDB](https://aws.amazon.com/dynamodb/) {{ calc_year(2018) }}
+  
+#### System Architecture &amp; sysadmin
+
+- [Fastly CDN/VCL](https://www.fastly.com/)</a>
+- Serverless computing {{ calc_year(2018) }}
+- Event driven architecure {{ calc_year(2018) }}
+- Puppet {{ calc_year(2008) }}
+- *nix SysAdmin {{ calc_year(1996) }}
+- Debian packaging &amp; deployment
+- DNS / Exim etc
+- [Git](https://git-scm.com/) {{ calc_year(2006) }}
+
+#### Team and project management
+
+- Agile(ish) {{ calc_year(2014) }}
+- Teams
+- Projects
 
 ### Personality
 
 Friendly, high self motivation / initiative as well as the ability to work with others and to problem solve quickly.
-
 
 ### Open Source / Talks / Projects
 
@@ -171,8 +125,7 @@ development to start. When a project had been signed off I was required to Proje
 manage all technical aspects and liaise with the other areas of the company; from
 design to commercial and content.
 
-I was still actively developing, creating a new system for the Escaperoutes site 
-which included a generic shopping basket system.
+I was still actively developing, creating a new system for the Escaperoutes site which included a generic shopping basket system.
 
 #### Emap Online - Technical Operations Manager
 ##### August 1999 -  April 2000

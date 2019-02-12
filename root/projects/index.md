@@ -11,7 +11,7 @@ Various non-work sites and projects that I have been involved in.
 ### Just Amazing Cards - iOS greeting card app <Badge text="deactivated" type="warn"/>
 ##### 2010
 
-In July 2010 released my first personal iPhone app. It was my brothers idea and he did all the design work. You could record messages / intergrate your own photos / choose
+In July 2010 released my first personal iPhone app. It was my brothers idea and he did all the design work. You could record messages / integrated your own photos / choose
 backgrounds / borders / messages / fonts etc and email the generated output to someone. [Demo video](https://www.youtube.com/watch?v=sCfh85Mxk1Q).
 
 ### MighTyV.com <Badge text="deactivated" type="warn"/>

@@ -8,7 +8,7 @@
 
 ## Conferences
 
-I've been to [21 Perl conferences/workshops/Toolchain summits](http://act.yapc.eu/lpw2018/user/257) (starting in 2003)</a>, many of which I have spoken at. In addition to this I regularly attend the MetaCPAN core contributers hackathon and occasionally go to the [London.pm](http://london.pm.org/) meetings, though now more the [London Node User Group](https://lnug.org/) meetings.
+I've been to [21 Perl conferences/workshops/Toolchain summits](http://act.yapc.eu/lpw2018/user/257) (starting in 2003)</a>, many of which I have spoken at. In addition to this I regularly attend the MetaCPAN core contributors hackathon and occasionally go to the [London.pm](http://london.pm.org/) meetings, though now more the [London Node User Group](https://lnug.org/) meetings.
 
 ## Serverless/AWS talks
 
@@ -50,5 +50,5 @@ Introduction to DBIx::Class, presented at London Perl Workshop (2008, 2009 &amp;
 
 ### Perl.org - white papers
     
-In March 2010 I  wrote and organising a series of <a hrefmeta= "http://www.perl.org/about/whitepapers/">Perl White Papers</a> on Perl.org
+In March 2010 I  wrote and organising a series of [Perl White Papers](http://www.perl.org/about/whitepapers/) on Perl.org
     
