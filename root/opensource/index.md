@@ -5,8 +5,8 @@
 # Open source
 	
 Open source work I currently do, or have done over the years. Mostly taking
-on a role, be that sysadmin, editor or html implimentor that other parts
-of the communities didn't have someone to cover.
+on roles that no one else wants! - be that sysadmin, editor or html code cleaner. Along with developing modules and submitting patches to other open
+source projects.
  
 - [My Github account](http://github.com/ranguard/)
 - [My Perl Blog](http://blogs.perl.org/users/leo_lapworth/) (not updated much)
@@ -35,7 +35,7 @@ for assurance of continuity. Limiting the [bus factor](https://en.wikipedia.org/
 ##### December 2009 - present
     
 I revamped most of the [Perl.org](http://www.perl.org) websites, starting with the main [www.perl.org](http://www.perl.org) site, I also re-coded and either edited or replaced most of the copy for
-[learn](http://learn.perl.org), [DBI](http://dbi.perl.org), [QA](http://qa.perl.org), [Dev](http://dev.perl.org).
+[learn](http://learn.perl.org) (including introduction videos), [DBI](http://dbi.perl.org), [QA](http://qa.perl.org), [Dev](http://dev.perl.org).
 I am still one of the 3 maintainers of these sites.
 
 ### Perlsphere.net <Badge text="active" type="tip"/>

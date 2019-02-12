@@ -8,9 +8,14 @@
 - Email: leo at cuckoo.org
 - Driving license: Clean
 
-#### Types of job I would be interested in:
+#### A little about me and the types of job I would be interested in:
 
-Mostly `remote` / `Bath area`; `CTO for SME`/`team lead`/`systems architect`. I'm interested in all web related technologies, especially TypeScript and `Serverless`, ideally using AWS cloud services, though that's a passion at the moment. I love working with `Perl`, though I wouldn't start a new project in it.
+`CTO for SME`/`team lead`/`systems architect` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based` architecture, using AWS - though that's a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
+
+I have `full stack` experience, though with the knowledge CSS and HTML
+are not where my strengths lie, and lets not talk about design skills!
+
+I want to offer my experience in creating value for wherever I work, providing excellence and excitement to the end users of the systems I help with. I also love finding the cleanest simplest solution to problems and supporting others that I work with to do the same.
 
 ### Skills
 
@@ -18,7 +23,7 @@ I've limited this list to where I am most experienced,
 or have most interest. It is not an exhaustive list, please do ask
 if there is something specific you are after, I might have experience!
 
-#### Web &amp; Development
+#### Web Development
 
 - [Perl](https://www.perl.org/) {{ calc_year(1996) }} - `OO Perl` {{ calc_year(1999) }}, including [Moose](https://metacpan.org/release/Moose) and [Moo](https://metacpan.org/release/Moo), [Catalyst](https://metacpan.org/release/Catalyst-Runtime) and [Mojolicious](https://metacpan.org/release/Mojolicious), [Template toolkit](https://metacpan.org/release/Template-Toolkit) and [DBIx::Class](https://metacpan.org/release/DBIx-Class) (ORM) and 1001 other modules.
 - JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} - including [Vue.JS](https://vuejs.org/), [Quasar Framework](https://quasar-framework.org/) and [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
@@ -28,7 +33,7 @@ if there is something specific you are after, I might have experience!
   
 #### System Architecture &amp; sysadmin
 
-- [Fastly CDN/VCL](https://www.fastly.com/)</a>
+- [Fastly CDN/VCL](https://www.fastly.com/) - `load balancing` / `headers` / `caching` / `purging` / `scale`
 - Serverless computing {{ calc_year(2018) }}
 - Event driven architecure {{ calc_year(2018) }}
 - Puppet {{ calc_year(2008) }}
@@ -39,27 +44,29 @@ if there is something specific you are after, I might have experience!
 
 #### Team and project management
 
-- Agile(ish) {{ calc_year(2014) }}
-- Teams
-- Projects
+- Agile(ish) {{ calc_year(2014) }} - `stand ups` / `code review` / `one to ones` / `issue tracking`
+- Teams - happy to `run mixed skilled teams`
+- Projects - `very good at working with all levels of the business` - `identifying need, rather than want`, and `delivering to exceed expectations`.
 
-### Personality
+## Open Source / Talks / Projects
 
-Friendly, high self motivation / initiative as well as the ability to work with others and to problem solve quickly.
+### Open source
+ 
+[https://leo.cuckoo.org/opensource/](/opensource/)
 
-### Open Source / Talks / Projects
+### Talks
 
-- <a href="http://leo.cuckoo.org/opensource/">Open source - http://leo.cuckoo.org/opensource/</a>
-- <a href="http://leo.cuckoo.org/talks/">Talks - http://leo.cuckoo.org/talks/</a>
-- <a href="http://leo.cuckoo.org/projects/">Projects - http://leo.cuckoo.org/projects/</a>
+[https://leo.cuckoo.org/talks/](/talks/)
 
+### Projects
 
-
-### Work Experience
+[http://leo.cuckoo.org/projects/](/projects/)
 
 
+## Work Experience
 
-#### Foxtons - Senior Web Developer / Web Manager
+
+### Foxtons - Senior Web Developer / Web Manager
 ##### July 2001 - Sept 2018
 
 Foxtons estate agents had a small team of inexperienced perl developers. I was
@@ -82,7 +89,7 @@ shop front offices, internal motivation personalised dashboards and intranets.
  <a href="http://itunes.apple.com/gb/app/uk-mortgage-calculators/id359431533"> application</a> development. The list is too numerous to fully expand upon here.
 
 
-#### Cloudband.com - DBA / Developer
+### Cloudband.com - DBA / Developer
 ##### April 2001 - June 2001
 
 Cloudband required me to redesign their database schema and 
@@ -93,7 +100,7 @@ the new schema (60+ tables) and a perl script which would create both the docume
 from the XML. I then created a migration OO module to assist
 with the data migration and testing of the data's validity.
 
-#### Torrington Interactive Ltd - Senior Developer
+### Torrington Interactive Ltd - Senior Developer
 ##### Feb 2001 - End March 2001
 
 In my short time at Torrington (another causality of the Internet low), I designed
@@ -102,7 +109,7 @@ Agents - creating an agent to gather information from the web / mailing lists / 
 Mail Analyzer - comparing information on subscribers to multiple mailing lists.
 Technology comparisons, comparing HTML::Template with Template Toolkit.
 
-#### Emap Online - Technical Manager
+### Emap Online - Technical Manager
 ##### April 2000 -  Jan 2001
 
 Emap Online: <a href="http://www.emaponline.com/">www.emaponline.com</a> was the award winning online division of Emap PLC, one of the worlds largest publishing companies.
@@ -127,7 +134,7 @@ design to commercial and content.
 
 I was still actively developing, creating a new system for the Escaperoutes site which included a generic shopping basket system.
 
-#### Emap Online - Technical Operations Manager
+### Emap Online - Technical Operations Manager
 ##### August 1999 -  April 2000
 
 As Technical Operations Manager I was responsible for the day to day running off all the company servers; 
@@ -144,7 +151,7 @@ versions.
 I also remained the technical contact for A2bFlights.com (as I developed the site from scratch)
  and Bargainholidays.com as well as working on other projects when it was required.
 
-#### Emap Online - Network Manager - Webmaster  / Internet developer
+### Emap Online - Network Manager - Webmaster  / Internet developer
 ##### August 1997 -  August 1999
 
 As Network Manger my primary responsibility was the servers. From ordering and liaising with hosting companies to maintenance and development, for all 9 servers (Web, DNS, Mail and Office) which were hosted on an array of machines (Sun Solaris, linux and NT). 
@@ -153,32 +160,32 @@ I spent the bulk of my time developing and maintaining several of the companies 
 
 I was often used for problem solving and fire fighting within the company as I had a broad knowledge of all systems as well as being able to quickly comprehend and find requirements for a solution.
 
-#### Channel D Ltd - Webmaster / Net Software Engineer.
+### Channel D Ltd - Webmaster / Net Software Engineer.
 ##### June 1996 - July 1997
 
 My duties included setting up and running Internet and Intranet servers (including editing systems) for small to medium sized companies. I used HTML, CGI and Perl to implement a range of projects from shopping baskets to online database interfaces. This job allowed me to develop my TCP/IP networking and PC support skills.
 
-#### Inter-Action Ltd. - PC training / support
+### Inter-Action Ltd. - PC training / support
 ##### July 1995 - Sept 1995
 
 I worked for Inter-action as their technical support, updating and troubleshooting the PC systems and training other members of staff how to use the new software.
 
 
-### Education
+## Education
 
 - BSc (Hons) Psychology - Essex University
 - A-levels: Maths, Politics, Geography - LA SWAP 6th form.
 - GCSEs: 8 (A-C), 1 D - Stoke Newington School.
 
 
-### Other Experiences
+## Other Experiences
 
-#### Inter-Action - Advisor to the Youth-Tech Advisory panel for Inter-Action
+### Inter-Action - Advisor to the Youth-Tech Advisory panel for Inter-Action
 ##### April 1997 - June 1999
 
 Inter-Action was a London based charity working in the IT field, training underprivileged Londoners (mainly people aged 14 to 25) in the use of computers and multimedia tools. My role on the advisory panel was to offer technical knowledge of the Internet. I helped devise and teach a peer training system in business and computer skills for peer trainers working with Inter-Action. This course was run both in the UK and Russia.
 
-#### Prompt
+### Prompt
 ##### Sept 1994 - June 1996
 
 University of Essex computer society - Webmaster, teacher &amp; founder member.

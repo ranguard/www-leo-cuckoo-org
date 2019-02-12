@@ -20,7 +20,7 @@ I have submitted a talk proposal for [Serverless Computing London 2019](https://
 
 ### Evolving architecture
 	
-Two talks I did for <a href="http://www.yapceurope.org/">YAPC::Europe</a>,
+Two talks I did for [YAPC::Europe](http://www.yapceurope.org/),
 back in 2008 [2007 slides](https://www.slideshare.net/ranguard/evolving-archetecture) and [2008 slides](https://www.slideshare.net/ranguard/evolving-architecture-further-presentation).
 
 ### Current architecture thoughts

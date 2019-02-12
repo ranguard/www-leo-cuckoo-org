@@ -1,6 +1,5 @@
 ---
     home: true
-    title: Leo Lapworth (aka Ranguard)
     heroText: Leo Lapworth
     actionText: View CV
     actionLink: ./cv/
@@ -8,7 +7,7 @@
 
 ## What's this site about ?
 	
-Well, me, Leo Lapworth <a href="/cv/">technologist, developer and manager</a>
+Well, me, Leo Lapworth <a href="/cv/">technologist, developer and manager</a> (sometimes known as Ranguard around the internet)
 	
 I needed to have a place to keep all the bits I've done over the years, after having been working with Perl, on the internet since (quick calculation) 1994, and actually working in the field since 1996 I've managed to amass lots of stuff on many different sites and projects I've been involved in.
 
