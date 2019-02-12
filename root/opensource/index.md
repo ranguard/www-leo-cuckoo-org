@@ -5,7 +5,7 @@
 # Open source
 	
 Open source work I currently do, or have done over the years. Mostly taking
-on roles that no one else wants! - be that sysadmin, editor or html code cleaner. Along with developing modules and submitting patches to other open
+on roles that no one else wants! Be that sysadmin, editor or html code cleaner, along with developing modules and submitting patches to other open
 source projects.
  
 - [My Github account](http://github.com/ranguard/)
@@ -61,7 +61,7 @@ I reviewed/rewrote most of the content on [www.cpan.org](http://www.cpan.org/) I
 ### PerlNews.org <Badge text="deactivated" type="warn"/>
 ##### March 2011
 
-I launched Perl news</> site with Dave Cross, which targeted
+I launched the Perl news site with Dave Cross, which targeted
 major announcements within the Perl community. Now that [Perl.com](https://www.perl.com/) is active again we have redirected to there.
 
 ## Perl Modules
@@ -72,15 +72,15 @@ I am one of the maintainers of the official [PerlFAQ](https://metacpan.org/relea
 
 ### Text::vCard
 	
-Text::vCard is used to parse a vCard formatted file into a perl object with accessor methods. It can be downloaded from [https://metacpan.org/release/Text-vCard/](https://metacpan.org/release/Text-vCard/)
+Text::vCard is used to parse a vCard formatted file into a Perl object with accessor methods. It can be downloaded from [https://metacpan.org/release/Text-vCard/](https://metacpan.org/release/Text-vCard/)
 
 ### Data::Pageset
 	
-This perl object inherits from Data::Page and adds additional functionality so that one can create page sets rather than having one massive list of pages. Latest version can be downloaded from [https://metacpan.org/release/Data-Pageset/](https://metacpan.org/release/Data-Pageset/)
+This Perl object inherits from Data::Page and adds additional functionality so that one can create page sets rather than having one massive list of pages. Latest version can be downloaded from [https://metacpan.org/release/Data-Pageset/](https://metacpan.org/release/Data-Pageset/)
 	
 ### SVG::TT::Graph
 	
-This perl module makes creating presentation quality SVG graphs
+This Perl module makes creating presentation quality SVG graphs
 from any data source very easy (it was created before [D3.js](https://d3js.org/) and other such libraries existed), with many display options;
 key, title, sub title, x-lables, y-lables etc. 
 [https://metacpan.org/release/SVG-TT-Graph/](https://metacpan.org/release/SVG-TT-Graph/), [Examples](/projects/SVG-TT-Graph/)
@@ -91,9 +91,9 @@ I am the maintainer of [https://metacpan.org/release/Net-Amazon-S3](https://meta
 
 ### Apache::AuthCookieNTLM
 	
-This module created by my self and Fancoise Dehinbo uses Apache::AuthenNTLM as a base class so that you can use the fact that IE will send the users Windows login details (if the server is trusted and the option is turned on) and authenticate the user against the Windows Network PDC. This is mostly useful for intranets so that users don't have to login.
+This module created by myself and Fancoise Dehinbo uses [Apache::AuthenNTLM](https://metacpan.org/pod/Apache::AuthenNTLM) as a base class so that you can use the fact that IE will send the users Windows login details (if the server is trusted and the option is turned on) and authenticate the user against the Windows Network PDC. This is mostly useful for intranets so that users don't have to login.
 
-Our extension of the module means that a cookie is set with the users login name so that they are not authenticated for every page request and also allowing other scripts to access this info.
+Our extension of the module means that a cookie is set with the user's login name so that they are not authenticated for every page request and also allowing other scripts to access this info.
 
 The module can be extended so that one is able to add any information you like (should you want to look up the users email address or something in a DB)
 to the cookie.
@@ -105,5 +105,3 @@ to the cookie.
 	
 This module exports from Apple Address Book and generates HTML
 pages. [https://metacpan.org/release/Mac-Glue-Apps-AddressBookExport](https://metacpan.org/release/Mac-Glue-Apps-AddressBookExport)
-
-

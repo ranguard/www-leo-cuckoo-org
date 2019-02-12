@@ -33,7 +33,7 @@ I wrote up my current thoughts (2019) on system architecture for SaaS:
 
 ### DBIx::Class for (advanced) beginners
 	
-Introduction to DBIx::Class, presented at London Perl Workshop (2008, 2009 &amp; 2010) as well as YAPC::EU 2010 and 2012 you can find out more: [Slides](https://www.slideshare.net/ranguard/dbixclass-introduction-2010) [Online Video](https://www.youtube.com/watch?v=N-tbMPyNlM8) (I think there is a better quality one around somewhere!)
+Introduction to [DBIx::Class](https://metacpan.org/pod/DBIx::Class), presented at London Perl Workshop (2008, 2009 &amp; 2010) as well as YAPC::EU 2010 and 2012 you can find out more: [Slides](https://www.slideshare.net/ranguard/dbixclass-introduction-2010) [Online Video](https://www.youtube.com/watch?v=N-tbMPyNlM8) (I think there is a better quality one around somewhere!)
 
 ### Plack Basics
 
@@ -50,5 +50,4 @@ Introduction to DBIx::Class, presented at London Perl Workshop (2008, 2009 &amp;
 
 ### Perl.org - white papers
     
-In March 2010 I  wrote and organising a series of [Perl White Papers](http://www.perl.org/about/whitepapers/) on Perl.org
-    
+In March 2010 I wrote and organised a series of [Perl White Papers](http://www.perl.org/about/whitepapers/) on Perl.org
