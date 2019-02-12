@@ -1,5 +1,5 @@
 ---
-	title: Leo Lapworth Technologist - CV
+title: Leo Lapworth - CV
 ---
 
 ## Leo Lapworth CV 
@@ -11,7 +11,9 @@
 - Tel: +4477 1167 1828
 - Driving license: Clean
 
-#### A little about me and the types of job I would be interested in:
+### About me
+
+##### A little about me and the types of job I would be interested in:
 
 `CTO for SME` / `team lead` / `systems architect` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based architecture`, using AWS - though this is a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
 
