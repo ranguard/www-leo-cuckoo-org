@@ -9,8 +9,6 @@ meta:
 
 ## Leo Lapworth CV 
 
-![Leo Lapworth](/i/leo_400x400.jpg "Leo Lapworth")
-
 ##### Print friendly page (if you must)
 
 - Web: [https://leo.cuckoo.org](https://leo.cuckoo.org/)
@@ -229,27 +227,8 @@ Prompt was the second largest society on campus, we developed it to help teach e
 		.pagebreak { 
 			page-break-before: always;
 		} /* page-break-after works, as well */
-		.content:not(.custom) img {
-			/* display: none; */
-		}
+
 	}
-
-	/* Make circle */
-.content:not(.custom) img {
-  width: 170px;
-  border-radius: 30%;
-	margin-left: 5%;
-  float: right;
-	filter: gray; /* IE */
-  -webkit-filter: grayscale(1); /* Old WebKit */
-  -webkit-filter: grayscale(100%); /* New WebKit */
-}
-
-@media screen and (max-width: 520px){
-  .content:not(.custom) img {
-    display: none;
-  }
-}
 
 </style>
 
