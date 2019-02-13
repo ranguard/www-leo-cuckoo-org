@@ -36,7 +36,7 @@ Checkout my [CV](/cv/), [Open Source work](/opensource/), [Talks](/talks/) I hav
 - <i class="fab fa-twitter"></i> [Twitter - Ranguard](https://twitter.com/ranguard) - more personal / Perl / historical
 - <i class="fas fa-blog"></i> [Blogs.Perl.Org](http://blogs.perl.org/users/leo_lapworth/)
 
-<style>
+<style  type="text/css">
 
 /* Make circle */
 .content.custom img {
@@ -45,5 +45,17 @@ Checkout my [CV](/cv/), [Open Source work](/opensource/), [Talks](/talks/) I hav
   float: right;
   padding-left: 7%;
 }
+
+@media screen and (max-width: 500px){
+  .content.custom img {
+    width: 150px;
+    border-radius: 50%;
+    padding-left: 0;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+
 
 </style>
