@@ -21,11 +21,13 @@ meta:
 
 ##### A little about me and the types of job I would be interested in:
 
-I'm looking for something interesting either as `CTO for SME`, `Team lead`, `Systems architect` or `Senior Developer` - mostly `remote` / `Bath (UK)` area. Could be contract or permanent. I love getting things done, either on my own or with others. I'm interested in all internet related technologies, current focus is `TypeScript`,  `Serverless` and `Event based architecture`, using AWS - though this is a passion rather than a requirement. I love working with `Perl`, though I wouldn't usually start a new project in it.
+I'm looking for something interesting - either as `CTO for SME`, `Team lead`, `Systems architect` or `Senior developer` - mostly `remote` / `Bath (UK)` area, contract or permanent.
 
-I have `full stack` experience, including helping UI/UX teams I've had working for me, though with the knowledge CSS and HTML are not where my strengths lie, and lets not talk about design skills!
+I love getting things done, either on my own or with a team. I'm interested in all internet related technologies. I love working with `Perl`, though I wouldn't usually start a new project in it. My current focus is `TypeScript`,  `Serverless` and `Event based architecture`, using AWS - though this is a passion rather than a requirement.
 
-I want to offer my `experience in creating value` for wherever I work, `providing excellence` and excitement to the end users of the systems I help with. I also love finding the `cleanest simplest solution to complex problems` and `supporting others` that I work with to do the same.
+I have `full stack` experience, though CSS is not where my strengths lie, and lets not talk about design skills!
+
+I want to offer my `technical experience in creating value` for wherever I work, `providing excellence` to the end users of the systems I am involved with. I also love finding the `cleanest simplest solution to complex problems` and `supporting others` that I work with to do the same.
 
 ### Skills
 
@@ -114,10 +116,10 @@ Over the long period I was at Foxtons I saw the full life cycle of many projects
 - `Imports` - property / school / transport / location data / etc 
 - `Exports` - our data to 3rd parties e.g. Rightmove / Zoopla using various APIs
 - `Email alerts` - Generating the property email alerts each day
-- `Business Reports` - e.g. Land Registry analysis to work out market share).
+- `Business Reports` - e.g. Land Registry analysis to work out market share
 - `Apps` - providing APIs for various apps, I built the first versions many years ago
 - `Internal systems` - intranet / internal admin for data sets / plasma screens for front offices
-- `Internal Motivation Systems` - plasma screens / friday boards (team meetings with data driven presentation)
+- `Internal Motivation Systems` - plasma screens / Friday boards (team meetings with data driven presentation)
 - `Internal sysadmin` - monitoring systems both internal and external
 
 
@@ -153,9 +155,9 @@ of our content very simple to implement.
 
 We had just finished the development of several key systems, one of which 
 allowed the full integration of all location information (from resort guides
-to piest maps) across all the travel Products in the companies portfolio.
+to piste maps) across all the travel products in the companies portfolio.
 
-I was responsible for all day to day issues relating to the technical team, which included the management of the four permanent staff working for me and any contractors we might be using. Once a specification had been created for a project it was my responsibility to raise any issues before allowing development to start. When a project had been signed off I was required to Project manage all technical aspects and liaise with the other areas of the company; from design to commercial and content.
+I was responsible for all day to day issues relating to the technical team, which included the management of the four permanent staff working for me and any contractors we might be using. Once a specification had been created for a project it was my responsibility to raise any issues before allowing development to start. When a project had been signed off I was required to project manage all technical aspects and liaise with the other areas of the company; from design to commercial and content.
 
 I was still actively developing, creating a new system for the EscapeRoutes.com site which included a generic shopping basket system.
 
