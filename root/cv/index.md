@@ -67,15 +67,15 @@ if there is something specific you are after, I might have experience!
 
 ### Open source
  
-[https://leo.cuckoo.org/opensource/](/opensource/)
+[https://leo.cuckoo.org/opensource/](https://leo.cuckoo.org/opensource/)
 
 ### Talks
 
-[https://leo.cuckoo.org/talks/](/talks/)
+[https://leo.cuckoo.org/talks/](https://leo.cuckoo.org/talks/)
 
 ### Projects
 
-[http://leo.cuckoo.org/projects/](/projects/)
+[http://leo.cuckoo.org/projects/](https://leo.cuckoo.org/projects/)
 
 
 ## Work Experience
