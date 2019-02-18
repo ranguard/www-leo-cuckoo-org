@@ -10,7 +10,7 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "CV", link: "/cv/" },
-      { text: "Open Source", link: "/opensource/" },
+      { text: "Open source", link: "/opensource/" },
       { text: "Talks", link: "/talks/" },
       { text: "Projects", link: "/projects/" }
     ]

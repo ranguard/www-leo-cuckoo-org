@@ -1,5 +1,5 @@
 ---
-	title: Open Source
+	title: Open source
 ---
 
 # Open source
