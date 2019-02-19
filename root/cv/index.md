@@ -83,7 +83,7 @@ if there is something specific you are after, I might have experience!
 ## Work Experience
 
 ### Foxtons - Operations Director (web)
-##### July 2017 - Sept 2018
+##### Jan 2016 - Sept 2018
 
 As the team expanded to 9 people (1 ux, 2 front end, 6 developers) I needed the ability to focus more on the strategic direction of the team's projects, and still have time to do code reviews and hands on technical mentoring. To this end we hired a fantastic Web Manager who reported to me and ran the team day to day.
 
@@ -92,7 +92,7 @@ This dynamic worked really well. The team referred to us as their work mum and d
 During this time we experimented with new technologies and delivered several great projects, including a major change for Landlords and Tenants, being able to see a gamified progress of a lettings deal and access a huge amount of additional information. This made a major difference to the business, alleviating a lot of the chasing of clients for information.
 
 ### Foxtons - Web Manager / Senior Web Developer
-##### July 2001 - July 2017
+##### July 2001 - Dec 2015
 
 Foxtons estate agents had a small team of inexperienced perl developers. I was
 asked to join as the senior developer and quickly took on managing the team as well.
