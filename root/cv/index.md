@@ -82,6 +82,18 @@ if there is something specific you are after, I might have experience!
 
 ## Work Experience
 
+### CTO for - The startup that wasn't
+##### Oct 2018 - Feb 2019
+
+Trying to get a startup together with someone, I took on the CTO role
+and spent 4 months researching (mostly AWS/Serverless); prototyping; talking to and
+visiting outsource companies, solving problems and writing specs for
+microservices that would have been initially developed using an outsourced team.
+
+The project got close to funding (we didn't want to risk investors money
+without getting to the full amount), I learned a whole new way of
+working and enjoyed the process; even if it didn't quite work out.
+
 ### Foxtons - Operations Director (web)
 ##### Jan 2016 - Sept 2018
 
