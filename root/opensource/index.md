@@ -20,7 +20,7 @@ I received the [Perl White Camel Community Award](https://www.perl.org/advocacy/
 ### London.pm Member and Leader
 ##### Since 1998 (leader for: Nov 2010 - April 2012)
 
-I was elected leader of the [London Perl Mongers](http://london.pm.org). Big plans, but lack of time! Honored my commitment to let others organise both technical and social events.
+I was elected leader of the [London Perl Mongers](http://london.pm.org). Big plans, but lack of time! Honored my commitment to let others organise both technical and social events. Seem me as part of the [LPW 2018: "I'm a Former London.PM Leader - Ask Me Anything" - Panel Discussion](https://www.youtube.com/watch?v=oFr71AoYwFY&list=PLxNdCz2kBhVkJmajSuXZ7GyuCysJ1Lqlm&index=10&t=0s)
 
 ## Websites 
 
