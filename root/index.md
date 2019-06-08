@@ -39,7 +39,7 @@ Checkout my [CV](/cv/), [Open Source work](/opensource/), [Talks](/talks/) I hav
 <style  type="text/css">
 
 /* Make circle */
-.content.custom img {
+.custom img {
   width: 250px;
   border-radius: 50%;
   float: right;
@@ -47,7 +47,7 @@ Checkout my [CV](/cv/), [Open Source work](/opensource/), [Talks](/talks/) I hav
 }
 
 @media screen and (max-width: 500px){
-  .content.custom img {
+  .custom img {
     width: 150px;
     border-radius: 50%;
     padding-left: 0;
