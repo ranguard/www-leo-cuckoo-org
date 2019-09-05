@@ -16,7 +16,6 @@ meta:
 - Tel: +44 7711 671 828
 - Driving license: Clean
 
-
 ### About me
 
 ##### A little about me and the types of job I would be interested in:
@@ -28,6 +27,8 @@ I love getting things done, either on my own or with a team. I'm interested in a
 I have `full stack` experience, though CSS is not where my strengths lie, and lets not talk about design skills!
 
 I want to offer my `technical experience in creating value` for wherever I work, `providing excellence` to the end users of the systems I am involved with. I also love finding the `cleanest simplest solution to complex problems` and `supporting others` that I work with to do the same.
+
+<div class="pagebreak"> </div>
 
 ### Skills
 
@@ -56,6 +57,7 @@ if there is something specific you are after, I might have experience!
 - Debian packaging &amp; deployment
 - DNS / Email / etc
 
+<div class="pagebreak"> </div>
 
 #### Team and project management
 
