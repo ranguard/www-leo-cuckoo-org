@@ -40,7 +40,7 @@ if there is something specific you are after, I might have experience!
 - [Perl](https://www.perl.org/) {{ calc_year(1996) }} - `OO Perl` {{ calc_year(1999) }}, including [Moose](https://metacpan.org/release/Moose) and [Moo](https://metacpan.org/release/Moo), [Catalyst](https://metacpan.org/release/Catalyst-Runtime) and [Mojolicious](https://metacpan.org/release/Mojolicious), [Template toolkit](https://metacpan.org/release/Template-Toolkit) and [DBIx::Class](https://metacpan.org/release/DBIx-Class) (ORM) and 1001 other modules.
 - JavaScript {{ calc_year(2006) }} - [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/) {{ calc_year(2018) }} including [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/)
 - Front-end: [Vue.JS](https://vuejs.org/) {{ calc_year(2018) }}, [Quasar Framework](https://quasar-framework.org/) and [VuePress](https://vuepress.vuejs.org/)
-- AWS: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/) (GraphQL), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, and [CDK](https://awslabs.github.io/aws-cdk/) which is not in GA yet.
+- AWS {{ calc_year(2018) }}: [EC2](https://aws.amazon.com/ec2/), [S3](https://aws.amazon.com/s3/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/), [ApiGateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/), [AppSync](https://aws.amazon.com/) (GraphQL), [Amplify](https://aws.amazon.com/amplify/), [CloudFormation](https://aws.amazon.com/cloudformation/) etc, and [CDK](https://aws.amazon.com/cdk/).
 - SQL: [MySQL](https://www.mysql.com/) {{ calc_year(1998) }}
 - NoSQL: [ElasticSearch](https://www.elastic.co/) {{ calc_year(2014) }} and [DynamoDB](https://aws.amazon.com/dynamodb/) {{ calc_year(2018) }}
 - Misc: [Swagger REST API](https://swagger.io/), [Git](https://git-scm.com/) {{ calc_year(2006) }}
@@ -48,7 +48,7 @@ if there is something specific you are after, I might have experience!
 #### System Architecture and sysadmin
 
 - [Fastly CDN/VCL](https://www.fastly.com/) - `VCL` / `load balancing` / `headers` / `caching` / `purging` / `scale`
-- Cloud config with [Terraform](https://www.terraform.io/) and [AWS CDK](https://awslabs.github.io/aws-cdk/) 
+- Cloud config with [Terraform](https://www.terraform.io/) and [AWS CDK](https://aws.amazon.com/cdk/) 
 - Serverless computing {{ calc_year(2018) }}
 - Event driven architecure {{ calc_year(2018) }}
 - Server config with [Puppet](https://puppet.com/) {{ calc_year(2008) }}
@@ -82,12 +82,19 @@ if there is something specific you are after, I might have experience!
 
 ## Work Experience
 
-### CTO for - The startup that wasn't
+### The Air Agents - Startup CTO (remote)
+##### May 2019 - present
+
+I joined this startup to help take it from a great service, held together with google and 3rd party apps, manual data entry and sweat. To a company with the power to scale and the ability to offer an even better guest experience. 
+
+Developing with, and teaching serverless technologies to build a team that can rapidly deliver excellence, streamlining the business and solving issues.
+
+### CTO for - The startup that wasn't (remote)
 ##### Oct 2018 - Feb 2019
 
 Trying to get a startup together with someone, I took on the CTO role
-and focused on researching (mostly AWS/Serverless); prototyping; talking to and
-visiting outsource companies, solving problems and writing specs for
+and focused on researching (mostly AWS/Serverless); prototyping; talking
+to and visiting outsource companies, solving problems and writing specs for
 microservices that would have been initially developed using an outsourced team.
 
 The project got close to funding (we didn't want to risk investors money 

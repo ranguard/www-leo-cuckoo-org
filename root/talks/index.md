@@ -14,7 +14,7 @@ I've been to [21 Perl conferences/workshops/Toolchain summits](http://act.yapc.e
 
 ### Using AWS CDK
 
-I have submitted a talk proposal for [Serverless Computing London 2019](https://serverlesscomputing.london/)
+I am talking at [Serverless Computing London 2019](https://serverlesscomputing.london/) about [AWS CDK](https://aws.amazon.com/cdk/).
 
 ## System architecture talks
 
@@ -25,7 +25,7 @@ back in 2008 [2007 slides](https://www.slideshare.net/ranguard/evolving-archetec
 
 ### Current architecture thoughts
 
-I wrote up my current thoughts (2019) on system architecture for SaaS: 
+I wrote up my most recent thoughts (2019) on system architecture for SaaS: 
 [Building X as a service. Leveraging Service full Serverless, Event driven architecture with observability, based on AWS, GraphQL, Node.js and Vue.js.](https://medium.com/@leolapworth/the-startup-stack-that-wasnt-1581df97b2eb)
 
 
