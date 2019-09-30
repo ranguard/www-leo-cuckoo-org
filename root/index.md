@@ -5,7 +5,7 @@ actionText: View CV
 actionLink: ./cv/
 meta:
   - name: description
-    content: Open Source Technologist and Contractor
+    content: Open Source Technologist and Team Lead
   - name: keywords
     content: Leo Lapworth, Perl, Open Source, Developer, CTO, serverless, aws
 ---
@@ -22,7 +22,9 @@ This is me trying to put some sort of order on all that, whether I achieve this 
 
 ## Who am I ?
 
-I'm an experienced `open source technologist`, with a strong background in `Perl`, `websites`, `infrastructure`, running `projects and teams`. I've been interested in the `serverless paradigm`, `microservices` and `TypeScript/Node.js`; for a while now and have enjoyed exploring their potential.
+I'm an experienced `open source technologist`, with a strong background in `Perl`, `websites`, `infrastructure`, running `projects and teams`. I've been interested in the `serverless paradigm`, `microservices` and `TypeScript/Node.js`; for a while now and have enjoyed working in this way.
+
+## I am looking for my next opportunity
 
 Checkout my [CV](/cv/), [Open Source work](/opensource/), [Talks](/talks/) I have given or [Projects](/projects/) I have worked on to find out more.
 
