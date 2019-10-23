@@ -1,11 +1,4 @@
----
-title: Leo Lapworth - CV
-meta:
-  - name: description
-    content: CV of Leo Lapworth - Open Source Technologist and Remote Contractor
-  - name: keywords
-    content: Leo Lapworth, senior perl developer, cto, perl, perl programmer, perl cv, technical manager, cv, Ranguard
----
+
 
 ## Leo Lapworth CV 
 
@@ -15,6 +8,8 @@ meta:
 - Email: leo at cuckoo.org
 - Tel: +44 7711 671 828
 - Driving license: Clean
+
+<div class="pagebreak"> </div>
 
 ### About me
 
@@ -46,6 +41,8 @@ if there is something specific you are after, I might have experience!
 - NoSQL: [ElasticSearch](https://www.elastic.co/) {{ calc_year(2014) }} and [DynamoDB](https://aws.amazon.com/dynamodb/) {{ calc_year(2018) }}
 - Misc: [Swagger REST API](https://swagger.io/), [Git](https://git-scm.com/) {{ calc_year(2006) }}
 
+<div class="pagebreak"> </div>
+
 #### System Architecture and sysadmin
 
 - [Fastly CDN/VCL](https://www.fastly.com/) - `VCL` / `load balancing` / `headers` / `caching` / `purging` / `scale`
@@ -56,8 +53,6 @@ if there is something specific you are after, I might have experience!
 - *nix SysAdmin {{ calc_year(1996) }}
 - Debian packaging &amp; deployment
 - DNS / Email / etc
-
-<div class="pagebreak"> </div>
 
 #### Team and project management
 
@@ -85,11 +80,13 @@ if there is something specific you are after, I might have experience!
 ## Work Experience
 
 ### The Air Agents - Startup CTO (remote)
-##### May 2019 - present
+##### May 2019 - Oct 2019
 
 I joined this startup to help take it from a great service, held together with google and 3rd party apps, manual data entry and sweat. To a company with the power to scale and the ability to offer an even better guest experience. 
 
 Developing with, and teaching serverless technologies to build a team that can rapidly deliver excellence, streamlining the business and solving issues.
+
+We got a great amount done, but the company direction changed, as did the budget.
 
 ### CTO for - The startup that wasn't (remote)
 ##### Oct 2018 - Feb 2019
