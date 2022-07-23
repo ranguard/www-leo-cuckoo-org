@@ -14,7 +14,7 @@ npm run dev
 
 #### Deploy (netlify settings)
 
-Build cmd: `npm install -g vuepress && vuepress build root`
+Build cmd: `cd root && npm ci && npm run build`
 Publish dir: `root/.vuepress/dist`
 
 

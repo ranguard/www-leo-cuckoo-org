@@ -11,12 +11,12 @@
   "author": "Leo Lapworth",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.0.0",
-    "querystringify": "^2.1.0"
+    "vuepress": "^1.9.7",
+    "querystringify": "^2.2.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.0",
-    "@vuepress/plugin-last-updated": "^1.0.0",
-    "@vuepress/plugin-search": "^1.0.0"
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "@vuepress/plugin-last-updated": "^1.9.7",
+    "@vuepress/plugin-search": "^1.9.7"
   }
 }
