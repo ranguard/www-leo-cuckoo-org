@@ -79,6 +79,17 @@ if there is something specific you are after, I might have experience!
 
 ## Work Experience
 
+### Kaarbontech - CTO
+##### Nov 2019 - Present
+
+At Kaarbontech I worked with the existing small team and introduced standards, processes, policies and automation, added new members to the team and facilitated knowledge transfer. 
+
+We completed migration from multiple hosting companies to a single virtual cloud service with multi data centre DR strategy. I rewrote puppet configuration, upgrading and separating configuration from code and improved many aspects streamlining deployments and new installations. 
+
+I built a serverless asset risk scoring system using AWS CDK deploying Step Functions/lambda/Athena/API Gateway. Automated Lets Encrypt certs using AWS Codebuild and docker. Automated Cordova app builds to use Github Actions triggered from form. We used AWS to build a serverless sensor data gathering stacks.
+
+I refactored the Perl code and implemented a new login process, replacing Basic Auth with a token based system. Worked on a configuration system (custom configuration being what brings value to our customers) with JSON Schema validation to deliver changes faster with fewer issues. Worked with the Info Sec Officer; created and implemented policies, processes and best practices that enabled the company to achieve ISO27001 accreditation.
+
 ### The Air Agents - Startup CTO (remote)
 ##### May 2019 - Oct 2019
 
